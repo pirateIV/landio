@@ -1,13 +1,19 @@
 "use client";
 
-import Navigation from "@/layout/navigation";
+import FounderNote from "@/components/sections/founder-note";
 import HeroSection from "@/components/sections/hero";
+import Overlay from "@/components/ui/overlay";
+import Navigation from "@/layout/navigation";
 
 export const HomePage = () => {
-    return (
-        <div>
-            <Navigation />
-            <HeroSection />
-        </div>
-    );
+	return (
+		<div className="relative">
+			<Navigation />
+			<HeroSection />
+			<Overlay />
+			{/* <FounderNote /> */}
+			{/* <div className="relative h-40 bg-black w-full"></div> */}
+		</div>
+	);
 };
+

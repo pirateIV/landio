@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Inter } from "next/font/google";
+import { Instrument_Serif, Inter } from "next/font/google";
 import { RouteProvider } from "@/providers/router-provider";
 import { Theme } from "@/providers/theme";
 import "@/styles/globals.css";
@@ -9,6 +9,14 @@ const inter = Inter({
 	subsets: ["latin"],
 	display: "swap",
 	variable: "--font-inter",
+});
+
+const instrument = Instrument_Serif({
+	subsets: ["latin"],
+	weight: "400",
+	display: "swap",
+	variable: "--font-instr",
+	style: "italic",
 });
 
 export const metadata: Metadata = {
@@ -44,7 +52,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en" suppressHydrationWarning>
-			<body className={cx(inter.className, "bg-primary antialiased")}>
+			<body className={cx(inter.className, instrument.variable, "bg-primary antialiased")}>
 				<RouteProvider>
 					<Theme>
 						<main>
@@ -56,4 +64,3 @@ export default function RootLayout({
 		</html>
 	);
 }
-
