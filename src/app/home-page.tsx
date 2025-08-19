@@ -1,9 +1,10 @@
 "use client";
 
-import FounderNote from "@/components/sections/founder-note";
-import HeroSection from "@/components/sections/hero";
-import Overlay from "@/components/ui/overlay";
 import Navigation from "@/layout/navigation";
+import HeroSection from "@/components/sections/hero";
+import FounderNote from "@/components/sections/founder-note";
+import Benefits from "@/components/sections/benefits";
+import Overlay from "@/components/ui/overlay";
 
 export const HomePage = () => {
 	return (
@@ -11,7 +12,8 @@ export const HomePage = () => {
 			<Navigation />
 			<HeroSection />
 			<Overlay />
-			{/* <FounderNote /> */}
+			<FounderNote />
+			<Benefits />
 			{/* <div className="relative h-40 bg-black w-full"></div> */}
 		</div>
 	);

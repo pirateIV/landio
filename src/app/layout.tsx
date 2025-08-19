@@ -13,10 +13,10 @@ const inter = Inter({
 
 const instrument = Instrument_Serif({
 	subsets: ["latin"],
-	weight: "400",
+	weight: ["400"],
+	style: ["italic", "normal"],
 	display: "swap",
 	variable: "--font-instr",
-	style: "italic",
 });
 
 export const metadata: Metadata = {
