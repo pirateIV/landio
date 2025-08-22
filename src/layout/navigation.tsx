@@ -20,9 +20,9 @@ export default function Navigation() {
 							<Image width="163" height="62" src="logo.svg" alt="logo" />
 						</Link>
 					</div>
-					<nav className="relative flex size-min flex-none items-center gap-1.5 rounded-[100px] border border-light-blue-transparent px-3 py-1.5">
+					<nav className="relative flex size-min flex-none items-center gap-3 rounded-[100px] border border-light-blue-transparent px-3 py-1.5">
 						{navLinks.map((link) => (
-							<div key={link.name} className="inline-flex">
+							<div key={link.name} className="inline-flex transition-opacity duration-300 opacity-75 hover:opacity-100">
 								<Link href={`/${link.href}`} className="px-3 py-1.5 text-sm text-slate-300">
 									{link.name}
 								</Link>

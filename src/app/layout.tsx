@@ -1,15 +1,11 @@
 import type { Metadata, Viewport } from "next";
-import { Instrument_Serif, Inter } from "next/font/google";
+import { Instrument_Serif } from "next/font/google";
 import { RouteProvider } from "@/providers/router-provider";
 import { Theme } from "@/providers/theme";
-import "@/styles/globals.css";
+import {interVar} from "@/lib/font.ts"
 import { cx } from "@/utils/cx";
 
-const inter = Inter({
-	subsets: ["latin"],
-	display: "swap",
-	variable: "--font-inter",
-});
+import "@/styles/globals.css";
 
 const instrument = Instrument_Serif({
 	subsets: ["latin"],
@@ -52,7 +48,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en" suppressHydrationWarning>
-			<body className={cx(inter.className, instrument.variable, "bg-primary antialiased")}>
+			<body className={cx(interVar.className, instrument.variable, "bg-primary antialiased")}>
 				<RouteProvider>
 					<Theme>
 						<main>

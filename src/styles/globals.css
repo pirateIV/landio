@@ -5,7 +5,7 @@
 @plugin "tailwindcss-animate";
 
 @import "./theme.css";
-@import "./typography.css";
+/* @import "./typography.css"; */
 @import "./icons.css";
 
 @custom-variant dark (&:where(.dark-mode, .dark-mode *));
@@ -13,65 +13,81 @@
 @custom-variant focus-input-within (&:has(input:focus));
 
 @utility scrollbar-hide {
-    /* For Webkit-based browsers (Chrome, Safari and Opera) */
-    &::-webkit-scrollbar {
-        display: none;
-        -webkit-appearance: none;
-    }
+	/* For Webkit-based browsers (Chrome, Safari and Opera) */
+	&::-webkit-scrollbar {
+		display: none;
+		-webkit-appearance: none;
+	}
 
-    /* For IE, Edge and Firefox */
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
+	/* For IE, Edge and Firefox */
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
 }
 
 @utility transition-inherit-all {
-    transition-property: inherit;
-    transition-duration: inherit;
-    transition-timing-function: inherit;
+	transition-property: inherit;
+	transition-duration: inherit;
+	transition-timing-function: inherit;
+}
+
+* {
+	font-feature-settings: "cv02", "cv03", "cv04", "cv11";
 }
 
 html,
 body {
-    font-family: var(--font-body);
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-variant-ligatures: contextual;
-    font-variant-ligatures: contextual;
-    -webkit-font-kerning: normal;
-    font-kerning: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+	-webkit-font-variant-ligatures: contextual;
+	font-variant-ligatures: contextual;
+	-webkit-font-kerning: normal;
+	font-kerning: normal;
+	letter-spacing: -0.02em;
+	line-height: 1.6em;
 }
 
 /* Hide the default expand arrow on Safari.  */
 details summary::-webkit-details-marker {
-    display: none;
+	display: none;
 }
 
 /* Hide default arrows from number inputs. */
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
+	-webkit-appearance: none;
+	margin: 0;
 }
 /* Firefox */
 input[type="number"] {
-    -moz-appearance: textfield;
+	-moz-appearance: textfield;
 }
 
 /* Hide the default clear button (X) from search inputs. */
 input[type="search"]::-webkit-search-cancel-button {
-    -webkit-appearance: none;
+	-webkit-appearance: none;
 }
 
 .shadow-blue-1 {
-	box-shadow: rgba(64, 120, 168, 0.37) 0px 0.706592px 0.706592px -0.666667px, rgba(64, 120, 168, 0.36) 0px 1.80656px 1.80656px -1.33333px, rgba(64, 120, 168, 0.34) 0px 3.62176px 3.62176px -2px, rgba(64, 120, 168, 0.31) 0px 6.8656px 6.8656px -2.66667px, rgba(64, 120, 168, 0.247) 0px 13.6468px 13.6468px -3.33333px, rgba(64, 120, 168, 0.094) 0px 30px 30px -4px
+	box-shadow:
+		rgba(64, 120, 168, 0.37) 0px 0.706592px 0.706592px -0.666667px,
+		rgba(64, 120, 168, 0.36) 0px 1.80656px 1.80656px -1.33333px,
+		rgba(64, 120, 168, 0.34) 0px 3.62176px 3.62176px -2px,
+		rgba(64, 120, 168, 0.31) 0px 6.8656px 6.8656px -2.66667px,
+		rgba(64, 120, 168, 0.247) 0px 13.6468px 13.6468px -3.33333px,
+		rgba(64, 120, 168, 0.094) 0px 30px 30px -4px;
 }
 .shadow-blue-2 {
-	box-shadow: rgba(87, 133, 179, 0.48) 0px 0.796192px 0.796192px -0.875px, rgba(87, 133, 179, 0.455) 0px 2.41451px 2.41451px -1.75px, rgba(87, 133, 179, 0.4) 0px 6.38265px 6.38265px -2.625px, rgba(87, 133, 179, 0.21) 0px 20px 20px -3.5px
+	box-shadow:
+		rgba(87, 133, 179, 0.48) 0px 0.796192px 0.796192px -0.875px,
+		rgba(87, 133, 179, 0.455) 0px 2.41451px 2.41451px -1.75px,
+		rgba(87, 133, 179, 0.4) 0px 6.38265px 6.38265px -2.625px,
+		rgba(87, 133, 179, 0.21) 0px 20px 20px -3.5px;
 }
 
 .btn-gradient-1 {
-	background-image: radial-gradient(25% 50% at 50% 100%, white 0%, transparent 100%)
+	background-image: radial-gradient(25% 50% at 50% 100%, white 0%, transparent 100%);
 }
 .btn-gradient-2 {
 	background-image: radial-gradient(20.7% 50% at 50% 100%, white 0%, transparent 100%);
