@@ -25,7 +25,7 @@ export function SectionHeader({ children, className, ...props }: ParentProps) {
 
 export function SectionContent({ className, children, ...props }: ParentProps) {
 	return (
-		<div className={cx("mx-auto flex", className)} {...props}>
+		<div className={cx("mx-auto flex w-full *:w-full", className)} {...props}>
 			{children}
 		</div>
 	);

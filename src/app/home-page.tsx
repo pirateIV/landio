@@ -8,6 +8,7 @@ import FounderNote from "@/components/sections/founder-note";
 import HeroSection from "@/components/sections/hero";
 import Process from "@/components/sections/process";
 import Services from "@/components/sections/services/services";
+import Team from "@/components/sections/team";
 import Overlay from "@/components/ui/overlay";
 import Navigation from "@/layout/navigation";
 
@@ -23,6 +24,7 @@ export const HomePage = () => {
 			<Process />
 			<Faqs />
 			<Comparison />
+			<Team />
 
 			{/* Overlay */}
 			<Overlay />

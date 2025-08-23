@@ -32,7 +32,7 @@ const headingProps: SectionHeadingProps = {
 
 export default function Comparison() {
 	return (
-		<SectionContainer>
+		<SectionContainer id="section-content">
 			<SectionHeader>
 				<SectionHeading {...headingProps} />
 			</SectionHeader>
