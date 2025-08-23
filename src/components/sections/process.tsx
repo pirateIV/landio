@@ -1,7 +1,7 @@
 import React from "react";
 import { IconCube } from "@tabler/icons-react";
 import Image from "next/image";
-import SectionContainer from "../section-container";
+import { SectionContainer, SectionHeader, SectionHeading, SectionHeadingProps } from "../section";
 import Badge from "../ui/badge";
 import Card from "../ui/card";
 
@@ -26,6 +26,14 @@ const tabs = [
 	},
 ];
 
+const headingProps: SectionHeadingProps = {
+	text: "Our Simple &",
+	italicText: "Smart Process",
+	description: "Everything you need to collaborate, create, and scale, all in one place.",
+	badgeIcon: IconCube,
+	badgeText: "Process",
+};
+
 function TabButton({ children }: { children: React.ReactNode }) {
 	return (
 		<div className="flex-1 opacity-50 first-of-type:opacity-100">
@@ -37,13 +45,10 @@ function TabButton({ children }: { children: React.ReactNode }) {
 export default function Process() {
 	return (
 		<SectionContainer id="process">
-			<div className="mx-auto flex max-w-[640px] flex-col items-center gap-2.5 text-center">
-				<Badge text="Process" icon={IconCube} />
-				<h1 className="text-heading-2">
-					Our Simple & <span className="font-instr italic">Smart Process</span>
-				</h1>
-				<p className="text-light-blue">Everything you need to collaborate, create, and scale, all in one place.</p>
-			</div>
+			<SectionHeader>
+				<SectionHeading {...headingProps} />
+			</SectionHeader>
+
 			<Card className="flex-none p-5" container>
 				<div className="space-y-5">
 					<div className="flex items-center justify-between gap-3">

@@ -1,11 +1,10 @@
 import type { Metadata, Viewport } from "next";
 import { Instrument_Serif } from "next/font/google";
+import { interVar } from "@/lib/font";
 import { RouteProvider } from "@/providers/router-provider";
 import { Theme } from "@/providers/theme";
-import {interVar} from "@/lib/font.ts"
-import { cx } from "@/utils/cx";
-
 import "@/styles/globals.css";
+import { cx } from "@/utils/cx";
 
 const instrument = Instrument_Serif({
 	subsets: ["latin"],
@@ -51,9 +50,7 @@ export default function RootLayout({
 			<body className={cx(interVar.className, instrument.variable, "bg-primary text-light-blue antialiased")}>
 				<RouteProvider>
 					<Theme>
-						<main>
-							<div className="min-h-screen">{children}</div>
-						</main>
+						<main className="min-h-screen">{children}</main>
 					</Theme>
 				</RouteProvider>
 			</body>

@@ -1,8 +1,7 @@
 import React from "react";
 import { Button, Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/react";
-import { IconChevronDown, IconCircleLetterQ, IconMessage } from "@tabler/icons-react";
-import SectionContainer from "../section-container";
-import Badge from "../ui/badge";
+import { IconChevronDown, IconHelp } from "@tabler/icons-react";
+import {SectionContainer, SectionHeader, SectionHeading, SectionHeadingProps } from "../section";
 import Card from "../ui/card";
 
 type FaqItem = {
@@ -39,16 +38,20 @@ const faqs: FaqItem[] = [
 	},
 ];
 
+const headingProps: SectionHeadingProps = {
+	text: "Frequently Asked",
+	italicText: "Questions",
+	description: "Find quick answers to the most common support questions",
+	badgeText: "FAQ's",
+	badgeIcon: IconHelp,
+};
+
 export default function Faqs() {
 	return (
-		<SectionContainer>
-			<div className="mx-auto flex max-w-[640px] flex-col items-center gap-2.5 text-center">
-				<Badge text="FAQ'S" icon={IconMessage} />
-				<h1 className="text-heading-2">
-					Frequently Asked <span className="font-instr italic">Questions</span>
-				</h1>
-				<p className="text-light-blue">Find quick answers to the most common support questions</p>
-			</div>
+		<SectionContainer id="faqs">
+			<SectionHeader>
+				<SectionHeading {...headingProps} />
+			</SectionHeader>
 
 			<div className="mx-auto flex w-full max-w-[1000px] flex-row-reverse items-start gap-8 *:w-full *:max-w-[600px]">
 				{/* FAQ Items */}
@@ -68,15 +71,15 @@ export default function Faqs() {
 				<Card className="h-min flex-[1_0_0px] p-5" container>
 					<div className="flex flex-col items-center gap-4 text-center">
 						<div className="inset-shadow-1 rounded-lg bg-black-base p-3">
-							<IconCircleLetterQ size="24" />
+							<IconHelp size="32" />
 						</div>
 						<div className="space-y-2.5">
 							<h3 className="text-xl font-medium">Still Have Questions?</h3>
 							<p className="text-light-blue opacity-60">Still have questions? Feel free to get in touch with us today!</p>
 						</div>
 						<div>
-							<Button className="flex bg-gradient-to-b from-light-blue-transparent to-dark-gray items-center gap-1.5 px-5 py-2 text-sm rounded-lg border border-light-blue-transparent">
-								<div className="text-white size-5" data-icon="arrow-up-right" />
+							<Button className="flex items-center gap-1.5 rounded-lg border border-light-blue-transparent bg-gradient-to-b from-light-blue-transparent to-dark-gray px-5 py-2 text-sm">
+								<div className="size-5 text-white" data-icon="arrow-up-right" />
 								<span>Ask a Question</span>
 							</Button>
 						</div>

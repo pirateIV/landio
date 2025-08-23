@@ -1,6 +1,7 @@
 "use client";
 
 import Benefits from "@/components/sections/benefits/benefits";
+import Comparison from "@/components/sections/comparison";
 import Faqs from "@/components/sections/faqs";
 import Features from "@/components/sections/features";
 import FounderNote from "@/components/sections/founder-note";
@@ -15,14 +16,16 @@ export const HomePage = () => {
 		<div className="relative">
 			<Navigation />
 			<HeroSection />
-			<Overlay />
 			<FounderNote />
 			<Benefits />
 			<Services />
 			<Features />
 			<Process />
 			<Faqs />
-			{/* <div className="relative h-40 bg-black w-full"></div> */}
+			<Comparison />
+
+			{/* Overlay */}
+			<Overlay />
 		</div>
 	);
 };
