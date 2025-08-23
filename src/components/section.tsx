@@ -1,19 +1,7 @@
-import React, { PropsWithChildren } from "react";
-import type { Icon, IconProps } from "@tabler/icons-react";
+import React from "react";
+import { ParentProps, SectionHeadingProps } from "@/types";
 import { cx } from "@/utils/cx";
 import Badge from "./ui/badge";
-
-export type SectionHeadingProps = {
-	badgeIcon: React.ForwardRefExoticComponent<IconProps & React.RefAttributes<Icon>>;
-	badgeText: string;
-	description: string;
-	italicText: string;
-	text: string;
-};
-
-export type SectionContainerProps = {
-	children: React.ReactNode;
-} & React.HTMLAttributes<HTMLDivElement>;
 
 export function SectionHeading({ badgeText, badgeIcon, description, italicText, text }: SectionHeadingProps) {
 	return (
@@ -27,15 +15,23 @@ export function SectionHeading({ badgeText, badgeIcon, description, italicText, 
 	);
 }
 
-export function SectionHeader({ children, ...props }: PropsWithChildren) {
+export function SectionHeader({ children, className, ...props }: ParentProps) {
 	return (
-		<div className="mx-auto flex max-w-[640px] flex-col items-center gap-2.5 text-center" {...props}>
+		<div className={cx("mx-auto flex max-w-[640px] flex-col items-center gap-2.5 text-center", className)} {...props}>
 			{children}
 		</div>
 	);
 }
 
-export function SectionContainer({ className, children, ...props }: SectionContainerProps) {
+export function SectionContent({ className, children, ...props }: ParentProps) {
+	return (
+		<div className={cx("mx-auto flex", className)} {...props}>
+			{children}
+		</div>
+	);
+}
+
+export function SectionContainer({ className, children, ...props }: ParentProps) {
 	return (
 		<section className={cx("bg-black-base px-10 py-[100px]", className)} {...props}>
 			<div className="mx-auto flex max-w-[1200px] flex-col gap-11">{children}</div>

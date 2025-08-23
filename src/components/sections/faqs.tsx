@@ -1,7 +1,8 @@
 import React from "react";
 import { Button, Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/react";
 import { IconChevronDown, IconHelp } from "@tabler/icons-react";
-import {SectionContainer, SectionHeader, SectionHeading, SectionHeadingProps } from "../section";
+import type { SectionHeadingProps } from "@/types";
+import { SectionContainer, SectionHeader, SectionHeading } from "../section";
 import Card from "../ui/card";
 
 type FaqItem = {

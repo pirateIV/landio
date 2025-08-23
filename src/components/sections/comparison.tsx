@@ -1,7 +1,8 @@
 import React from "react";
 import { IconChartPie, IconCheck, IconStack2, IconX } from "@tabler/icons-react";
 import Image from "next/image";
-import { SectionContainer, SectionHeader, SectionHeading, SectionHeadingProps } from "../section";
+import type { SectionHeadingProps } from "@/types";
+import { SectionContainer, SectionHeader, SectionHeading } from "../section";
 import Card from "../ui/card";
 
 const tables = {
@@ -39,7 +40,7 @@ export default function Comparison() {
 			{/* Comparison Tables */}
 			<div className="flex items-center gap-4">
 				<div className="w-full space-y-2">
-					<div className="flex items-center justify-center h-[62px]">
+					<div className="flex h-[62px] items-center justify-center">
 						<div className="h-[39px] w-[103px]">
 							<Image width="163" height="62" alt="logo" src="logo.svg" />
 						</div>
@@ -62,12 +63,12 @@ export default function Comparison() {
 				</div>
 
 				<div className="w-full space-y-2">
-					<div className="flex items-center justify-center gap-2.5 h-[62px]">
+					<div className="flex h-[62px] items-center justify-center gap-2.5">
 						<IconStack2 size="24" />
 						<span className="font-instr text-2xl italic">Others</span>
 					</div>
 					<Card className="inset-shadow-2" container>
-						<ul className="*:first:opacity-70 *:opacity-50">
+						<ul className="*:opacity-50 *:first:opacity-70">
 							{tables.others.map((data, index) => (
 								<React.Fragment key={index}>
 									<li key={index} className="flex items-center gap-2.5">
