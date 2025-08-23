@@ -48,7 +48,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en" suppressHydrationWarning>
-			<body className={cx(interVar.className, instrument.variable, "bg-primary antialiased")}>
+			<body className={cx(interVar.className, instrument.variable, "bg-primary text-light-blue antialiased")}>
 				<RouteProvider>
 					<Theme>
 						<main>

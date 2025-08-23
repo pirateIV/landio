@@ -11,7 +11,7 @@ const cards = [
 
 const Card = ({ title, description, children }: { title: string; description: string; children: React.ReactNode }) => {
 	return (
-		<div className="relative flex h-[374px] min-w-[300px] flex-[1_0_0px] rounded-[20px] border border-b-0 border-light-blue-transparent bg-black-base inset-shadow-[0px_2px_1px_0px] inset-shadow-[#cfe7ff33]">
+		<div className="relative flex h-[374px] min-w-[300px] flex-[1_0_0px] rounded-[20px] border border-b-0 border-light-blue-transparent bg-black-base inset-shadow-2">
 			{children}
 			<div className="mt-auto flex flex-col items-center gap-1.5 p-[30px]">
 				<h3 className="text-xl">{title}</h3>
@@ -26,7 +26,7 @@ export default function Benefits() {
 		<SectionContainer id="benefits">
 			<div className="mx-auto flex max-w-[640px] flex-col items-center gap-2.5">
 				<Badge text="Benefits" icon={IconSparkles} />
-				<h1 className="text-[44px]">
+				<h1 className="text-heading-2">
 					Why Choose <span className="font-instr italic">Us?</span>
 				</h1>
 				<p className="text-light-blue">Everything you need to automate, optimize, and scale</p>

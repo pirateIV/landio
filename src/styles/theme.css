@@ -43,6 +43,9 @@
     --text-display-2xl--line-height: calc(var(--spacing) * 22.5);
     --text-display-2xl--letter-spacing: -1.44px;
 
+		--text-heading-2: calc(var(--spacing) * 11);
+		--text-heading-2--line-height: 1.2em;
+
     /* MAX WIDTH */
     --max-width-container: 1280px;
 

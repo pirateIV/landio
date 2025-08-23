@@ -29,7 +29,7 @@ const tabs = [
 function TabButton({ children }: { children: React.ReactNode }) {
 	return (
 		<div className="flex-1 opacity-50 first-of-type:opacity-100">
-			<button className="w-full rounded-lg bg-dark-gray p-[13px] text-xs inset-shadow-[0px_1px_1px_0px] inset-shadow-[#cfe7ff33]">{children}</button>
+			<button className="inset-shadow-1 w-full rounded-lg bg-dark-gray p-[13px] text-xs">{children}</button>
 		</div>
 	);
 }
@@ -39,7 +39,7 @@ export default function Process() {
 		<SectionContainer id="process">
 			<div className="mx-auto flex max-w-[640px] flex-col items-center gap-2.5 text-center">
 				<Badge text="Process" icon={IconCube} />
-				<h1 className="text-[44px]">
+				<h1 className="text-heading-2">
 					Our Simple & <span className="font-instr italic">Smart Process</span>
 				</h1>
 				<p className="text-light-blue">Everything you need to collaborate, create, and scale, all in one place.</p>
@@ -53,14 +53,14 @@ export default function Process() {
 					</div>
 
 					<div className="grid grid-cols-12 items-center gap-[30px]">
-						<div className="aspect-[1.3/1] p-3 col-span-7">
+						<div className="col-span-7 aspect-[1.3/1] p-3">
 							<div className="relative size-[95%] flex-none overflow-visible">
-								<div className="relative flex items-center size-full">
-									<Image src="/images/process-design.avif" width="1500" height="1000" alt="optimize and scale illustration"  />
+								<div className="relative flex size-full items-center">
+									<Image src="/images/process-design.avif" width="1500" height="1000" alt="optimize and scale illustration" />
 								</div>
 							</div>
 						</div>
-						<div className="flex flex-col gap-2.5 p-2.5 pb-5 col-span-5">
+						<div className="col-span-5 flex flex-col gap-2.5 p-2.5 pb-5">
 							<div>01</div>
 							<h3 className="text-lg">Optimize & Scale</h3>
 							<p className="text-light-blue opacity-60">

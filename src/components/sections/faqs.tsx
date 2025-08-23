@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import { IconCircleLetterQ, IconMessage, IconQuestionMark } from "@tabler/icons-react";
-import { InfoCircle, MessageCircle01 } from "@untitledui/icons";
+import React from "react";
+import { Button, Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/react";
+import { IconChevronDown, IconCircleLetterQ, IconMessage } from "@tabler/icons-react";
 import SectionContainer from "../section-container";
 import Badge from "../ui/badge";
 import Card from "../ui/card";
@@ -40,27 +40,34 @@ const faqs: FaqItem[] = [
 ];
 
 export default function Faqs() {
-	const [openItems, setOpenItems] = useState<string[]>([]);
-
-	const toggleItem = (itemId: string) => {
-		setOpenItems((prev) => (prev.includes(itemId) ? prev.filter((id) => id !== itemId) : [...prev, itemId]));
-	};
-
 	return (
 		<SectionContainer>
 			<div className="mx-auto flex max-w-[640px] flex-col items-center gap-2.5 text-center">
-				<Badge text="Process" icon={IconMessage} />
-				<h1 className="text-[44px]">
+				<Badge text="FAQ'S" icon={IconMessage} />
+				<h1 className="text-heading-2">
 					Frequently Asked <span className="font-instr italic">Questions</span>
 				</h1>
 				<p className="text-light-blue">Find quick answers to the most common support questions</p>
 			</div>
 
-			<div className="mx-auto flex max-w-[1000px] w-full gap-8 *:max-w-[600px] *:w-full">
-				{/* More Questions */}
-				<Card className="p-5 flex-[1_0_0px]" container>
+			<div className="mx-auto flex w-full max-w-[1000px] flex-row-reverse items-start gap-8 *:w-full *:max-w-[600px]">
+				{/* FAQ Items */}
+				<div className="flex-[2_0_0px] space-y-4">
+					{faqs.map((faq) => (
+						<Disclosure key={faq.id} as="div" className="inset-shadow-2 space-y-2 rounded-[10px] px-4 py-3" id={faq.id}>
+							<DisclosureButton className="group flex w-full items-center justify-between">
+								<span className="text-light-blue">{faq.question}</span>
+								<IconChevronDown size="20" className="text-light-blue group-data-open:rotate-180" />
+							</DisclosureButton>
+							<DisclosurePanel className="text-light-blue opacity-60">{faq.answer}</DisclosurePanel>
+						</Disclosure>
+					))}
+				</div>
+
+				{/* Contact card */}
+				<Card className="h-min flex-[1_0_0px] p-5" container>
 					<div className="flex flex-col items-center gap-4 text-center">
-						<div className="rounded-lg bg-black-base p-3 inset-shadow-[0px_1px_1px_0px] inset-shadow-[#cfe7ff33]">
+						<div className="inset-shadow-1 rounded-lg bg-black-base p-3">
 							<IconCircleLetterQ size="24" />
 						</div>
 						<div className="space-y-2.5">
@@ -68,22 +75,14 @@ export default function Faqs() {
 							<p className="text-light-blue opacity-60">Still have questions? Feel free to get in touch with us today!</p>
 						</div>
 						<div>
-							<button>
-								<div data-icon="arrow-up-right" />
+							<Button className="flex bg-gradient-to-b from-light-blue-transparent to-dark-gray items-center gap-1.5 px-5 py-2 text-sm rounded-lg border border-light-blue-transparent">
+								<div className="text-white size-5" data-icon="arrow-up-right" />
 								<span>Ask a Question</span>
-							</button>
+							</Button>
 						</div>
 					</div>
-
 				</Card>
-					<div className="space-y-4 flex-[2_0_0px]">
-						{faqs.map((faq) => (
-							<div></div>
-						))}
-					</div>
 			</div>
 		</SectionContainer>
 	);
 }
-
-//  inset;

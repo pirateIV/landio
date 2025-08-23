@@ -9,7 +9,7 @@ export default function Services() {
 			<div className="mx-auto flex max-w-[1200px] flex-col gap-11">
 				<div className="mx-auto flex max-w-[640px] flex-col items-center gap-2.5 text-center">
 					<Badge text="Services" icon={IconServicemark} />
-					<h1 className="text-[44px]">
+					<h1 className="text-heading-2">
 						Smarter Services, <span className="font-instr italic">Built with AI</span>
 					</h1>
 					<p className="text-light-blue">Everything you need to automate operations, boost productivity</p>
