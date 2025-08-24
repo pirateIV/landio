@@ -10,6 +10,7 @@ import Process from "@/components/sections/process";
 import Services from "@/components/sections/services/services";
 import Team from "@/components/sections/team";
 import Overlay from "@/components/ui/overlay";
+import Footer from "@/layout/footer";
 import Navigation from "@/layout/navigation";
 
 export const HomePage = () => {
@@ -25,6 +26,7 @@ export const HomePage = () => {
 			<Faqs />
 			<Comparison />
 			<Team />
+			<Footer />
 
 			{/* Overlay */}
 			<Overlay />

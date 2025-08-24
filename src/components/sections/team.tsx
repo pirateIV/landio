@@ -2,7 +2,7 @@ import React from "react";
 import { IconBrandInstagram, IconBrandLinkedin, IconBrandX, IconUsersGroup, type TablerIcon } from "@tabler/icons-react";
 import Image from "next/image";
 import Link from "next/link";
-import type { SectionHeadingProps } from "@/types";
+import type { SectionHeadingProps, SocialLinkProps } from "@/types";
 import { SectionContainer, SectionContent, SectionHeader, SectionHeading } from "../section";
 import Card from "../ui/card";
 import IconBadge from "../ui/icon-badge";
@@ -48,7 +48,7 @@ const headingProps: SectionHeadingProps = {
 	badgeIcon: IconUsersGroup,
 };
 
-const socials: { website: string; icon: TablerIcon }[] = [
+const socials: SocialLinkProps = [
 	{ website: "https://x.com", icon: IconBrandX },
 	{ website: "https://instagram.com", icon: IconBrandInstagram },
 	{ website: "https://linkedin.com", icon: IconBrandLinkedin },
@@ -72,9 +72,9 @@ export default function Team() {
 										<p className="text-xs opacity-60">{member.role}</p>
 									</div>
 									<div className="flex items-center gap-2">
-										{socials.map((social, index) => (
-											<Link key={index} href={social.website}>
-												<IconBadge size="16" icon={social.icon} />
+										{socials.map((link, index) => (
+											<Link key={index} href={link.website}>
+												<IconBadge size="16" icon={link.icon} />
 											</Link>
 										))}
 									</div>
