@@ -30,7 +30,7 @@ export default function Navigation() {
 						))}
 					</nav>
 					<div>
-						<button>Get Template</button>
+						<button className="p-3 rounded-lg">Get Template</button>
 					</div>
 				</div>
 			</header>

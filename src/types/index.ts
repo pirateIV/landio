@@ -8,9 +8,10 @@ export type ParentProps = React.PropsWithChildren & React.HTMLAttributes<HTMLDiv
 export type SocialLinkProps = { website: string, icon: TablerIcon }[]
 
 export type SectionHeadingProps = {
-	badgeIcon: TablerIcon;
-	badgeText: string;
+	badgeIcon?: TablerIcon;
+	badgeText?: string;
 	description: string;
 	italicText: string;
 	text: string;
+	useBadge?: boolean;
 };

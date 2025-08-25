@@ -1,7 +1,8 @@
 import React from "react";
 import { IconSparkles } from "@tabler/icons-react";
-import { SectionContainer, SectionHeader, SectionHeading, SectionHeadingProps } from "@/components/section";
+import { SectionContainer, SectionHeader, SectionHeading } from "@/components/section";
 import { Card } from "./card";
+import { SectionHeadingProps } from "@/types";
 
 // const cards = [
 // 	{

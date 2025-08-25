@@ -21,7 +21,7 @@ const socialLinks: SocialLinkProps = [
 
 export default function Footer() {
 	return (
-		<footer className="flex items-center justify-center p-[calc(var(--spacing)*15)] text-sm">
+		<footer className="relative flex items-center justify-center p-[calc(var(--spacing)*15)] text-sm z-2">
 			<div className="h-min w-full max-w-[1240px]">
 				<div className="w-full space-y-8">
 					<div className="space-y-10">
