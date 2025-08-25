@@ -7,7 +7,7 @@ export default function FounderNote() {
 	return (
 		<section className="px-10 py-[100px] text-center" id="founder-note">
 			<div className="mx-auto flex max-w-[1200px] flex-col items-center justify-center">
-				<div className="z-[2] mx-auto flex w-full max-w-[744px] flex-col items-center justify-center gap-6">
+				<div className="z-2 mx-auto flex w-full max-w-[744px] flex-col items-center justify-center gap-6">
 					<Badge text="We analyze your data" icon={IconStarFilled} />
 
 					<h1 className="text-[2rem] text-medium-gray">

@@ -5,7 +5,6 @@
 @plugin "tailwindcss-animate";
 
 @import "./theme.css";
-/* @import "./typography.css"; */
 @import "./icons.css";
 
 @custom-variant dark (&:where(.dark-mode, .dark-mode *));
@@ -28,10 +27,6 @@
 	transition-property: inherit;
 	transition-duration: inherit;
 	transition-timing-function: inherit;
-}
-
-* {
-	font-feature-settings: "cv02", "cv03", "cv04", "cv11";
 }
 
 html,
@@ -95,9 +90,14 @@ input[type="search"]::-webkit-search-cancel-button {
 
 @layer base {
 	.inset-shadow-1 {
-		@apply inset-shadow-[0px_1px_1px_0px] inset-shadow-[#cfe7ff33]
+		@apply inset-shadow-[0px_1px_1px_0px] inset-shadow-[#cfe7ff33];
 	}
 	.inset-shadow-2 {
-		@apply inset-shadow-[0px_2px_1px_0px] inset-shadow-[#cfe7ff33]
+		@apply inset-shadow-[0px_2px_1px_0px] inset-shadow-[#cfe7ff33];
+	}
+	.inset-shadow-3 {
+		box-shadow:
+			rgb(207 231 255 / 0%) 0px 2px 1px 0px inset,
+			rgba(207, 231, 255, 0.1) 0px -1px 1px 0px inset;
 	}
 }

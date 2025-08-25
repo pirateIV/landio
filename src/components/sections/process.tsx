@@ -1,9 +1,9 @@
 import React from "react";
 import { IconCube } from "@tabler/icons-react";
 import Image from "next/image";
-import { SectionContainer, SectionHeader, SectionHeading, SectionHeadingProps } from "../section";
-import Badge from "../ui/badge";
+import { SectionContainer, SectionHeader, SectionHeading } from "../section";
 import Card from "../ui/card";
+import { SectionHeadingProps } from "@/types";
 
 const tabs = [
 	{
