@@ -57,7 +57,7 @@ const logos = ["asterisk.svg", "eooks.svg", "opal.svg", "dune.svg", "oasis.svg"]
 
 export default function Reviews() {
 	return (
-		<SectionContainer>
+		<SectionContainer id="reviews">
 			<SectionHeader>
 				<SectionHeading {...headingProps} />
 			</SectionHeader>
@@ -98,14 +98,14 @@ export default function Reviews() {
 					<ul className="animation-[20s] flex h-[27px] animate-marquee place-items-center justify-center brightness-[.8] duration-[20s] [&_img]:max-w-none [&_li]:mx-[50px]">
 						{logos.map((logo, index) => (
 							<li key={index} className="relative h-full flex-1 opacity-65">
-								<img src={`/images/${logo}`} className="h-full w-auto object-contain" alt="logo" />
+								<img src={`/images/${logo}`} className="h-full w-auto object-contain" alt="logo" loading="lazy" />
 							</li>
 						))}
 					</ul>
 					<ul className="animation-[20s] flex h-[27px] animate-marquee place-items-center justify-center brightness-[.8] duration-[20s] [&_img]:max-w-none [&_li]:mx-[50px]">
 						{logos.map((logo, index) => (
 							<li key={index} className="relative h-full flex-1 opacity-65">
-								<img src={`/images/${logo}`} className="h-full w-auto object-contain" alt="logo" />
+								<img src={`/images/${logo}`} className="h-full w-auto object-contain" alt="logo" loading="lazy" />
 							</li>
 						))}
 					</ul>

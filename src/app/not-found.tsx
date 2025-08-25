@@ -1,6 +1,5 @@
 "use client";
 
-import { ArrowLeft } from "@untitledui/icons";
 import { useRouter } from "next/navigation";
 // import { Button } from "@/components/base/buttons/button";
 

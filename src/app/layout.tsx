@@ -1,7 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Instrument_Serif } from "next/font/google";
 import { interVar } from "@/lib/font";
-import { RouteProvider } from "@/providers/router-provider";
 import { Theme } from "@/providers/theme";
 import "@/styles/globals.css";
 import { cx } from "@/utils/cx";
@@ -48,11 +47,9 @@ export default function RootLayout({
 	return (
 		<html lang="en" suppressHydrationWarning>
 			<body className={cx(interVar.className, instrument.variable, "bg-primary text-light-blue antialiased")}>
-				<RouteProvider>
-					<Theme>
-						<main className="min-h-screen">{children}</main>
-					</Theme>
-				</RouteProvider>
+				<Theme>
+					<main className="min-h-screen">{children}</main>
+				</Theme>
 			</body>
 		</html>
 	);
