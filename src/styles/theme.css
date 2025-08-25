@@ -4,6 +4,11 @@
 	--font-display: var(--font-inter, "Inter"), -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
 	--font-mono: ui-monospace, "Roboto Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 	--font-instr: var(--font-instr);
+	/* FONT FAMILY */
+	--font-body: var(--font-inter, "Inter"), -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+	--font-display: var(--font-inter, "Inter"), -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+	--font-mono: ui-monospace, "Roboto Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+	--font-instr: var(--font-instr);
 
 	/* FONT SIZE */
 	--text-xs: calc(var(--spacing) * 3);
@@ -31,12 +36,16 @@
 	--text-xl--line-height: calc(var(--spacing) * 7.5);
 	--text-xl: calc(var(--spacing) * 5);
 	--text-xl--line-height: calc(var(--spacing) * 7.5);
+	--text-xl: calc(var(--spacing) * 5);
+	--text-xl--line-height: calc(var(--spacing) * 7.5);
 
 	--text-heading-2: calc(var(--spacing) * 11);
 	--text-heading-2--line-height: 1.2em;
 	--text-heading-2: calc(var(--spacing) * 11);
 	--text-heading-2--line-height: 1.2em;
 
+	/* MAX WIDTH */
+	--max-width-container: 1280px;
 	/* MAX WIDTH */
 	--max-width-container: 1280px;
 	/* MAX WIDTH */
@@ -65,6 +74,10 @@
 	--animate-marquee: marquee 60s linear infinite;
 	--animate-caret-blink: caret-blink 1s infinite;
 	--animate-scroll: scroll 10s linear infinite;
+	/* ANIMATIONS */
+	--animate-marquee: marquee 60s linear infinite;
+	--animate-caret-blink: caret-blink 1s infinite;
+	--animate-scroll: scroll 10s linear infinite;
 
 	@keyframes marquee {
 		0% {
@@ -82,7 +95,25 @@
 			transform: translateX(-100%);
 		}
 	}
+	@keyframes marquee {
+		0% {
+			transform: translateX(0);
+		}
+		100% {
+			transform: translateX(-100%);
+		}
+	}
 
+	@keyframes caret-blink {
+		0%,
+		50% {
+			opacity: 1;
+		}
+		51%,
+		100% {
+			opacity: 0;
+		}
+	}
 	@keyframes caret-blink {
 		0%,
 		50% {
