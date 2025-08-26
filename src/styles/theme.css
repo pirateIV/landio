@@ -4,11 +4,6 @@
 	--font-display: var(--font-inter, "Inter"), -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
 	--font-mono: ui-monospace, "Roboto Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 	--font-instr: var(--font-instr);
-	/* FONT FAMILY */
-	--font-body: var(--font-inter, "Inter"), -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
-	--font-display: var(--font-inter, "Inter"), -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
-	--font-mono: ui-monospace, "Roboto Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-	--font-instr: var(--font-instr);
 
 	/* FONT SIZE */
 	--text-xs: calc(var(--spacing) * 3);
@@ -53,6 +48,9 @@
 
 	/* BREAKPOINTS */
 	--breakpoint-*: initial;
+	--breakpoint-md: 50.625rem;
+	--breakpoint-lg: 75rem;
+	--breakpoint-xl: 80rem;
 
 	/* RADIUS */
 	--radius-none: 0px;

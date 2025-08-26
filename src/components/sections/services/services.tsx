@@ -14,7 +14,7 @@ const headingProps: SectionHeadingProps = {
 
 export default function Services() {
 	return (
-		<SectionContainer>
+		<SectionContainer id="services">
 			<SectionHeader>
 				<SectionHeading {...headingProps} />
 			</SectionHeader>

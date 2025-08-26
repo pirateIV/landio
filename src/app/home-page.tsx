@@ -1,5 +1,3 @@
-"use client";
-
 import Benefits from "@/components/sections/benefits/benefits";
 import Comparison from "@/components/sections/comparison";
 import Cta from "@/components/sections/cta";
