@@ -21,11 +21,11 @@ const socialLinks: SocialLinkProps = [
 
 export default function Footer() {
 	return (
-		<footer className="relative flex items-center justify-center p-[calc(var(--spacing)*15)] text-sm z-2">
-			<div className="h-min w-full max-w-[1240px]">
-				<div className="w-full space-y-8">
-					<div className="space-y-10">
-						<div className="flex items-center justify-between">
+		<footer className="relative z-2 flex items-center justify-center bg-black-base px-5 py-15 text-sm lg:p-15">
+			<div className="h-min w-full max-w-310">
+				<div className="flex w-full flex-col gap-8">
+					<div className="flex flex-col gap-10">
+						<div className="flex justify-between gap-10 max-md:order-1 max-md:flex-col md:items-center md:gap-0">
 							<Image src="logo.svg" width="163" height="62" alt="Logo" />
 							<div className="flex items-center gap-4">
 								{socialLinks.map((link, index) => (
@@ -35,11 +35,11 @@ export default function Footer() {
 								))}
 							</div>
 						</div>
-						<nav>
-							<ul className="flex items-center gap-8">
+						<nav className="max-md:order-0">
+							<ul className="flex gap-6 max-md:flex-col md:items-center md:gap-8">
 								{footerLinks.map((link) => (
-									<li key={link.name} className="text-light-blue-muted transition-colors duration-300 hover:text-light-blue">
-										<Link href={link.href} className="font-medium">
+									<li key={link.name} className="inline-flex text-light-blue-muted transition-colors duration-300 hover:text-light-blue">
+										<Link href={link.href} className="w-full py-1.5 font-medium md:py-0">
 											{link.name}
 										</Link>
 									</li>
@@ -48,9 +48,9 @@ export default function Footer() {
 						</nav>
 					</div>
 					<div className="h-px bg-light-blue-transparent" />
-					<div className="flex items-center justify-between">
+					<div className="flex justify-between max-md:flex-col max-md:gap-8 md:items-center">
 						<p>&copy; {new Date().getFullYear()} Landio Template</p>
-						<div className="flex items-center justify-between gap-8">
+						<div className="flex justify-between gap-8 max-md:flex-col md:items-center">
 							<p>
 								Made by&nbsp;
 								<Link href="https://x.com/framebase" className="text-light-blue-muted transition-colors duration-300 hover:text-light-blue">

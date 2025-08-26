@@ -38,7 +38,7 @@ export default function Comparison() {
 			</SectionHeader>
 
 			{/* Comparison Tables */}
-			<div className="flex items-center gap-4">
+			<div className="flex max-md:flex-col items-start gap-4">
 				<div className="w-full space-y-2">
 					<div className="flex h-[62px] items-center justify-center">
 						<div className="h-[39px] w-[103px]">
