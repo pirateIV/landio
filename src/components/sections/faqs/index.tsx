@@ -29,11 +29,11 @@ export default function Faqs() {
 						<Disclosure
 							key={faq.id}
 							as="div"
-							className="inset-shadow-2 space-y-2 rounded-[10px] border border-light-blue-transparent px-4 py-3"
+							className="inset-shadow-2 space-y-2 rounded-[10px] border border-light-blue-transparent p-3 md:px-4 md:py-3"
 							id={faq.id}
 						>
-							<DisclosureButton className="group flex w-full items-center justify-between">
-								<span className="text-light-blue">{faq.question}</span>
+							<DisclosureButton className="group flex w-full items-center justify-between text-start">
+								<span className="text-light-blue max-[27.5rem]:text-[15px]">{faq.question}</span>
 								<IconChevronDown size="20" className="text-light-blue group-data-open:rotate-180" />
 							</DisclosureButton>
 							<DisclosurePanel className="text-light-blue opacity-60">{faq.answer}</DisclosurePanel>

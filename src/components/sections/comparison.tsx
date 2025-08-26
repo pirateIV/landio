@@ -38,14 +38,14 @@ export default function Comparison() {
 			</SectionHeader>
 
 			{/* Comparison Tables */}
-			<div className="flex max-md:flex-col items-start gap-4">
+			<div className="flex items-start gap-4 max-md:flex-col">
 				<div className="w-full space-y-2">
 					<div className="flex h-[62px] items-center justify-center">
 						<div className="h-[39px] w-[103px]">
 							<Image width="163" height="62" alt="logo" src="logo.svg" />
 						</div>
 					</div>
-					<Card className="inset-shadow-2" container>
+					<Card className="inset-shadow-2 max-md:px-6" container>
 						<ul>
 							{tables.landio.map((data, index) => (
 								<React.Fragment key={index}>
@@ -53,7 +53,7 @@ export default function Comparison() {
 										<span>
 											<IconCheck size="19" />
 										</span>
-										<span>{data}</span>
+										<span className="max-[27.5rem]:text-[15px]">{data}</span>
 									</li>
 									<div className="my-3.5 h-px bg-gradient-to-r from-[#fff0] via-[#ffffff26] to-[#fff0] last:hidden"></div>
 								</React.Fragment>
@@ -67,7 +67,7 @@ export default function Comparison() {
 						<IconStack2 size="24" />
 						<span className="font-instr text-2xl italic">Others</span>
 					</div>
-					<Card className="inset-shadow-2" container>
+					<Card className="inset-shadow-2 max-md:px-6" container>
 						<ul className="*:opacity-50 *:first:opacity-70">
 							{tables.others.map((data, index) => (
 								<React.Fragment key={index}>
@@ -75,7 +75,7 @@ export default function Comparison() {
 										<span className="opacity-100 brightness-200">
 											<IconX size="19" />
 										</span>
-										<span>{data}</span>
+										<span className="max-[27.5rem]:text-[15px]">{data}</span>
 									</li>
 									<div className="my-3.5 h-px bg-gradient-to-r from-[#fff0] via-[#ffffff26] to-[#fff0] last:hidden"></div>
 								</React.Fragment>

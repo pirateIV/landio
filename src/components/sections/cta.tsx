@@ -16,12 +16,12 @@ export default function Cta() {
 	return (
 		<SectionContainer className="text-center *:max-w-[1240px]">
 			<SectionContent className="max-w-[613px] flex-col items-center justify-center gap-6">
-				<div className="space-y-4">
+				<div className="flex flex-col items-center gap-4 [&_p]:max-w-3/4">
 					<Tag>Reach out anytime</Tag>
 					<SectionHeading {...headingProps} />
 				</div>
-				<SocialLinks />
 				<Button className="flex max-w-none items-center justify-center">Book A Free Call</Button>
+				<SocialLinks />
 				<p>landio@support.com</p>
 			</SectionContent>
 		</SectionContainer>

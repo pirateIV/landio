@@ -8,7 +8,7 @@ export default function Tag({ children, ...props }: ParentProps) {
 			{...props}
 		>
 			<div className="bg-gradient-to-l" />
-			<p className="italic">{children}</p>
+			<p className="italic text-nowrap">{children}</p>
 			<div className="bg-gradient-to-r" />
 		</div>
 	);
