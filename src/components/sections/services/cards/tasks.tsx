@@ -21,7 +21,7 @@ export default function Tasks() {
 		>
 			<div className="h-[245px] w-full space-y-2">
 				{tasks.map((task,index) => (
-					<div key={index} className="flex w-full border rounded-lg border-light-blue-muted items-center justify-between py-3 px-4">
+					<div key={index} className="flex w-full border rounded-lg border-light-blue-transparent items-center justify-between py-3 px-4">
 						<div className="flex items-center gap-2">
 							<task.iconLabel size="24"/>
 							<p className="text-light-blue text-sm">{task.title}</p>

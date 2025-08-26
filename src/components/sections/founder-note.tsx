@@ -10,12 +10,11 @@ export default function FounderNote() {
 			<div className="z-2 mx-auto flex w-full max-w-[744px] flex-col items-center justify-center gap-6">
 				<Badge text="We analyze your data" icon={IconStarFilled} />
 
-				<h1 className="text-[2rem] text-medium-gray">
-					<q>
-						We find what to <span className="font-instr text-light-blue italic">automate</span>, who your users are & how AI can optimize your{" "}
-						<span className="font-instr text-light-blue italic">workflow</span>. Best part is we also build and launch{" "}
-						<span className="font-instr text-light-blue italic">real solutions</span>.
-					</q>
+				<h1 className="text-center text-2xl text-medium-gray md:text-[2rem] text-balance">
+					We find what to <span className="font-instr text-light-blue italic">automate</span>, who your users are &
+					how AI can optimize your <span className="font-instr text-light-blue italic">workflow</span>. Best part is we also build and launch{" "}
+					<span className="font-instr text-light-blue italic">real solutions</span>
+					<span className="italic">"</span>.
 				</h1>
 
 				<div className="flex items-center gap-4">

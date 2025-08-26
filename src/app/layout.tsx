@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Instrument_Serif } from "next/font/google";
+import SvgTemplate from "@/components/svg-template";
 import { interVar } from "@/lib/font";
 import { Theme } from "@/providers/theme";
 import "@/styles/globals.css";
@@ -48,6 +49,7 @@ export default function RootLayout({
 		<html lang="en" suppressHydrationWarning>
 			<body className={cx(interVar.className, instrument.variable, "bg-primary text-light-blue antialiased")}>
 				<main className="min-h-screen">{children}</main>
+				<SvgTemplate />
 			</body>
 		</html>
 	);

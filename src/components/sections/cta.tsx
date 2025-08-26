@@ -14,7 +14,7 @@ const headingProps: SectionHeadingProps = {
 
 export default function Cta() {
 	return (
-		<SectionContainer className="text-center *:max-w-[1240px]">
+		<SectionContainer className="text-center *:max-w-310">
 			<SectionContent className="max-w-[613px] flex-col items-center justify-center gap-6">
 				<div className="flex flex-col items-center gap-4 [&_p]:max-w-3/4">
 					<Tag>Reach out anytime</Tag>

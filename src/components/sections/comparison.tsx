@@ -40,25 +40,25 @@ export default function Comparison() {
 			{/* Comparison Tables */}
 			<div className="flex items-start gap-4 max-md:flex-col">
 				<div className="w-full space-y-2">
-					<div className="flex h-[62px] items-center justify-center">
+					<div className="flex h-15.5 items-center justify-center">
 						<div className="h-[39px] w-[103px]">
 							<Image width="163" height="62" alt="logo" src="logo.svg" />
 						</div>
 					</div>
 					<Card className="inset-shadow-2 max-md:px-6" container>
-						<ul>
+						<dl>
 							{tables.landio.map((data, index) => (
 								<React.Fragment key={index}>
-									<li key={index} className="flex items-center gap-2.5">
+									<dt key={index} className="flex items-center gap-2.5">
 										<span>
 											<IconCheck size="19" />
 										</span>
 										<span className="max-[27.5rem]:text-[15px]">{data}</span>
-									</li>
+									</dt>
 									<div className="my-3.5 h-px bg-gradient-to-r from-[#fff0] via-[#ffffff26] to-[#fff0] last:hidden"></div>
 								</React.Fragment>
 							))}
-						</ul>
+						</dl>
 					</Card>
 				</div>
 
@@ -68,19 +68,19 @@ export default function Comparison() {
 						<span className="font-instr text-2xl italic">Others</span>
 					</div>
 					<Card className="inset-shadow-2 max-md:px-6" container>
-						<ul className="*:opacity-50 *:first:opacity-70">
+						<dl className="*:opacity-50 *:first:opacity-70">
 							{tables.others.map((data, index) => (
 								<React.Fragment key={index}>
-									<li key={index} className="flex items-center gap-2.5">
+									<dt key={index} className="flex items-center gap-2.5">
 										<span className="opacity-100 brightness-200">
 											<IconX size="19" />
 										</span>
 										<span className="max-[27.5rem]:text-[15px]">{data}</span>
-									</li>
+									</dt>
 									<div className="my-3.5 h-px bg-gradient-to-r from-[#fff0] via-[#ffffff26] to-[#fff0] last:hidden"></div>
 								</React.Fragment>
 							))}
-						</ul>
+						</dl>
 					</Card>
 				</div>
 			</div>

@@ -36,7 +36,7 @@ export default function Faqs() {
 								<span className="text-light-blue max-[27.5rem]:text-[15px]">{faq.question}</span>
 								<IconChevronDown size="20" className="text-light-blue group-data-open:rotate-180" />
 							</DisclosureButton>
-							<DisclosurePanel className="text-light-blue opacity-60">{faq.answer}</DisclosurePanel>
+							<DisclosurePanel className="text-light-blue opacity-60 max-[27.5rem]:text-[15px]">{faq.answer}</DisclosurePanel>
 						</Disclosure>
 					))}
 				</div>

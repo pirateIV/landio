@@ -8,7 +8,7 @@ export function SectionHeading({ badgeText, badgeIcon, description, italicText, 
 	return (
 		<React.Fragment>
 			{useBadge && <Badge text={badgeText || ""} icon={badgeIcon || Icon123} />}
-			<h1 className="text-[length:calc(var(--spacing)*8)]/[1.2em] md:text-heading-2">
+			<h1 className="text-[length:calc(var(--spacing)*8)]/[1.2em] text-balance md:text-heading-2">
 				{text}{" "}
 				<span className="bg-linear-138 from-light-blue via-50% to-black-base to-166% bg-clip-text font-instr text-transparent italic">
 					{italicText}

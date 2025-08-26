@@ -25,14 +25,14 @@ export default function HeroSection() {
 				<div className="flex flex-col gap-6">
 					<div className="flex flex-col items-center gap-4 text-center">
 						{/* Headline section */}
-						<div className="mx-auto flex max-w-[936px] flex-col items-center gap-4">
+						<div className="mx-auto flex max-w-234 flex-col items-center gap-4">
 							<div className="flex items-center gap-2.5 px-3 py-2">
 								<div className="inline-flex size-3 items-center justify-center">
 									<div className="size-[7px] rounded-full bg-[#94d1ff]"></div>
 								</div>
 								<p className="text-sm font-medium text-light-blue">NEW GEN AI AUTOMATION PARTNER</p>
 							</div>
-							<h1 className="text-5xl leading-[1.2em] font-medium -tracking-[0.02em] md:text-[4rem] xl:text-[80px]">
+							<h1 className="text-5xl leading-[1.2em] font-medium -tracking-[0.02em] text-balance md:text-[4rem] xl:text-[80px]">
 								<span className="inline-block bg-[radial-gradient(99%_86%_at_50%_50%,#d5dbe6_28%,#04070d_100%)] bg-clip-text text-transparent">
 									Automate Smarter. Grow Faster. <span className="font-instr italic">With AI.</span>
 								</span>
