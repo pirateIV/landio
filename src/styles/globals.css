@@ -64,6 +64,11 @@ input[type="search"]::-webkit-search-cancel-button {
 	-webkit-appearance: none;
 }
 
+/* use {
+	fill: inherit;
+	stroke: inherit;
+} */
+
 .shadow-blue-1 {
 	box-shadow:
 		rgba(64, 120, 168, 0.37) 0px 0.706592px 0.706592px -0.666667px,

@@ -1,7 +1,10 @@
 import React from "react";
 import type { TablerIcon } from "@tabler/icons-react";
 
-export type ParentProps = React.PropsWithChildren & React.HTMLAttributes<HTMLDivElement>;
+export type ParentProps = React.PropsWithChildren & DivProps;
+
+export type DivProps = React.HTMLAttributes<HTMLDivElement>;
+export type IconProps = React.SVGProps<SVGSVGElement> & { size?: string | number };
 
 /* ========== SHARED TYPES ============= */
 
@@ -14,4 +17,4 @@ export type SectionHeadingProps = {
 	italicText: string;
 	text: string;
 	useBadge?: boolean;
-} & React.HTMLAttributes<HTMLDivElement>;
+} & DivProps;

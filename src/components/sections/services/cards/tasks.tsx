@@ -15,7 +15,7 @@ function Task() {
 export default function Tasks() {
 	return (
 		<Card
-			className="p-[30px] gap-6"
+			className="p-7.5 gap-6"
 			title="Automate repetitive tasks"
 			description="We help you streamline internal operations by automating manual workflows"
 		>

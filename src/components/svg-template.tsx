@@ -19,8 +19,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 5.65 10.849 L 0.485 8.946 C 0.194 8.839 0 8.561 0 8.25 C 0 7.939 0.194 7.661 0.485 7.553 L 5.65 5.65 L 7.553 0.485 C 7.661 0.194 7.939 0 8.25 0 C 8.561 0 8.839 0.194 8.946 0.485 L 10.849 5.65 L 16.014 7.553 C 16.306 7.661 16.5 7.939 16.5 8.25 C 16.5 8.561 16.306 8.839 16.014 8.946 L 10.849 10.849 L 8.946 16.014 C 8.839 16.306 8.561 16.5 8.25 16.5 C 7.939 16.5 7.661 16.306 7.553 16.014 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="16.499524626865806px"
 					id="PJgleNJ9m"
 					transform="translate(2.25 5.25)"
@@ -35,7 +35,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(2.25 5.25)"
 					width="16.499524626865806px"
 				/>
@@ -48,7 +48,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(16.5 1.5)"
 					width="1px"
 				/>
@@ -61,7 +61,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(21 6.75)"
 					width="1px"
 				/>
@@ -74,7 +74,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(14.25 3.75)"
 					width="4.5px"
 				/>
@@ -87,7 +87,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(19.5 8.25)"
 					width="3px"
 				/>
@@ -95,8 +95,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 0 0 L 4.5 0 L 15 16.5 L 10.5 16.5 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="16.5px"
 					id="wBdJ15Yu6"
 					transform="translate(4.5 3.75)"
@@ -111,7 +111,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(4.5 3.75)"
 					width="15px"
 				/>
@@ -124,7 +124,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(4.5 13.456)"
 					width="6.176249999999996px"
 				/>
@@ -137,7 +137,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(13.324 3.75)"
 					width="6.176249999999996px"
 				/>
@@ -145,8 +145,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 0 9 C 0 4.029 4.029 0 9 0 C 13.971 0 18 4.029 18 9 C 18 13.971 13.971 18 9 18 C 4.029 18 0 13.971 0 9 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="18px"
 					id="toDPs7Y9O"
 					transform="translate(3 3)"
@@ -161,7 +161,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 3)"
 					width="18px"
 				/>
@@ -174,7 +174,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(12 8.25)"
 					width="3.75px"
 				/>
@@ -187,7 +187,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(9 13.5)"
 					width="6px"
 				/>
@@ -195,8 +195,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 13.5 0 L 4.5 0 C 2.015 0 0 2.015 0 4.5 L 0 13.5 C 0 15.985 2.015 18 4.5 18 L 13.5 18 C 15.985 18 18 15.985 18 13.5 L 18 4.5 C 18 2.015 15.985 0 13.5 0 Z M 9 12.75 C 6.929 12.75 5.25 11.071 5.25 9 C 5.25 6.929 6.929 5.25 9 5.25 C 11.071 5.25 12.75 6.929 12.75 9 C 12.75 11.071 11.071 12.75 9 12.75 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="18px"
 					id="SuXKGhab5"
 					transform="translate(3 3)"
@@ -211,7 +211,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 3)"
 					width="18px"
 				/>
@@ -225,13 +225,13 @@ export default function SvgTemplate() {
 					strokeLinejoin="miter"
 					strokeMiterlimit={10}
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(8.25 8.25)"
 					width="7.5px"
 				/>
 				<path
 					d="M 0 1.125 C 0 0.504 0.504 0 1.125 0 C 1.746 0 2.25 0.504 2.25 1.125 C 2.25 1.746 1.746 2.25 1.125 2.25 C 0.504 2.25 0 1.746 0 1.125 Z"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="2.25px"
 					id="VxeO4Hprj"
 					transform="translate(15.75 6)"
@@ -241,8 +241,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 0 9 C 0 4.029 4.029 0 9 0 C 13.971 0 18 4.029 18 9 C 18 13.971 13.971 18 9 18 C 4.029 18 0 13.971 0 9 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="18px"
 					id="poRFu5DyP"
 					transform="translate(3 3)"
@@ -257,7 +257,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 3)"
 					width="18px"
 				/>
@@ -270,7 +270,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(6.656 12)"
 					width="14.34375px"
 				/>
@@ -283,7 +283,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3.172 4.977)"
 					width="14.4525px"
 				/>
@@ -296,7 +296,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(8.056 3.908)"
 					width="7.406253430605545px"
 				/>
@@ -304,8 +304,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 6.75 0 L 0 6.75 L 6.75 13.5 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="13.5px"
 					id="gA_yGMhHn"
 					transform="translate(3.75 5.25)"
@@ -320,7 +320,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(10.5 12)"
 					width="9.75px"
 				/>
@@ -333,7 +333,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3.75 5.25)"
 					width="6.75px"
 				/>
@@ -341,8 +341,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 18 6 L 10.637 11.25 L 7.364 11.25 L 0 6 L 9 0 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="11.25px"
 					id="xuSXhOO50"
 					transform="translate(3 3)"
@@ -357,7 +357,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 3)"
 					width="18px"
 				/>
@@ -370,7 +370,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 9)"
 					width="18px"
 				/>
@@ -378,8 +378,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 0 5.625 C 0 2.518 2.518 0 5.625 0 C 8.732 0 11.25 2.518 11.25 5.625 C 11.25 8.732 8.732 11.25 5.625 11.25 C 2.518 11.25 0 8.732 0 5.625 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="11.25px"
 					id="S54NtSMfg"
 					transform="translate(4.5 4.5)"
@@ -394,7 +394,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(4.5 4.5)"
 					width="11.25px"
 				/>
@@ -407,7 +407,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(2.25 15.75)"
 					width="15.75px"
 				/>
@@ -420,7 +420,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(18.75 6.444)"
 					width="1px"
 				/>
@@ -433,7 +433,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(21.503 5.25)"
 					width="1px"
 				/>
@@ -441,8 +441,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 5.999 11.223 C 5.999 7.495 9.021 4.473 12.749 4.473 C 12.872 4.473 12.995 4.473 13.118 4.483 L 13.118 4.483 C 12.269 2.102 10.16 0.394 7.654 0.06 C 5.148 -0.275 2.665 0.818 1.221 2.893 C -0.224 4.968 -0.388 7.676 0.795 9.91 L 0.03 12.513 C -0.047 12.776 0.026 13.06 0.22 13.254 C 0.414 13.448 0.698 13.521 0.961 13.444 L 3.561 12.676 C 4.429 13.141 5.39 13.41 6.374 13.462 L 6.374 13.462 C 6.123 12.742 5.996 11.985 5.999 11.223 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="13.473964841712082px"
 					id="jy1nTKRcn"
 					transform="translate(2.251 3.027)"
@@ -450,7 +450,7 @@ export default function SvgTemplate() {
 				/>
 				<path
 					d="M 0 1.125 C 0 0.504 0.504 0 1.125 0 C 1.746 0 2.25 0.504 2.25 1.125 C 2.25 1.746 1.746 2.25 1.125 2.25 C 0.504 2.25 0 1.746 0 1.125 Z"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="2.25px"
 					id="CPfHM6Ulw"
 					transform="translate(11.25 12)"
@@ -458,7 +458,7 @@ export default function SvgTemplate() {
 				/>
 				<path
 					d="M 0 1.125 C 0 0.504 0.504 0 1.125 0 C 1.746 0 2.25 0.504 2.25 1.125 C 2.25 1.746 1.746 2.25 1.125 2.25 C 0.504 2.25 0 1.746 0 1.125 Z"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="2.25px"
 					id="yU77oWDVG"
 					transform="translate(16.5 12)"
@@ -473,7 +473,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(8.253 7.5)"
 					width="13.50080809235591px"
 				/>
@@ -486,7 +486,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(2.254 3.027)"
 					width="13.115093972763036px"
 				/>
@@ -494,8 +494,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 0 9 C 0 4.029 4.029 0 9 0 C 13.971 0 18 4.029 18 9 C 18 13.971 13.971 18 9 18 C 4.029 18 0 13.971 0 9 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="18px"
 					id="RjBoUvnZP"
 					transform="translate(3 3)"
@@ -503,7 +503,7 @@ export default function SvgTemplate() {
 				/>
 				<path
 					d="M 0 1.125 C 0 0.504 0.504 0 1.125 0 C 1.746 0 2.25 0.504 2.25 1.125 C 2.25 1.746 1.746 2.25 1.125 2.25 C 0.504 2.25 0 1.746 0 1.125 Z"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="2.25px"
 					id="H_DiuDuLW"
 					transform="translate(10.875 15.75)"
@@ -518,7 +518,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(9 7.5)"
 					width="6px"
 				/>
@@ -531,7 +531,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 3)"
 					width="18px"
 				/>
@@ -539,8 +539,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 9.749 15.477 L 14.879 18.632 C 15.151 18.797 15.496 18.782 15.753 18.594 C 16.01 18.406 16.128 18.082 16.053 17.772 L 14.658 11.886 L 19.223 7.948 C 19.461 7.739 19.552 7.409 19.455 7.108 C 19.357 6.806 19.09 6.592 18.774 6.563 L 12.783 6.075 L 10.475 0.488 C 10.354 0.193 10.068 0 9.749 0 C 9.431 0 9.144 0.193 9.023 0.488 L 6.715 6.075 L 0.724 6.563 C 0.406 6.59 0.136 6.806 0.038 7.109 C -0.06 7.412 0.034 7.745 0.275 7.953 L 4.84 11.89 L 3.445 17.772 C 3.37 18.082 3.488 18.406 3.745 18.594 C 4.002 18.782 4.347 18.797 4.619 18.632 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="18.746261605760054px"
 					id="t6hF1mhP1"
 					transform="translate(2.251 2.25)"
@@ -555,7 +555,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(2.251 2.25)"
 					width="19.49332240036336px"
 				/>
@@ -563,8 +563,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 9 4.89 L 9 14.538 C 8.874 14.537 8.75 14.505 8.64 14.444 L 0.39 9.929 C 0.15 9.798 0.001 9.546 0 9.273 L 0 0.307 C 0 0.201 0.022 0.096 0.066 0 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="14.537812500000001px"
 					id="o9ypHGnGn"
 					transform="translate(3 7.212)"
@@ -579,7 +579,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3.066 7.211)"
 					width="17.868750000000002px"
 				/>
@@ -592,7 +592,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 2.252)"
 					width="18px"
 				/>
@@ -605,7 +605,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(12 12.102)"
 					width="1px"
 				/>
@@ -613,8 +613,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 0 9 C 0 4.029 4.029 0 9 0 C 13.971 0 18 4.029 18 9 C 18 13.971 13.971 18 9 18 C 4.029 18 0 13.971 0 9 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="18px"
 					id="LMIUelWZE"
 					transform="translate(3 3)"
@@ -629,7 +629,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(12 6.75)"
 					width="1px"
 				/>
@@ -642,7 +642,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(12 15.75)"
 					width="1px"
 				/>
@@ -655,7 +655,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 3)"
 					width="18px"
 				/>
@@ -668,7 +668,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(9 8.25)"
 					width="6px"
 				/>
@@ -676,8 +676,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 0 8.25 C 0 3.694 3.694 0 8.25 0 C 12.806 0 16.5 3.694 16.5 8.25 C 16.5 12.806 12.806 16.5 8.25 16.5 C 3.694 16.5 0 12.806 0 8.25 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="16.5px"
 					id="ZKxjYV8r2"
 					transform="translate(3.75 3.75)"
@@ -692,7 +692,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(2.25 5.25)"
 					width="4.5px"
 				/>
@@ -705,7 +705,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(2.25 3.75)"
 					width="17.99904570346732px"
 				/>
@@ -713,8 +713,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 0 9 C 0 4.029 4.029 0 9 0 C 13.971 0 18 4.029 18 9 C 18 13.971 13.971 18 9 18 C 4.029 18 0 13.971 0 9 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="18px"
 					id="fYsLZZNUT"
 					transform="translate(3 3)"
@@ -729,7 +729,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 3)"
 					width="18px"
 				/>
@@ -742,13 +742,13 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(12 6.75)"
 					width="5.25px"
 				/>
 				<path
 					d="M 0 1.125 C 0 0.504 0.504 0 1.125 0 C 1.746 0 2.25 0.504 2.25 1.125 C 2.25 1.746 1.746 2.25 1.125 2.25 C 0.504 2.25 0 1.746 0 1.125 Z"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="2.25px"
 					id="uRz4BznCZ"
 					transform="translate(13.875 2.25)"
@@ -756,7 +756,7 @@ export default function SvgTemplate() {
 				/>
 				<path
 					d="M 0 1.125 C 0 0.504 0.504 0 1.125 0 C 1.746 0 2.25 0.504 2.25 1.125 C 2.25 1.746 1.746 2.25 1.125 2.25 C 0.504 2.25 0 1.746 0 1.125 Z"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="2.25px"
 					id="c1Fkot1yV"
 					transform="translate(17.25 4.5)"
@@ -764,7 +764,7 @@ export default function SvgTemplate() {
 				/>
 				<path
 					d="M 0 1.125 C 0 0.504 0.504 0 1.125 0 C 1.746 0 2.25 0.504 2.25 1.125 C 2.25 1.746 1.746 2.25 1.125 2.25 C 0.504 2.25 0 1.746 0 1.125 Z"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="2.25px"
 					id="SepL4XbPQ"
 					transform="translate(19.5 7.875)"
@@ -774,8 +774,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 7.5 9.322 L 16.719 0.22 C 16.86 0.079 17.051 0 17.25 0 C 17.449 0 17.64 0.079 17.781 0.22 L 20.031 2.432 C 20.172 2.573 20.251 2.764 20.251 2.963 C 20.251 3.162 20.172 3.353 20.031 3.494 L 7.993 15.531 C 7.853 15.672 7.662 15.751 7.463 15.751 C 7.264 15.751 7.073 15.672 6.932 15.531 L 0.219 8.781 C -0.073 8.488 -0.073 8.014 0.219 7.721 L 2.469 5.471 C 2.61 5.33 2.801 5.251 3 5.251 C 3.199 5.251 3.39 5.33 3.531 5.471 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="15.751179984623654px"
 					id="WNqFi1UTc"
 					transform="translate(2.25 4.499)"
@@ -790,7 +790,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(2.25 4.499)"
 					width="20.25071112749467px"
 				/>
@@ -798,8 +798,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 0 4.875 C 0 2.183 2.183 0 4.875 0 C 7.567 0 9.75 2.183 9.75 4.875 C 9.75 7.567 7.567 9.75 4.875 9.75 C 2.183 9.75 0 7.567 0 4.875 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="9.75px"
 					id="tjlKcqq_S"
 					transform="translate(3 5.25)"
@@ -814,7 +814,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(0.959 14.998)"
 					width="13.831875px"
 				/>
@@ -827,7 +827,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(16.125 15)"
 					width="6.915937499999984px"
 				/>
@@ -840,7 +840,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 5.25)"
 					width="9.75px"
 				/>
@@ -853,7 +853,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(14.315 5.25)"
 					width="6.681148882469131px"
 				/>
@@ -868,7 +868,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(12.75 9)"
 					width="6px"
 				/>
@@ -881,7 +881,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(12.75 3)"
 					width="6px"
 				/>
@@ -894,7 +894,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(6 3)"
 					width="6.75px"
 				/>
@@ -907,7 +907,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(6 9)"
 					width="6.75px"
 				/>
@@ -920,14 +920,14 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(6 15)"
 					width="6.75px"
 				/>
 				<path
 					d="M 0 3 C 0 1.343 1.343 0 3 0 C 4.657 0 6 1.343 6 3 C 6 4.657 4.657 6 3 6 C 1.343 6 0 4.657 0 3 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="6px"
 					id="jjkSi4ZOk"
 					transform="translate(12.75 9)"
@@ -935,8 +935,8 @@ export default function SvgTemplate() {
 				/>
 				<path
 					d="M 6.75 0 L 3 0 C 1.343 0 0 1.343 0 3 C 0 4.657 1.343 6 3 6 L 6.75 6 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="6px"
 					id="IpkRTQ7he"
 					transform="translate(6 3)"
@@ -944,8 +944,8 @@ export default function SvgTemplate() {
 				/>
 				<path
 					d="M 6.75 0 L 3.375 0 C 1.511 0 0 1.511 0 3.375 C 0 5.239 1.511 6.75 3.375 6.75 C 5.239 6.75 6.75 5.239 6.75 3.375 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="6.75px"
 					id="pDSFdQOkL"
 					transform="translate(6 15)"
@@ -955,8 +955,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 0 0 L 8.25 15 L 12 15 L 3.75 0 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="15px"
 					id="dnGGqnw64"
 					transform="translate(6 4.5)"
@@ -971,7 +971,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3.75 4.5)"
 					width="14.25px"
 				/>
@@ -984,7 +984,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3.75 19.5)"
 					width="4.5px"
 				/>
@@ -997,7 +997,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(15.75 4.5)"
 					width="4.5px"
 				/>
@@ -1010,7 +1010,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(6 4.5)"
 					width="12px"
 				/>
@@ -1018,8 +1018,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 18 0 L 9 8.25 L 0 0 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="8.25px"
 					id="vcLsrdoR2"
 					transform="translate(3 5.25)"
@@ -1034,7 +1034,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 5.25)"
 					width="18px"
 				/>
@@ -1047,7 +1047,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 5.25)"
 					width="18px"
 				/>
@@ -1055,8 +1055,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 0 5.25 L 9 10.5 L 18 5.25 L 9 0 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="10.5px"
 					id="lYFPhWKGp"
 					transform="translate(3 2.25)"
@@ -1071,7 +1071,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 16.5)"
 					width="18px"
 				/>
@@ -1084,7 +1084,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 12)"
 					width="18px"
 				/>
@@ -1097,7 +1097,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 2.25)"
 					width="18px"
 				/>
@@ -1105,8 +1105,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 1.499 0.757 C 1.141 0.551 0.814 0.296 0.526 0 L 0.526 0 C -0.416 1.773 -0.069 3.955 1.375 5.349 C 2.82 6.743 5.013 7.012 6.751 6.007 L 10.921 3.599 L 10.921 0.135 L 5.671 3.166 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="6.610929005599289px"
 					id="lWk72uRrH"
 					transform="translate(3.329 13.164)"
@@ -1114,8 +1114,8 @@ export default function SvgTemplate() {
 				/>
 				<path
 					d="M 7.172 2.408 L 3 0 L 0 1.733 L 0 1.733 L 5.25 4.763 L 5.25 9.58 C 5.25 9.992 5.192 10.402 5.08 10.799 L 5.08 10.799 C 7.084 10.726 8.797 9.336 9.282 7.39 C 9.767 5.445 8.907 3.414 7.172 2.408 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="10.799062499999998px"
 					id="iLRoi2pDD"
 					transform="translate(12 7.67)"
@@ -1123,8 +1123,8 @@ export default function SvgTemplate() {
 				/>
 				<path
 					d="M 3 11.053 L 3 4.99 L 7.172 2.582 C 7.529 2.374 7.914 2.216 8.315 2.113 L 8.315 2.113 C 7.25 0.411 5.186 -0.379 3.257 0.176 C 1.327 0.73 -0.002 2.496 0 4.504 L 0 9.321 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="11.05329881932312px"
 					id="GcG6akuIf"
 					transform="translate(6.75 2.246)"
@@ -1139,7 +1139,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(9.75 4.225)"
 					width="10.9228028588618px"
 				/>
@@ -1152,7 +1152,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(6.75 2.249)"
 					width="8.314687559955274px"
 				/>
@@ -1165,7 +1165,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(2.584 5.531)"
 					width="11.666331111173388px"
 				/>
@@ -1178,7 +1178,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3.327 10.701)"
 					width="10.922802858861804px"
 				/>
@@ -1191,7 +1191,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(8.935 9.402)"
 					width="8.314687559955274px"
 				/>
@@ -1204,7 +1204,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(9.75 7.67)"
 					width="11.673966082452083px"
 				/>
@@ -1212,8 +1212,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 14.25 0 L 0.75 0 C 0.336 0 0 0.336 0 0.75 L 0 17.25 C 0 17.664 0.336 18 0.75 18 L 14.25 18 C 14.664 18 15 17.664 15 17.25 L 15 0.75 C 15 0.336 14.664 0 14.25 0 Z M 7.5 10.5 C 5.843 10.5 4.5 9.157 4.5 7.5 C 4.5 5.843 5.843 4.5 7.5 4.5 C 9.157 4.5 10.5 5.843 10.5 7.5 C 10.5 9.157 9.157 10.5 7.5 10.5 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="18px"
 					id="EOTsl9S6c"
 					transform="translate(5.25 3)"
@@ -1228,7 +1228,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(9.75 7.5)"
 					width="6px"
 				/>
@@ -1241,7 +1241,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 6.75)"
 					width="2.25px"
 				/>
@@ -1254,7 +1254,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 12)"
 					width="2.25px"
 				/>
@@ -1267,7 +1267,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 17.25)"
 					width="2.25px"
 				/>
@@ -1280,7 +1280,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(8.25 13.5)"
 					width="9px"
 				/>
@@ -1293,7 +1293,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(5.25 3)"
 					width="15px"
 				/>
@@ -1301,8 +1301,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 0 5.625 C 0 2.518 2.518 0 5.625 0 C 8.732 0 11.25 2.518 11.25 5.625 C 11.25 8.732 8.732 11.25 5.625 11.25 C 2.518 11.25 0 8.732 0 5.625 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="11.25px"
 					id="FvOEQsPdS"
 					transform="translate(4.5 3.75)"
@@ -1317,7 +1317,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(4.5 3.75)"
 					width="11.25px"
 				/>
@@ -1330,7 +1330,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(2.25 15)"
 					width="15.75px"
 				/>
@@ -1343,7 +1343,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(18.75 12)"
 					width="4.5px"
 				/>
@@ -1351,8 +1351,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 0 7.5 C 0 3.358 3.358 0 7.5 0 C 11.642 0 15 3.358 15 7.5 C 15 11.642 11.642 15 7.5 15 C 3.358 15 0 11.642 0 7.5 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="15px"
 					id="i5oDhfGPs"
 					transform="translate(3 3)"
@@ -1367,7 +1367,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 3)"
 					width="15px"
 				/>
@@ -1380,7 +1380,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(15.803 15.803)"
 					width="5.196562499999999px"
 				/>
@@ -1388,8 +1388,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 16.5 7.5 L 21 3.75 L 16.5 0 L 4.5 0 L 0 3.75 L 4.5 7.5 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="7.5px"
 					id="JFMETPv_p"
 					transform="translate(1.5 8.25)"
@@ -1404,7 +1404,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(1.5 8.25)"
 					width="4.5px"
 				/>
@@ -1417,7 +1417,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(18 8.25)"
 					width="4.5px"
 				/>
@@ -1430,7 +1430,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(9 3.75)"
 					width="6px"
 				/>
@@ -1438,8 +1438,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 0 3 C 0 1.343 1.343 0 3 0 C 4.657 0 6 1.343 6 3 C 6 4.657 4.657 6 3 6 C 1.343 6 0 4.657 0 3 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="6px"
 					id="MnMvTfj8K"
 					transform="translate(1.5 13.5)"
@@ -1454,7 +1454,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(1.5 13.5)"
 					width="6px"
 				/>
@@ -1467,7 +1467,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(19.5 4.5)"
 					width="3px"
 				/>
@@ -1480,7 +1480,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(7.5 7.5)"
 					width="15px"
 				/>
@@ -1488,8 +1488,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 17.243 7.186 C 17.073 3.11 13.675 -0.082 9.596 0.002 C 5.517 0.085 2.253 3.414 2.25 7.494 L 0.061 11.7 C -0.096 12.065 0.059 12.489 0.414 12.667 L 3 13.851 L 3 17.244 C 3 17.658 3.336 17.994 3.75 17.994 L 8.25 17.994 C 8.25 18.822 8.922 19.494 9.75 19.494 L 15 19.494 L 14.25 13.494 C 16.227 12.014 17.347 9.654 17.243 7.186 Z M 7.512 4.689 C 7.429 4.052 7.76 3.433 8.337 3.149 C 8.913 2.865 9.606 2.98 10.06 3.434 C 10.514 3.888 10.629 4.581 10.345 5.157 C 10.061 5.734 9.442 6.065 8.805 5.982 C 8.131 5.894 7.6 5.363 7.512 4.689 Z M 10.7 11.982 C 10.063 12.065 9.443 11.733 9.16 11.157 C 8.876 10.581 8.99 9.888 9.445 9.434 C 9.899 8.98 10.592 8.865 11.168 9.149 C 11.744 9.433 12.076 10.052 11.993 10.689 C 11.904 11.365 11.371 11.896 10.695 11.982 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="19.49391118878156px"
 					id="UXcvNssKe"
 					transform="translate(3 2.256)"
@@ -1504,7 +1504,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(10.5 5.25)"
 					width="3px"
 				/>
@@ -1517,7 +1517,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(12 11.25)"
 					width="3px"
 				/>
@@ -1530,7 +1530,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 2.249)"
 					width="17.250306670631126px"
 				/>
@@ -1543,7 +1543,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(12 2.287)"
 					width="1px"
 				/>
@@ -1556,7 +1556,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(14.46 8.25)"
 					width="5.638125000000002px"
 				/>
@@ -1564,8 +1564,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 19.321 7.196 L 16.335 5.496 C 16.275 5.387 16.212 5.281 16.148 5.176 L 16.137 1.801 C 15.193 1.005 14.107 0.394 12.937 0 L 9.937 1.677 C 9.811 1.677 9.685 1.677 9.562 1.677 L 6.562 0 C 5.392 0.395 4.307 1.007 3.364 1.805 L 3.349 5.18 C 3.283 5.285 3.221 5.392 3.162 5.499 L 0.177 7.196 C -0.059 8.387 -0.059 9.612 0.177 10.802 L 3.162 12.503 C 3.222 12.611 3.285 12.717 3.35 12.822 L 3.361 16.197 C 4.305 16.994 5.391 17.606 6.562 18 L 9.562 16.325 C 9.687 16.325 9.814 16.325 9.937 16.325 L 12.937 18 C 14.106 17.605 15.19 16.993 16.132 16.195 L 16.147 12.82 C 16.212 12.715 16.275 12.608 16.334 12.501 L 19.319 10.804 C 19.556 9.613 19.556 8.387 19.321 7.196 Z M 9.749 12.75 C 7.678 12.75 5.999 11.071 5.999 9 C 5.999 6.929 7.678 5.25 9.749 5.25 C 11.82 5.25 13.499 6.929 13.499 9 C 13.499 11.071 11.82 12.75 9.749 12.75 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="18px"
 					id="SKyHkjucO"
 					transform="translate(2.251 3)"
@@ -1580,7 +1580,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(8.25 8.25)"
 					width="7.5px"
 				/>
@@ -1593,7 +1593,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(2.252 3)"
 					width="19.494879369830066px"
 				/>
@@ -1601,8 +1601,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 15.75 0 L 2.25 0 C 1.007 0 0 1.007 0 2.25 L 0 12.75 C 0 13.993 1.007 15 2.25 15 L 15.75 15 C 16.993 15 18 13.993 18 12.75 L 18 2.25 C 18 1.007 16.993 0 15.75 0 Z M 12.375 12 L 5.625 12 C 4.589 12 3.75 11.161 3.75 10.125 C 3.75 9.089 4.589 8.25 5.625 8.25 L 12.375 8.25 C 13.411 8.25 14.25 9.089 14.25 10.125 C 14.25 11.161 13.411 12 12.375 12 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="15px"
 					id="G7t17jYxm"
 					transform="translate(3 5.25)"
@@ -1617,7 +1617,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 5.25)"
 					width="18px"
 				/>
@@ -1630,13 +1630,13 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(12 1.5)"
 					width="1px"
 				/>
 				<path
 					d="M 0 1.125 C 0 0.504 0.504 0 1.125 0 C 1.746 0 2.25 0.504 2.25 1.125 C 2.25 1.746 1.746 2.25 1.125 2.25 C 0.504 2.25 0 1.746 0 1.125 Z"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="2.25px"
 					id="V53hiCJPU"
 					transform="translate(6.75 9)"
@@ -1644,7 +1644,7 @@ export default function SvgTemplate() {
 				/>
 				<path
 					d="M 0 1.125 C 0 0.504 0.504 0 1.125 0 C 1.746 0 2.25 0.504 2.25 1.125 C 2.25 1.746 1.746 2.25 1.125 2.25 C 0.504 2.25 0 1.746 0 1.125 Z"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="2.25px"
 					id="sJUBzB8my"
 					transform="translate(15 9)"
@@ -1659,7 +1659,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(6.75 13.5)"
 					width="10.5px"
 				/>
@@ -1672,7 +1672,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(13.875 13.5)"
 					width="1px"
 				/>
@@ -1685,7 +1685,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(10.125 13.5)"
 					width="1px"
 				/>
@@ -1693,8 +1693,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 6 0 L 0 0 L 6 6 L 6 0"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="6px"
 					id="EGuibIl0i"
 					transform="translate(15.75 5.25)"
@@ -1709,7 +1709,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(15.75 5.25)"
 					width="6px"
 				/>
@@ -1722,7 +1722,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(2.25 8.25)"
 					width="16.5px"
 				/>
@@ -1730,8 +1730,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 0 15.75 L 0 0 L 5.25 0 L 5.25 15.75 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="15.75px"
 					id="uzN4ftzSU"
 					transform="translate(14.25 3.75)"
@@ -1746,7 +1746,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(4.5 12.75)"
 					width="4.5px"
 				/>
@@ -1759,7 +1759,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 19.5)"
 					width="18px"
 				/>
@@ -1772,7 +1772,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(9 8.25)"
 					width="5.25px"
 				/>
@@ -1785,7 +1785,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(14.25 3.75)"
 					width="5.25px"
 				/>
@@ -1793,8 +1793,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 14.25 13.5 L 0 13.5 L 0 9 L 5.25 9 L 5.25 4.5 L 10.5 4.5 L 10.5 0 L 15.75 0 L 15.75 12 C 15.75 12.828 15.078 13.5 14.25 13.5 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="13.5px"
 					id="OS5KcxGyH"
 					transform="translate(6.75 5.25)"
@@ -1809,7 +1809,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(1.5 5.25)"
 					width="21px"
 				/>
@@ -1817,8 +1817,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 0 12.26 C 0 12.26 0.903 14.235 3.903 14.235 C 6.903 14.235 9.903 11.627 9.903 7.485 C 9.903 3.53 6.832 0.254 2.885 0 L 2.885 0 L 1.653 5.235 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="14.235px"
 					id="vIpzzTSnv"
 					transform="translate(10.347 3.015)"
@@ -1833,7 +1833,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(9 8.25)"
 					width="3px"
 				/>
@@ -1846,7 +1846,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(5.25 3.003)"
 					width="15.000061252868882px"
 				/>
@@ -1854,8 +1854,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 0 6 L 0 12 L 6.75 18.75 L 6.75 12 L 13.5 12 L 0 0 L 13.5 0 L 13.5 6 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="18.75px"
 					id="WSyo6DWb7"
 					transform="translate(5.25 3.75)"
@@ -1870,7 +1870,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(5.25 3.75)"
 					width="13.5px"
 				/>
@@ -1878,8 +1878,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 0 3.75 C 0 1.679 1.679 0 3.75 0 C 5.821 0 7.5 1.679 7.5 3.75 C 7.5 5.821 5.821 7.5 3.75 7.5 C 1.679 7.5 0 5.821 0 3.75 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="7.5px"
 					id="ypSBgJTKC"
 					transform="translate(8.25 8.25)"
@@ -1894,7 +1894,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 3)"
 					width="18px"
 				/>
@@ -1907,7 +1907,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(8.25 8.25)"
 					width="7.5px"
 				/>
@@ -1920,7 +1920,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(12 8.25)"
 					width="8.183437499999997px"
 				/>
@@ -1933,7 +1933,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(11.155 13.875)"
 					width="4.092187499999994px"
 				/>
@@ -1946,7 +1946,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(4.66 6.788)"
 					width="4.092187500000001px"
 				/>
@@ -1954,8 +1954,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 7.102 0 L 1.852 0 C 1.508 0 1.208 0.234 1.125 0.568 L 0 5.068 C 0.083 4.734 0.383 4.5 0.727 4.5 L 4.102 4.5 C 6.167 4.5 7.967 3.094 8.468 1.091 L 8.468 1.091 C 8.536 0.816 8.579 0.536 8.596 0.253 C 8.116 0.085 7.611 0 7.102 0 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="5.068125244010702px"
 					id="Ovs1gYKmf"
 					transform="translate(9.397 7.5)"
@@ -1970,7 +1970,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3.75 3)"
 					width="14.249252648607893px"
 				/>
@@ -1983,7 +1983,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(7.503 7.5)"
 					width="13.496441473262223px"
 				/>
@@ -1991,8 +1991,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 13.495 0 C 10.445 0 7.699 1.847 6.549 4.673 L 6.549 4.663 C 4.579 4.16 2.497 4.839 1.203 6.406 C -0.092 7.973 -0.366 10.146 0.499 11.985 C 1.365 13.824 3.213 14.998 5.245 15 L 13.495 15 C 17.638 15 20.995 11.642 20.995 7.5 C 20.995 3.358 17.638 0 13.495 0 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="15.00000000509916px"
 					id="Nz0B8_HtM"
 					transform="translate(1.505 4.5)"
@@ -2007,7 +2007,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(1.506 4.5)"
 					width="20.993584039658046px"
 				/>
@@ -2015,8 +2015,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 0.75 16.5 C 0.336 16.5 0 16.164 0 15.75 L 0 0.75 C 0 0.336 0.336 0 0.75 0 L 15.75 0 C 16.164 0 16.5 0.336 16.5 0.75 L 16.5 15.75 C 16.5 16.164 16.164 16.5 15.75 16.5 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="16.5px"
 					id="eGc0G6qIW"
 					transform="translate(3.75 3.75)"
@@ -2031,7 +2031,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(9 7.5)"
 					width="6px"
 				/>
@@ -2044,7 +2044,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3.75 3.75)"
 					width="16.5px"
 				/>
@@ -2052,8 +2052,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 9.75 16.5 C 9.75 16.5 0 11.25 0 5.063 C 0 2.267 2.267 0 5.063 0 C 7.18 0 8.994 1.154 9.75 3 C 10.506 1.154 12.32 0 14.438 0 C 17.233 0 19.5 2.267 19.5 5.063 C 19.5 11.25 9.75 16.5 9.75 16.5 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="16.5px"
 					id="wiQQwX4vy"
 					transform="translate(2.25 4.5)"
@@ -2068,7 +2068,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(2.25 4.5)"
 					width="19.5px"
 				/>
@@ -2076,8 +2076,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 0.219 9.219 C 0.079 9.079 0 8.888 0 8.69 L 0 0 L 8.69 0 C 8.888 0 9.079 0.079 9.219 0.219 L 18.531 9.531 C 18.823 9.823 18.823 10.298 18.531 10.591 L 10.594 18.531 C 10.301 18.823 9.826 18.823 9.533 18.531 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="18.750121135182845px"
 					id="z9FUGYfnn"
 					transform="translate(3.75 3.75)"
@@ -2092,13 +2092,13 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3.75 3.75)"
 					width="18.75012113518284px"
 				/>
 				<path
 					d="M 0 1.125 C 0 0.504 0.504 0 1.125 0 C 1.746 0 2.25 0.504 2.25 1.125 C 2.25 1.746 1.746 2.25 1.125 2.25 C 0.504 2.25 0 1.746 0 1.125 Z"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="2.25px"
 					id="J9zgBxiL0"
 					transform="translate(6.75 6.75)"
@@ -2108,8 +2108,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 3.75 5.25 L 0.75 5.25 C 0.336 5.25 0 4.914 0 4.5 L 0 0.75 C 0 0.336 0.336 0 0.75 0 L 3.75 0 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="5.25px"
 					id="VnWQOxXTR"
 					transform="translate(0.75 14.25)"
@@ -2124,7 +2124,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(0.75 14.25)"
 					width="3.75px"
 				/>
@@ -2137,7 +2137,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(4.5 11.25)"
 					width="17.250000132121865px"
 				/>
@@ -2150,7 +2150,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(18 2.25)"
 					width="1px"
 				/>
@@ -2163,7 +2163,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(15 6.75)"
 					width="6px"
 				/>
@@ -2171,8 +2171,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 0 18 C 4.971 18 9 13.971 9 9 C 9 4.029 4.971 0 0 0 L 0 5.25 C 2.071 5.25 3.75 6.929 3.75 9 C 3.75 11.071 2.071 12.75 0 12.75 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="18px"
 					id="RAUANo2jn"
 					transform="translate(12 3)"
@@ -2187,7 +2187,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(12 15.75)"
 					width="1px"
 				/>
@@ -2200,7 +2200,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(2.999 3)"
 					width="18.001023999165753px"
 				/>
@@ -2213,7 +2213,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3.305 12.971)"
 					width="5.071874999999999px"
 				/>
@@ -2221,8 +2221,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 0 3.75 C 0 1.679 1.679 0 3.75 0 C 5.821 0 7.5 1.679 7.5 3.75 C 7.5 5.821 5.821 7.5 3.75 7.5 C 1.679 7.5 0 5.821 0 3.75 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="7.5px"
 					id="v7J1zbXd9"
 					transform="translate(8.25 9.75)"
@@ -2230,8 +2230,8 @@ export default function SvgTemplate() {
 				/>
 				<path
 					d="M 0 3 C 0 1.343 1.343 0 3 0 C 4.657 0 6 1.343 6 3 C 6 4.657 4.657 6 3 6 C 1.343 6 0 4.657 0 3 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="6px"
 					id="OQhSWABIT"
 					transform="translate(3 5.25)"
@@ -2239,8 +2239,8 @@ export default function SvgTemplate() {
 				/>
 				<path
 					d="M 0 3 C 0 1.343 1.343 0 3 0 C 4.657 0 6 1.343 6 3 C 6 4.657 4.657 6 3 6 C 1.343 6 0 4.657 0 3 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="6px"
 					id="wFzBlJVd9"
 					transform="translate(15 5.25)"
@@ -2255,7 +2255,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(18 11.25)"
 					width="4.5px"
 				/>
@@ -2268,7 +2268,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(1.5 11.25)"
 					width="4.5px"
 				/>
@@ -2281,7 +2281,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(8.25 9.75)"
 					width="7.5px"
 				/>
@@ -2294,7 +2294,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(6.75 17.25)"
 					width="10.5px"
 				/>
@@ -2307,7 +2307,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(15.094 5.25)"
 					width="5.904871228321724px"
 				/>
@@ -2320,7 +2320,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3.001 5.25)"
 					width="5.904871228321742px"
 				/>
@@ -2328,8 +2328,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path
 					d="M 0.75 18 C 0.336 18 0 17.664 0 17.25 L 0 0.75 C 0 0.336 0.336 0 0.75 0 L 17.25 0 C 17.664 0 18 0.336 18 0.75 L 18 17.25 C 18 17.664 17.664 18 17.25 18 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="18px"
 					id="ubm8tT7Gs"
 					transform="translate(3 3)"
@@ -2344,7 +2344,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 3)"
 					width="18px"
 				/>
@@ -2357,7 +2357,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(11.25 10.5)"
 					width="1px"
 				/>
@@ -2370,7 +2370,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(8.25 10.5)"
 					width="1px"
 				/>
@@ -2383,13 +2383,13 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(11.25 10.5)"
 					width="5.25px"
 				/>
 				<path
 					d="M 0 1.125 C 0 0.504 0.504 0 1.125 0 C 1.746 0 2.25 0.504 2.25 1.125 C 2.25 1.746 1.746 2.25 1.125 2.25 C 0.504 2.25 0 1.746 0 1.125 Z"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="2.25px"
 					id="M86o3vn0T"
 					transform="translate(7.125 6.75)"
@@ -2399,8 +2399,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"1529132500"}>
 				<path
 					d="M 5.65 10.849 L 0.485 8.946 C 0.194 8.839 0 8.561 0 8.25 C 0 7.939 0.194 7.661 0.485 7.553 L 5.65 5.65 L 7.553 0.485 C 7.661 0.194 7.939 0 8.25 0 C 8.561 0 8.839 0.194 8.946 0.485 L 10.849 5.65 L 16.014 7.553 C 16.306 7.661 16.5 7.939 16.5 8.25 C 16.5 8.561 16.306 8.839 16.014 8.946 L 10.849 10.849 L 8.946 16.014 C 8.839 16.306 8.561 16.5 8.25 16.5 C 7.939 16.5 7.661 16.306 7.553 16.014 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="16.499524626865806px"
 					id="PJgleNJ9m"
 					transform="translate(2.25 5.25)"
@@ -2415,7 +2415,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(2.25 5.25)"
 					width="16.499524626865806px"
 				/>
@@ -2428,7 +2428,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(16.5 1.5)"
 					width="1px"
 				/>
@@ -2441,7 +2441,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(21 6.75)"
 					width="1px"
 				/>
@@ -2454,7 +2454,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(14.25 3.75)"
 					width="4.5px"
 				/>
@@ -2467,7 +2467,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(19.5 8.25)"
 					width="3px"
 				/>
@@ -2475,8 +2475,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"1688045918"}>
 				<path
 					d="M 0 0 L 4.5 0 L 15 16.5 L 10.5 16.5 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="16.5px"
 					id="wBdJ15Yu6"
 					transform="translate(4.5 3.75)"
@@ -2491,7 +2491,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(4.5 3.75)"
 					width="15px"
 				/>
@@ -2504,7 +2504,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(4.5 13.456)"
 					width="6.176249999999996px"
 				/>
@@ -2517,7 +2517,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(13.324 3.75)"
 					width="6.176249999999996px"
 				/>
@@ -2525,8 +2525,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"1167808242"}>
 				<path
 					d="M 5.999 11.223 C 5.999 7.495 9.021 4.473 12.749 4.473 C 12.872 4.473 12.995 4.473 13.118 4.483 L 13.118 4.483 C 12.269 2.102 10.16 0.394 7.654 0.06 C 5.148 -0.275 2.665 0.818 1.221 2.893 C -0.224 4.968 -0.388 7.676 0.795 9.91 L 0.03 12.513 C -0.047 12.776 0.026 13.06 0.22 13.254 C 0.414 13.448 0.698 13.521 0.961 13.444 L 3.561 12.676 C 4.429 13.141 5.39 13.41 6.374 13.462 L 6.374 13.462 C 6.123 12.742 5.996 11.985 5.999 11.223 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="13.473964841712082px"
 					id="jy1nTKRcn"
 					transform="translate(2.251 3.027)"
@@ -2534,7 +2534,7 @@ export default function SvgTemplate() {
 				/>
 				<path
 					d="M 0 1.125 C 0 0.504 0.504 0 1.125 0 C 1.746 0 2.25 0.504 2.25 1.125 C 2.25 1.746 1.746 2.25 1.125 2.25 C 0.504 2.25 0 1.746 0 1.125 Z"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="2.25px"
 					id="CPfHM6Ulw"
 					transform="translate(11.25 12)"
@@ -2542,7 +2542,7 @@ export default function SvgTemplate() {
 				/>
 				<path
 					d="M 0 1.125 C 0 0.504 0.504 0 1.125 0 C 1.746 0 2.25 0.504 2.25 1.125 C 2.25 1.746 1.746 2.25 1.125 2.25 C 0.504 2.25 0 1.746 0 1.125 Z"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="2.25px"
 					id="yU77oWDVG"
 					transform="translate(16.5 12)"
@@ -2557,7 +2557,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(8.253 7.5)"
 					width="13.50080809235591px"
 				/>
@@ -2570,7 +2570,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(2.254 3.027)"
 					width="13.115093972763036px"
 				/>
@@ -2578,8 +2578,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"1059275922"}>
 				<path
 					d="M 0 9 C 0 4.029 4.029 0 9 0 C 13.971 0 18 4.029 18 9 C 18 13.971 13.971 18 9 18 C 4.029 18 0 13.971 0 9 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="18px"
 					id="RjBoUvnZP"
 					transform="translate(3 3)"
@@ -2587,7 +2587,7 @@ export default function SvgTemplate() {
 				/>
 				<path
 					d="M 0 1.125 C 0 0.504 0.504 0 1.125 0 C 1.746 0 2.25 0.504 2.25 1.125 C 2.25 1.746 1.746 2.25 1.125 2.25 C 0.504 2.25 0 1.746 0 1.125 Z"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="2.25px"
 					id="H_DiuDuLW"
 					transform="translate(10.875 15.75)"
@@ -2602,7 +2602,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(9 7.5)"
 					width="6px"
 				/>
@@ -2615,7 +2615,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 3)"
 					width="18px"
 				/>
@@ -2623,8 +2623,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"942143898"}>
 				<path
 					d="M 13.5 0 L 4.5 0 C 2.015 0 0 2.015 0 4.5 L 0 13.5 C 0 15.985 2.015 18 4.5 18 L 13.5 18 C 15.985 18 18 15.985 18 13.5 L 18 4.5 C 18 2.015 15.985 0 13.5 0 Z M 9 12.75 C 6.929 12.75 5.25 11.071 5.25 9 C 5.25 6.929 6.929 5.25 9 5.25 C 11.071 5.25 12.75 6.929 12.75 9 C 12.75 11.071 11.071 12.75 9 12.75 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="18px"
 					id="SuXKGhab5"
 					transform="translate(3 3)"
@@ -2639,7 +2639,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 3)"
 					width="18px"
 				/>
@@ -2653,13 +2653,13 @@ export default function SvgTemplate() {
 					strokeLinejoin="miter"
 					strokeMiterlimit={10}
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(8.25 8.25)"
 					width="7.5px"
 				/>
 				<path
 					d="M 0 1.125 C 0 0.504 0.504 0 1.125 0 C 1.746 0 2.25 0.504 2.25 1.125 C 2.25 1.746 1.746 2.25 1.125 2.25 C 0.504 2.25 0 1.746 0 1.125 Z"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="2.25px"
 					id="VxeO4Hprj"
 					transform="translate(15.75 6)"
@@ -2669,8 +2669,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"1426455308"}>
 				<path
 					d="M 0 9 C 0 4.029 4.029 0 9 0 C 13.971 0 18 4.029 18 9 C 18 13.971 13.971 18 9 18 C 4.029 18 0 13.971 0 9 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="18px"
 					id="toDPs7Y9O"
 					transform="translate(3 3)"
@@ -2685,7 +2685,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 3)"
 					width="18px"
 				/>
@@ -2698,7 +2698,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(12 8.25)"
 					width="3.75px"
 				/>
@@ -2711,7 +2711,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(9 13.5)"
 					width="6px"
 				/>
@@ -2719,8 +2719,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"284710571"}>
 				<path
 					d="M 0 9 C 0 4.029 4.029 0 9 0 C 13.971 0 18 4.029 18 9 C 18 13.971 13.971 18 9 18 C 4.029 18 0 13.971 0 9 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="18px"
 					id="poRFu5DyP"
 					transform="translate(3 3)"
@@ -2735,7 +2735,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 3)"
 					width="18px"
 				/>
@@ -2748,7 +2748,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(6.656 12)"
 					width="14.34375px"
 				/>
@@ -2761,7 +2761,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3.172 4.977)"
 					width="14.4525px"
 				/>
@@ -2774,7 +2774,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(8.056 3.908)"
 					width="7.406253430605545px"
 				/>
@@ -2800,8 +2800,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"4033599021"}>
 				<path
 					d="M 0.75 18 C 0.336 18 0 17.664 0 17.25 L 0 0.75 C 0 0.336 0.336 0 0.75 0 L 17.25 0 C 17.664 0 18 0.336 18 0.75 L 18 17.25 C 18 17.664 17.664 18 17.25 18 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="18px"
 					id="ubm8tT7Gs"
 					transform="translate(3 3)"
@@ -2816,7 +2816,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 3)"
 					width="18px"
 				/>
@@ -2829,7 +2829,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(11.25 10.5)"
 					width="1px"
 				/>
@@ -2842,7 +2842,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(8.25 10.5)"
 					width="1px"
 				/>
@@ -2855,13 +2855,13 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(11.25 10.5)"
 					width="5.25px"
 				/>
 				<path
 					d="M 0 1.125 C 0 0.504 0.504 0 1.125 0 C 1.746 0 2.25 0.504 2.25 1.125 C 2.25 1.746 1.746 2.25 1.125 2.25 C 0.504 2.25 0 1.746 0 1.125 Z"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="2.25px"
 					id="M86o3vn0T"
 					transform="translate(7.125 6.75)"
@@ -2871,8 +2871,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"4229695659"}>
 				<path
 					d="M 0 12.26 C 0 12.26 0.903 14.235 3.903 14.235 C 6.903 14.235 9.903 11.627 9.903 7.485 C 9.903 3.53 6.832 0.254 2.885 0 L 2.885 0 L 1.653 5.235 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="14.235px"
 					id="vIpzzTSnv"
 					transform="translate(10.347 3.015)"
@@ -2887,7 +2887,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(9 8.25)"
 					width="3px"
 				/>
@@ -2900,7 +2900,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(5.25 3.003)"
 					width="15.000061252868882px"
 				/>
@@ -2908,8 +2908,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"1403532491"}>
 				<path
 					d="M 0 6 L 0 12 L 6.75 18.75 L 6.75 12 L 13.5 12 L 0 0 L 13.5 0 L 13.5 6 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="18.75px"
 					id="WSyo6DWb7"
 					transform="translate(5.25 3.75)"
@@ -2924,7 +2924,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(5.25 3.75)"
 					width="13.5px"
 				/>
@@ -2932,8 +2932,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"4031789498"}>
 				<path
 					d="M 14.25 0 L 0.75 0 C 0.336 0 0 0.336 0 0.75 L 0 17.25 C 0 17.664 0.336 18 0.75 18 L 14.25 18 C 14.664 18 15 17.664 15 17.25 L 15 0.75 C 15 0.336 14.664 0 14.25 0 Z M 7.5 10.5 C 5.843 10.5 4.5 9.157 4.5 7.5 C 4.5 5.843 5.843 4.5 7.5 4.5 C 9.157 4.5 10.5 5.843 10.5 7.5 C 10.5 9.157 9.157 10.5 7.5 10.5 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="18px"
 					id="EOTsl9S6c"
 					transform="translate(5.25 3)"
@@ -2948,7 +2948,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(9.75 7.5)"
 					width="6px"
 				/>
@@ -2961,7 +2961,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 6.75)"
 					width="2.25px"
 				/>
@@ -2974,7 +2974,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 12)"
 					width="2.25px"
 				/>
@@ -2987,7 +2987,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 17.25)"
 					width="2.25px"
 				/>
@@ -3000,7 +3000,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(8.25 13.5)"
 					width="9px"
 				/>
@@ -3013,7 +3013,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(5.25 3)"
 					width="15px"
 				/>
@@ -3021,8 +3021,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"3076148817"}>
 				<path
 					d="M 0 5.25 L 9 10.5 L 18 5.25 L 9 0 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="10.5px"
 					id="lYFPhWKGp"
 					transform="translate(3 2.25)"
@@ -3037,7 +3037,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 16.5)"
 					width="18px"
 				/>
@@ -3050,7 +3050,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 12)"
 					width="18px"
 				/>
@@ -3063,7 +3063,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 2.25)"
 					width="18px"
 				/>
@@ -3071,8 +3071,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"1560652599"}>
 				<path
 					d="M 0 3.75 C 0 1.679 1.679 0 3.75 0 C 5.821 0 7.5 1.679 7.5 3.75 C 7.5 5.821 5.821 7.5 3.75 7.5 C 1.679 7.5 0 5.821 0 3.75 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="7.5px"
 					id="ypSBgJTKC"
 					transform="translate(8.25 8.25)"
@@ -3087,7 +3087,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 3)"
 					width="18px"
 				/>
@@ -3100,7 +3100,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(8.25 8.25)"
 					width="7.5px"
 				/>
@@ -3113,7 +3113,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(12 8.25)"
 					width="8.183437499999997px"
 				/>
@@ -3126,7 +3126,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(11.155 13.875)"
 					width="4.092187499999994px"
 				/>
@@ -3139,7 +3139,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(4.66 6.788)"
 					width="4.092187500000001px"
 				/>
@@ -3147,8 +3147,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"1451603976"}>
 				<path
 					d="M 7.102 0 L 1.852 0 C 1.508 0 1.208 0.234 1.125 0.568 L 0 5.068 C 0.083 4.734 0.383 4.5 0.727 4.5 L 4.102 4.5 C 6.167 4.5 7.967 3.094 8.468 1.091 L 8.468 1.091 C 8.536 0.816 8.579 0.536 8.596 0.253 C 8.116 0.085 7.611 0 7.102 0 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="5.068125244010702px"
 					id="Ovs1gYKmf"
 					transform="translate(9.397 7.5)"
@@ -3163,7 +3163,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3.75 3)"
 					width="14.249252648607893px"
 				/>
@@ -3176,7 +3176,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(7.503 7.5)"
 					width="13.496441473262223px"
 				/>
@@ -3184,8 +3184,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"2921829994"}>
 				<path
 					d="M 13.495 0 C 10.445 0 7.699 1.847 6.549 4.673 L 6.549 4.663 C 4.579 4.16 2.497 4.839 1.203 6.406 C -0.092 7.973 -0.366 10.146 0.499 11.985 C 1.365 13.824 3.213 14.998 5.245 15 L 13.495 15 C 17.638 15 20.995 11.642 20.995 7.5 C 20.995 3.358 17.638 0 13.495 0 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="15.00000000509916px"
 					id="Nz0B8_HtM"
 					transform="translate(1.505 4.5)"
@@ -3200,7 +3200,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(1.506 4.5)"
 					width="20.993584039658046px"
 				/>
@@ -3208,8 +3208,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"501419522"}>
 				<path
 					d="M 0 0 L 8.25 15 L 12 15 L 3.75 0 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="15px"
 					id="dnGGqnw64"
 					transform="translate(6 4.5)"
@@ -3224,7 +3224,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3.75 4.5)"
 					width="14.25px"
 				/>
@@ -3237,7 +3237,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3.75 19.5)"
 					width="4.5px"
 				/>
@@ -3250,7 +3250,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(15.75 4.5)"
 					width="4.5px"
 				/>
@@ -3263,7 +3263,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(6 4.5)"
 					width="12px"
 				/>
@@ -3271,8 +3271,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"3137045818"}>
 				<path
 					d="M 0.75 16.5 C 0.336 16.5 0 16.164 0 15.75 L 0 0.75 C 0 0.336 0.336 0 0.75 0 L 15.75 0 C 16.164 0 16.5 0.336 16.5 0.75 L 16.5 15.75 C 16.5 16.164 16.164 16.5 15.75 16.5 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="16.5px"
 					id="eGc0G6qIW"
 					transform="translate(3.75 3.75)"
@@ -3287,7 +3287,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(9 7.5)"
 					width="6px"
 				/>
@@ -3300,7 +3300,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3.75 3.75)"
 					width="16.5px"
 				/>
@@ -3308,8 +3308,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"800733362"}>
 				<path
 					d="M 6 0 L 0 0 L 6 6 L 6 0"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="6px"
 					id="EGuibIl0i"
 					transform="translate(15.75 5.25)"
@@ -3324,7 +3324,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(15.75 5.25)"
 					width="6px"
 				/>
@@ -3337,7 +3337,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(2.25 8.25)"
 					width="16.5px"
 				/>
@@ -3345,8 +3345,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"1074007029"}>
 				<path
 					d="M 0 15.75 L 0 0 L 5.25 0 L 5.25 15.75 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="15.75px"
 					id="uzN4ftzSU"
 					transform="translate(14.25 3.75)"
@@ -3361,7 +3361,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(4.5 12.75)"
 					width="4.5px"
 				/>
@@ -3374,7 +3374,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 19.5)"
 					width="18px"
 				/>
@@ -3387,7 +3387,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(9 8.25)"
 					width="5.25px"
 				/>
@@ -3400,7 +3400,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(14.25 3.75)"
 					width="5.25px"
 				/>
@@ -3408,8 +3408,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"2922751717"}>
 				<path
 					d="M 0 9 C 0 4.029 4.029 0 9 0 C 13.971 0 18 4.029 18 9 C 18 13.971 13.971 18 9 18 C 4.029 18 0 13.971 0 9 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="18px"
 					id="LMIUelWZE"
 					transform="translate(3 3)"
@@ -3424,7 +3424,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(12 6.75)"
 					width="1px"
 				/>
@@ -3437,7 +3437,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(12 15.75)"
 					width="1px"
 				/>
@@ -3450,7 +3450,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 3)"
 					width="18px"
 				/>
@@ -3463,7 +3463,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(9 8.25)"
 					width="6px"
 				/>
@@ -3471,8 +3471,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"1035730532"}>
 				<path
 					d="M 0 8.25 C 0 3.694 3.694 0 8.25 0 C 12.806 0 16.5 3.694 16.5 8.25 C 16.5 12.806 12.806 16.5 8.25 16.5 C 3.694 16.5 0 12.806 0 8.25 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="16.5px"
 					id="ZKxjYV8r2"
 					transform="translate(3.75 3.75)"
@@ -3487,7 +3487,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(2.25 5.25)"
 					width="4.5px"
 				/>
@@ -3500,7 +3500,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(2.25 3.75)"
 					width="17.99904570346732px"
 				/>
@@ -3508,8 +3508,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"78418125"}>
 				<path
 					d="M 0 9 C 0 4.029 4.029 0 9 0 C 13.971 0 18 4.029 18 9 C 18 13.971 13.971 18 9 18 C 4.029 18 0 13.971 0 9 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="18px"
 					id="fYsLZZNUT"
 					transform="translate(3 3)"
@@ -3524,7 +3524,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 3)"
 					width="18px"
 				/>
@@ -3537,13 +3537,13 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(12 6.75)"
 					width="5.25px"
 				/>
 				<path
 					d="M 0 1.125 C 0 0.504 0.504 0 1.125 0 C 1.746 0 2.25 0.504 2.25 1.125 C 2.25 1.746 1.746 2.25 1.125 2.25 C 0.504 2.25 0 1.746 0 1.125 Z"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="2.25px"
 					id="uRz4BznCZ"
 					transform="translate(13.875 2.25)"
@@ -3551,7 +3551,7 @@ export default function SvgTemplate() {
 				/>
 				<path
 					d="M 0 1.125 C 0 0.504 0.504 0 1.125 0 C 1.746 0 2.25 0.504 2.25 1.125 C 2.25 1.746 1.746 2.25 1.125 2.25 C 0.504 2.25 0 1.746 0 1.125 Z"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="2.25px"
 					id="c1Fkot1yV"
 					transform="translate(17.25 4.5)"
@@ -3559,7 +3559,7 @@ export default function SvgTemplate() {
 				/>
 				<path
 					d="M 0 1.125 C 0 0.504 0.504 0 1.125 0 C 1.746 0 2.25 0.504 2.25 1.125 C 2.25 1.746 1.746 2.25 1.125 2.25 C 0.504 2.25 0 1.746 0 1.125 Z"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="2.25px"
 					id="SepL4XbPQ"
 					transform="translate(19.5 7.875)"
@@ -3569,8 +3569,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"1850400172"}>
 				<path
 					d="M 7.5 9.322 L 16.719 0.22 C 16.86 0.079 17.051 0 17.25 0 C 17.449 0 17.64 0.079 17.781 0.22 L 20.031 2.432 C 20.172 2.573 20.251 2.764 20.251 2.963 C 20.251 3.162 20.172 3.353 20.031 3.494 L 7.993 15.531 C 7.853 15.672 7.662 15.751 7.463 15.751 C 7.264 15.751 7.073 15.672 6.932 15.531 L 0.219 8.781 C -0.073 8.488 -0.073 8.014 0.219 7.721 L 2.469 5.471 C 2.61 5.33 2.801 5.251 3 5.251 C 3.199 5.251 3.39 5.33 3.531 5.471 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="15.751179984623654px"
 					id="WNqFi1UTc"
 					transform="translate(2.25 4.499)"
@@ -3585,7 +3585,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(2.25 4.499)"
 					width="20.25071112749467px"
 				/>
@@ -3593,8 +3593,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"2109778876"}>
 				<path
 					d="M 0 4.875 C 0 2.183 2.183 0 4.875 0 C 7.567 0 9.75 2.183 9.75 4.875 C 9.75 7.567 7.567 9.75 4.875 9.75 C 2.183 9.75 0 7.567 0 4.875 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="9.75px"
 					id="tjlKcqq_S"
 					transform="translate(3 5.25)"
@@ -3609,7 +3609,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(0.959 14.998)"
 					width="13.831875px"
 				/>
@@ -3622,7 +3622,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(16.125 15)"
 					width="6.915937499999984px"
 				/>
@@ -3635,7 +3635,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 5.25)"
 					width="9.75px"
 				/>
@@ -3648,7 +3648,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(14.315 5.25)"
 					width="6.681148882469131px"
 				/>
@@ -3663,7 +3663,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(12.75 9)"
 					width="6px"
 				/>
@@ -3676,7 +3676,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(12.75 3)"
 					width="6px"
 				/>
@@ -3689,7 +3689,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(6 3)"
 					width="6.75px"
 				/>
@@ -3702,7 +3702,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(6 9)"
 					width="6.75px"
 				/>
@@ -3715,14 +3715,14 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(6 15)"
 					width="6.75px"
 				/>
 				<path
 					d="M 0 3 C 0 1.343 1.343 0 3 0 C 4.657 0 6 1.343 6 3 C 6 4.657 4.657 6 3 6 C 1.343 6 0 4.657 0 3 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="6px"
 					id="jjkSi4ZOk"
 					transform="translate(12.75 9)"
@@ -3730,8 +3730,8 @@ export default function SvgTemplate() {
 				/>
 				<path
 					d="M 6.75 0 L 3 0 C 1.343 0 0 1.343 0 3 C 0 4.657 1.343 6 3 6 L 6.75 6 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="6px"
 					id="IpkRTQ7he"
 					transform="translate(6 3)"
@@ -3739,8 +3739,8 @@ export default function SvgTemplate() {
 				/>
 				<path
 					d="M 6.75 0 L 3.375 0 C 1.511 0 0 1.511 0 3.375 C 0 5.239 1.511 6.75 3.375 6.75 C 5.239 6.75 6.75 5.239 6.75 3.375 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="6.75px"
 					id="pDSFdQOkL"
 					transform="translate(6 15)"
@@ -3750,8 +3750,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"99690465"}>
 				<path
 					d="M 18 0 L 9 8.25 L 0 0 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="8.25px"
 					id="vcLsrdoR2"
 					transform="translate(3 5.25)"
@@ -3766,7 +3766,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 5.25)"
 					width="18px"
 				/>
@@ -3779,7 +3779,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 5.25)"
 					width="18px"
 				/>
@@ -3787,8 +3787,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"3966466145"}>
 				<path
 					d="M 1.499 0.757 C 1.141 0.551 0.814 0.296 0.526 0 L 0.526 0 C -0.416 1.773 -0.069 3.955 1.375 5.349 C 2.82 6.743 5.013 7.012 6.751 6.007 L 10.921 3.599 L 10.921 0.135 L 5.671 3.166 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="6.610929005599289px"
 					id="lWk72uRrH"
 					transform="translate(3.329 13.164)"
@@ -3796,8 +3796,8 @@ export default function SvgTemplate() {
 				/>
 				<path
 					d="M 7.172 2.408 L 3 0 L 0 1.733 L 0 1.733 L 5.25 4.763 L 5.25 9.58 C 5.25 9.992 5.192 10.402 5.08 10.799 L 5.08 10.799 C 7.084 10.726 8.797 9.336 9.282 7.39 C 9.767 5.445 8.907 3.414 7.172 2.408 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="10.799062499999998px"
 					id="iLRoi2pDD"
 					transform="translate(12 7.67)"
@@ -3805,8 +3805,8 @@ export default function SvgTemplate() {
 				/>
 				<path
 					d="M 3 11.053 L 3 4.99 L 7.172 2.582 C 7.529 2.374 7.914 2.216 8.315 2.113 L 8.315 2.113 C 7.25 0.411 5.186 -0.379 3.257 0.176 C 1.327 0.73 -0.002 2.496 0 4.504 L 0 9.321 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="11.05329881932312px"
 					id="GcG6akuIf"
 					transform="translate(6.75 2.246)"
@@ -3821,7 +3821,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(9.75 4.225)"
 					width="10.9228028588618px"
 				/>
@@ -3834,7 +3834,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(6.75 2.249)"
 					width="8.314687559955274px"
 				/>
@@ -3847,7 +3847,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(2.584 5.531)"
 					width="11.666331111173388px"
 				/>
@@ -3860,7 +3860,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3.327 10.701)"
 					width="10.922802858861804px"
 				/>
@@ -3873,7 +3873,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(8.935 9.402)"
 					width="8.314687559955274px"
 				/>
@@ -3886,7 +3886,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(9.75 7.67)"
 					width="11.673966082452083px"
 				/>
@@ -3894,8 +3894,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"2930526878"}>
 				<path
 					d="M 9.749 15.477 L 14.879 18.632 C 15.151 18.797 15.496 18.782 15.753 18.594 C 16.01 18.406 16.128 18.082 16.053 17.772 L 14.658 11.886 L 19.223 7.948 C 19.461 7.739 19.552 7.409 19.455 7.108 C 19.357 6.806 19.09 6.592 18.774 6.563 L 12.783 6.075 L 10.475 0.488 C 10.354 0.193 10.068 0 9.749 0 C 9.431 0 9.144 0.193 9.023 0.488 L 6.715 6.075 L 0.724 6.563 C 0.406 6.59 0.136 6.806 0.038 7.109 C -0.06 7.412 0.034 7.745 0.275 7.953 L 4.84 11.89 L 3.445 17.772 C 3.37 18.082 3.488 18.406 3.745 18.594 C 4.002 18.782 4.347 18.797 4.619 18.632 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="18.746261605760054px"
 					id="t6hF1mhP1"
 					transform="translate(2.251 2.25)"
@@ -3910,7 +3910,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(2.251 2.25)"
 					width="19.49332240036336px"
 				/>
@@ -3918,8 +3918,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"3494739676"}>
 				<path
 					d="M 9 4.89 L 9 14.538 C 8.874 14.537 8.75 14.505 8.64 14.444 L 0.39 9.929 C 0.15 9.798 0.001 9.546 0 9.273 L 0 0.307 C 0 0.201 0.022 0.096 0.066 0 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="14.537812500000001px"
 					id="o9ypHGnGn"
 					transform="translate(3 7.212)"
@@ -3934,7 +3934,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3.066 7.211)"
 					width="17.868750000000002px"
 				/>
@@ -3947,7 +3947,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 2.252)"
 					width="18px"
 				/>
@@ -3960,7 +3960,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(12 12.102)"
 					width="1px"
 				/>
@@ -3968,8 +3968,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"3752660003"}>
 				<path
 					d="M 0 5.625 C 0 2.518 2.518 0 5.625 0 C 8.732 0 11.25 2.518 11.25 5.625 C 11.25 8.732 8.732 11.25 5.625 11.25 C 2.518 11.25 0 8.732 0 5.625 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="11.25px"
 					id="FvOEQsPdS"
 					transform="translate(4.5 3.75)"
@@ -3984,7 +3984,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(4.5 3.75)"
 					width="11.25px"
 				/>
@@ -3997,7 +3997,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(2.25 15)"
 					width="15.75px"
 				/>
@@ -4010,7 +4010,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(18.75 12)"
 					width="4.5px"
 				/>
@@ -4018,8 +4018,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"3899066744"}>
 				<path
 					d="M 0 7.5 C 0 3.358 3.358 0 7.5 0 C 11.642 0 15 3.358 15 7.5 C 15 11.642 11.642 15 7.5 15 C 3.358 15 0 11.642 0 7.5 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="15px"
 					id="i5oDhfGPs"
 					transform="translate(3 3)"
@@ -4034,7 +4034,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 3)"
 					width="15px"
 				/>
@@ -4047,7 +4047,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(15.803 15.803)"
 					width="5.196562499999999px"
 				/>
@@ -4055,8 +4055,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"1765663906"}>
 				<path
 					d="M 16.5 7.5 L 21 3.75 L 16.5 0 L 4.5 0 L 0 3.75 L 4.5 7.5 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="7.5px"
 					id="JFMETPv_p"
 					transform="translate(1.5 8.25)"
@@ -4071,7 +4071,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(1.5 8.25)"
 					width="4.5px"
 				/>
@@ -4084,7 +4084,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(18 8.25)"
 					width="4.5px"
 				/>
@@ -4097,7 +4097,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(9 3.75)"
 					width="6px"
 				/>
@@ -4105,8 +4105,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"1283949305"}>
 				<path
 					d="M 0 3 C 0 1.343 1.343 0 3 0 C 4.657 0 6 1.343 6 3 C 6 4.657 4.657 6 3 6 C 1.343 6 0 4.657 0 3 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="6px"
 					id="MnMvTfj8K"
 					transform="translate(1.5 13.5)"
@@ -4121,7 +4121,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(1.5 13.5)"
 					width="6px"
 				/>
@@ -4134,7 +4134,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(19.5 4.5)"
 					width="3px"
 				/>
@@ -4147,7 +4147,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(7.5 7.5)"
 					width="15px"
 				/>
@@ -4155,8 +4155,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"2518789663"}>
 				<path
 					d="M 17.243 7.186 C 17.073 3.11 13.675 -0.082 9.596 0.002 C 5.517 0.085 2.253 3.414 2.25 7.494 L 0.061 11.7 C -0.096 12.065 0.059 12.489 0.414 12.667 L 3 13.851 L 3 17.244 C 3 17.658 3.336 17.994 3.75 17.994 L 8.25 17.994 C 8.25 18.822 8.922 19.494 9.75 19.494 L 15 19.494 L 14.25 13.494 C 16.227 12.014 17.347 9.654 17.243 7.186 Z M 7.512 4.689 C 7.429 4.052 7.76 3.433 8.337 3.149 C 8.913 2.865 9.606 2.98 10.06 3.434 C 10.514 3.888 10.629 4.581 10.345 5.157 C 10.061 5.734 9.442 6.065 8.805 5.982 C 8.131 5.894 7.6 5.363 7.512 4.689 Z M 10.7 11.982 C 10.063 12.065 9.443 11.733 9.16 11.157 C 8.876 10.581 8.99 9.888 9.445 9.434 C 9.899 8.98 10.592 8.865 11.168 9.149 C 11.744 9.433 12.076 10.052 11.993 10.689 C 11.904 11.365 11.371 11.896 10.695 11.982 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="19.49391118878156px"
 					id="UXcvNssKe"
 					transform="translate(3 2.256)"
@@ -4171,7 +4171,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(10.5 5.25)"
 					width="3px"
 				/>
@@ -4184,7 +4184,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(12 11.25)"
 					width="3px"
 				/>
@@ -4197,7 +4197,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 2.249)"
 					width="17.250306670631126px"
 				/>
@@ -4210,7 +4210,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(12 2.287)"
 					width="1px"
 				/>
@@ -4223,7 +4223,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(14.46 8.25)"
 					width="5.638125000000002px"
 				/>
@@ -4231,8 +4231,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"993309406"}>
 				<path
 					d="M 19.321 7.196 L 16.335 5.496 C 16.275 5.387 16.212 5.281 16.148 5.176 L 16.137 1.801 C 15.193 1.005 14.107 0.394 12.937 0 L 9.937 1.677 C 9.811 1.677 9.685 1.677 9.562 1.677 L 6.562 0 C 5.392 0.395 4.307 1.007 3.364 1.805 L 3.349 5.18 C 3.283 5.285 3.221 5.392 3.162 5.499 L 0.177 7.196 C -0.059 8.387 -0.059 9.612 0.177 10.802 L 3.162 12.503 C 3.222 12.611 3.285 12.717 3.35 12.822 L 3.361 16.197 C 4.305 16.994 5.391 17.606 6.562 18 L 9.562 16.325 C 9.687 16.325 9.814 16.325 9.937 16.325 L 12.937 18 C 14.106 17.605 15.19 16.993 16.132 16.195 L 16.147 12.82 C 16.212 12.715 16.275 12.608 16.334 12.501 L 19.319 10.804 C 19.556 9.613 19.556 8.387 19.321 7.196 Z M 9.749 12.75 C 7.678 12.75 5.999 11.071 5.999 9 C 5.999 6.929 7.678 5.25 9.749 5.25 C 11.82 5.25 13.499 6.929 13.499 9 C 13.499 11.071 11.82 12.75 9.749 12.75 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="18px"
 					id="SKyHkjucO"
 					transform="translate(2.251 3)"
@@ -4247,7 +4247,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(8.25 8.25)"
 					width="7.5px"
 				/>
@@ -4260,7 +4260,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(2.252 3)"
 					width="19.494879369830066px"
 				/>
@@ -4268,8 +4268,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"1652061477"}>
 				<path
 					d="M 15.75 0 L 2.25 0 C 1.007 0 0 1.007 0 2.25 L 0 12.75 C 0 13.993 1.007 15 2.25 15 L 15.75 15 C 16.993 15 18 13.993 18 12.75 L 18 2.25 C 18 1.007 16.993 0 15.75 0 Z M 12.375 12 L 5.625 12 C 4.589 12 3.75 11.161 3.75 10.125 C 3.75 9.089 4.589 8.25 5.625 8.25 L 12.375 8.25 C 13.411 8.25 14.25 9.089 14.25 10.125 C 14.25 11.161 13.411 12 12.375 12 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="15px"
 					id="G7t17jYxm"
 					transform="translate(3 5.25)"
@@ -4284,7 +4284,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3 5.25)"
 					width="18px"
 				/>
@@ -4297,13 +4297,13 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(12 1.5)"
 					width="1px"
 				/>
 				<path
 					d="M 0 1.125 C 0 0.504 0.504 0 1.125 0 C 1.746 0 2.25 0.504 2.25 1.125 C 2.25 1.746 1.746 2.25 1.125 2.25 C 0.504 2.25 0 1.746 0 1.125 Z"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="2.25px"
 					id="V53hiCJPU"
 					transform="translate(6.75 9)"
@@ -4311,7 +4311,7 @@ export default function SvgTemplate() {
 				/>
 				<path
 					d="M 0 1.125 C 0 0.504 0.504 0 1.125 0 C 1.746 0 2.25 0.504 2.25 1.125 C 2.25 1.746 1.746 2.25 1.125 2.25 C 0.504 2.25 0 1.746 0 1.125 Z"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="2.25px"
 					id="sJUBzB8my"
 					transform="translate(15 9)"
@@ -4326,7 +4326,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(6.75 13.5)"
 					width="10.5px"
 				/>
@@ -4339,7 +4339,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(13.875 13.5)"
 					width="1px"
 				/>
@@ -4352,7 +4352,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(10.125 13.5)"
 					width="1px"
 				/>
@@ -4360,8 +4360,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"3233394945"}>
 				<path
 					d="M 14.25 13.5 L 0 13.5 L 0 9 L 5.25 9 L 5.25 4.5 L 10.5 4.5 L 10.5 0 L 15.75 0 L 15.75 12 C 15.75 12.828 15.078 13.5 14.25 13.5 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="13.5px"
 					id="OS5KcxGyH"
 					transform="translate(6.75 5.25)"
@@ -4376,7 +4376,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(1.5 5.25)"
 					width="21px"
 				/>
@@ -4384,8 +4384,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"4282185190"}>
 				<path
 					d="M 9.75 16.5 C 9.75 16.5 0 11.25 0 5.063 C 0 2.267 2.267 0 5.063 0 C 7.18 0 8.994 1.154 9.75 3 C 10.506 1.154 12.32 0 14.438 0 C 17.233 0 19.5 2.267 19.5 5.063 C 19.5 11.25 9.75 16.5 9.75 16.5 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="16.5px"
 					id="wiQQwX4vy"
 					transform="translate(2.25 4.5)"
@@ -4400,7 +4400,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(2.25 4.5)"
 					width="19.5px"
 				/>
@@ -4408,8 +4408,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"1547879971"}>
 				<path
 					d="M 0.219 9.219 C 0.079 9.079 0 8.888 0 8.69 L 0 0 L 8.69 0 C 8.888 0 9.079 0.079 9.219 0.219 L 18.531 9.531 C 18.823 9.823 18.823 10.298 18.531 10.591 L 10.594 18.531 C 10.301 18.823 9.826 18.823 9.533 18.531 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="18.750121135182845px"
 					id="z9FUGYfnn"
 					transform="translate(3.75 3.75)"
@@ -4424,13 +4424,13 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3.75 3.75)"
 					width="18.75012113518284px"
 				/>
 				<path
 					d="M 0 1.125 C 0 0.504 0.504 0 1.125 0 C 1.746 0 2.25 0.504 2.25 1.125 C 2.25 1.746 1.746 2.25 1.125 2.25 C 0.504 2.25 0 1.746 0 1.125 Z"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="2.25px"
 					id="J9zgBxiL0"
 					transform="translate(6.75 6.75)"
@@ -4440,8 +4440,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"779403512"}>
 				<path
 					d="M 3.75 5.25 L 0.75 5.25 C 0.336 5.25 0 4.914 0 4.5 L 0 0.75 C 0 0.336 0.336 0 0.75 0 L 3.75 0 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="5.25px"
 					id="VnWQOxXTR"
 					transform="translate(0.75 14.25)"
@@ -4456,7 +4456,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(0.75 14.25)"
 					width="3.75px"
 				/>
@@ -4469,7 +4469,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(4.5 11.25)"
 					width="17.250000132121865px"
 				/>
@@ -4482,7 +4482,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(18 2.25)"
 					width="1px"
 				/>
@@ -4495,7 +4495,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(15 6.75)"
 					width="6px"
 				/>
@@ -4503,8 +4503,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"1540026494"}>
 				<path
 					d="M 0 18 C 4.971 18 9 13.971 9 9 C 9 4.029 4.971 0 0 0 L 0 5.25 C 2.071 5.25 3.75 6.929 3.75 9 C 3.75 11.071 2.071 12.75 0 12.75 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="18px"
 					id="RAUANo2jn"
 					transform="translate(12 3)"
@@ -4519,7 +4519,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(12 15.75)"
 					width="1px"
 				/>
@@ -4532,7 +4532,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(2.999 3)"
 					width="18.001023999165753px"
 				/>
@@ -4545,7 +4545,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3.305 12.971)"
 					width="5.071874999999999px"
 				/>
@@ -4553,8 +4553,8 @@ export default function SvgTemplate() {
 			<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id={"535953797"}>
 				<path
 					d="M 0 3.75 C 0 1.679 1.679 0 3.75 0 C 5.821 0 7.5 1.679 7.5 3.75 C 7.5 5.821 5.821 7.5 3.75 7.5 C 1.679 7.5 0 5.821 0 3.75 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="7.5px"
 					id="v7J1zbXd9"
 					transform="translate(8.25 9.75)"
@@ -4562,8 +4562,8 @@ export default function SvgTemplate() {
 				/>
 				<path
 					d="M 0 3 C 0 1.343 1.343 0 3 0 C 4.657 0 6 1.343 6 3 C 6 4.657 4.657 6 3 6 C 1.343 6 0 4.657 0 3 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="6px"
 					id="OQhSWABIT"
 					transform="translate(3 5.25)"
@@ -4571,8 +4571,8 @@ export default function SvgTemplate() {
 				/>
 				<path
 					d="M 0 3 C 0 1.343 1.343 0 3 0 C 4.657 0 6 1.343 6 3 C 6 4.657 4.657 6 3 6 C 1.343 6 0 4.657 0 3 Z"
-					fillOpacity="var(--1m6trwb, 0)"
-					fill="var(--21h8s6, rgb(0, 0, 0))"
+					fillOpacity="0"
+					fill="var(--color-light-blue, rgb(0, 0, 0))"
 					height="6px"
 					id="wFzBlJVd9"
 					transform="translate(15 5.25)"
@@ -4587,7 +4587,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(18 11.25)"
 					width="4.5px"
 				/>
@@ -4600,7 +4600,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(1.5 11.25)"
 					width="4.5px"
 				/>
@@ -4613,7 +4613,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(8.25 9.75)"
 					width="7.5px"
 				/>
@@ -4626,7 +4626,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(6.75 17.25)"
 					width="10.5px"
 				/>
@@ -4639,7 +4639,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(15.094 5.25)"
 					width="5.904871228321724px"
 				/>
@@ -4652,7 +4652,7 @@ export default function SvgTemplate() {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 					strokeWidth="var(--pgex8v, 1.5)"
-					stroke="var(--21h8s6, rgb(0, 0, 0))"
+					stroke="var(--color-light-blue, rgb(0, 0, 0))"
 					transform="translate(3.001 5.25)"
 					width="5.904871228321742px"
 				/>

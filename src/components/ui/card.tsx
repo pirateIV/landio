@@ -20,7 +20,7 @@ const Card = React.forwardRef<HTMLDivElement, CardProps>(({ title, description, 
 		>
 			<React.Fragment>{children}</React.Fragment>
 			{!container && (
-				<div className="mt-auto flex flex-col gap-1.5">
+				<div className="mt-auto flex flex-col gap-1.5" data-name="content">
 					<h3 className="text-xl font-medium">{title}</h3>
 					<p className="text-light-blue opacity-60">{description}</p>
 				</div>

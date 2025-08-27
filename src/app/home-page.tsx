@@ -2,7 +2,7 @@ import Benefits from "@/components/sections/benefits/benefits";
 import Comparison from "@/components/sections/comparison";
 import Cta from "@/components/sections/cta";
 import Faqs from "@/components/sections/faqs";
-import Features from "@/components/sections/features";
+import Features from "@/components/sections/features/features";
 import FounderNote from "@/components/sections/founder-note";
 import HeroSection from "@/components/sections/hero";
 import Integrations from "@/components/sections/integrations";
