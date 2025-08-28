@@ -11,8 +11,10 @@ import {
 	IconBrandX,
 	IconStack2,
 } from "@tabler/icons-react";
+import Marquee from "react-fast-marquee";
 import { SectionHeadingProps } from "@/types";
 import { SectionContainer, SectionContent, SectionHeader, SectionHeading } from "../section";
+import Card from "../ui/card";
 
 const headingProps: SectionHeadingProps = {
 	text: "Seamless",
@@ -42,7 +44,17 @@ export default function Integrations() {
 				<SectionHeading {...headingProps} />
 			</SectionHeader>
 
-			<SectionContent></SectionContent>
+			<SectionContent>
+				<Card container>
+					<Marquee className="flex w-full justify-between [&.rfm-child]:flex-1">
+						{logos.map((logo) => (
+							<div>
+								<logo.icon size="40" />
+							</div>
+						))}
+					</Marquee>
+				</Card>
+			</SectionContent>
 		</SectionContainer>
 	);
 }

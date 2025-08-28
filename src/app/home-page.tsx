@@ -10,6 +10,7 @@ import Pricing from "@/components/sections/pricing";
 import Process from "@/components/sections/process";
 import Reviews from "@/components/sections/reviews";
 import Services from "@/components/sections/services/services";
+import Stories from "@/components/sections/stories";
 import Team from "@/components/sections/team";
 import Overlay from "@/components/ui/overlay";
 import Footer from "@/layout/footer";
@@ -25,6 +26,7 @@ export const HomePage = () => {
 			<Services />
 			<Features />
 			<Process />
+			<Stories />
 			<Integrations />
 			<Reviews />
 			<Pricing />

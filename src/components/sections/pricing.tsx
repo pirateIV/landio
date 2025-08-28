@@ -20,8 +20,8 @@ export default function Pricing() {
 
 			<SectionContent>
 				<div>
-					<div className="inset-shadow-1 w-full rounded-lg bg-dark-gray p-[13px] text-xs">
-						<button>Monthly</button>
+					<div className="inset-shadow-1 w-full max-w-85 mx-auto rounded-lg bg-dark-gray p-1 text-sm">
+						<button className="h-9.5 px-2 py-1.5 bg-black-base">Monthly</button>
 						<button>
 							Yearly <span>Save 20%</span>
 						</button>

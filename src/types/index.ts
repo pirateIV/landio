@@ -11,7 +11,7 @@ export type IconProps = React.SVGProps<SVGSVGElement> & { size?: string | number
 export type SocialLinkProps = { website: string; icon: TablerIcon }[];
 
 export type SectionHeadingProps = {
-	badgeIcon?: TablerIcon;
+	badgeIcon?: TablerIcon | React.JSX.Element;
 	badgeText?: string;
 	description: string;
 	italicText: string;

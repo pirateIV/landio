@@ -102,7 +102,7 @@ export default function Navigation() {
 										transition={{ duration: 0.2 }}
 										className="inline-flex transition-opacity duration-300"
 									>
-										<Link href={`/${link.href}`} className="w-full px-3 py-1.5 text-sm font-medium text-white">
+										<Link href={link.href} className="w-full px-3 py-1.5 text-sm font-medium text-white">
 											{link.name}
 										</Link>
 									</motion.div>
