@@ -30,7 +30,7 @@ export default function Navigation() {
 				<div className="mx-auto flex h-16 w-full max-w-[1350px] flex-nowrap items-center justify-between">
 					<div className="inline-flex">
 						<Link href="/" className="h-[39px] w-[103px]">
-							<Image width="163" height="62" src="logo.svg" alt="logo" />
+							<Image width="163" height="62" src="/logo.svg" alt="logo" />
 						</Link>
 					</div>
 					<nav className="relative hidden size-min flex-none items-center gap-3 rounded-[100px] border border-light-blue-transparent px-3 py-1.5 lg:flex">

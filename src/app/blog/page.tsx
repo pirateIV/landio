@@ -5,9 +5,9 @@ import Link from "next/link";
 import { Container, Content, Header, Heading } from "@/components/ui/blocks";
 import Card from "@/components/ui/card";
 import { HeadingProps } from "@/types";
-import { blogs } from "./blogs";
+import { blogs } from "../../data/blogs";
 
-export const headingProps: HeadingProps = {
+const headingProps: HeadingProps = {
 	text: "Latest News",
 	italicText: "Articles",
 	description: "Stay up to date with the latest improvements and new features",

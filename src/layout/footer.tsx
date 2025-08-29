@@ -26,7 +26,7 @@ export default function Footer() {
 				<div className="flex w-full flex-col gap-8">
 					<div className="flex flex-col gap-10">
 						<div className="flex justify-between gap-10 max-md:order-1 max-md:flex-col md:items-center md:gap-0">
-							<Image src="logo.svg" width="163" height="62" alt="Logo" />
+							<Image src="/logo.svg" width="163" height="62" alt="Logo" />
 							<div className="flex items-center gap-4">
 								{socialLinks.map((link, index) => (
 									<Link key={index} href={link.website} className="p-2 opacity-50 transition-opacity duration-300 hover:opacity-100">
