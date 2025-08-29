@@ -1,4 +1,12 @@
-# Untitled UI starter kit for Next.js
+# Landio - AI agency & Next.js Landing Page Template
+
+AI Agency | Landio is a premium Framer template built for AI automation agencies, startups, and tech teams. With smart layout design and performance-focused features, it’s perfect for showcasing automation services that drive results.
+
+### About this template
+
+Supercharge your startup’s growth with Landio—the ultimate Framer template for AI-powered SaaS businesses. Designed for innovation-driven teams, Landio helps you uncover real-time trends, decode user insights with precision, and make smarter, data-driven decisions. With seamless integrations, intuitive design, and powerful analytics, you can streamline operations, optimize performance, and accelerate growth. Elevate your brand with a future-ready solution built to scale effortlessly.
+
+<!-- # Untitled UI starter kit for Next.js
 
 This is an official Untitled UI starter kit for Next.js. Kickstart your Untitled UI project with Next.js in seconds.
 
@@ -53,4 +61,4 @@ Untitled UI React open-source components are licensed under the MIT license, whi
 
 [Untitled UI license agreement →](https://www.untitledui.com/license)
 
-[Frequently asked questions →](https://www.untitledui.com/faqs)
+[Frequently asked questions →](https://www.untitledui.com/faqs) -->
