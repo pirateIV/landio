@@ -1,11 +1,11 @@
 import React from "react";
-import { SectionHeadingProps } from "@/types";
+import { HeadingProps } from "@/types";
 import SocialLinks from "../partials/social-links";
-import { Container, Content, Heading } from "../section";
+import { Container, Content, Heading } from "../ui/blocks";
 import Button from "../ui/button";
 import Tag from "../ui/tag";
 
-const headingProps: SectionHeadingProps = {
+const headingProps: HeadingProps = {
 	text: "Ready to Automate Smarter? Let's",
 	italicText: "Build Together",
 	description: "Schedule a Call and Begin Automating",

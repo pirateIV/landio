@@ -1,9 +1,9 @@
 import React from "react";
 import { Icon123 } from "@tabler/icons-react";
-import { SectionHeadingProps } from "@/types";
+import { HeadingProps } from "@/types";
 import Badge from "../badge";
 
-export function Heading({ badgeText, badgeIcon, description, italicText, text, useBadge = true, ...props }: SectionHeadingProps) {
+export function Heading({ badgeText, badgeIcon, description, italicText, text, useBadge = true, ...props }: HeadingProps) {
 	return (
 		<React.Fragment>
 			{useBadge && <Badge text={badgeText || ""} icon={badgeIcon || Icon123} />}

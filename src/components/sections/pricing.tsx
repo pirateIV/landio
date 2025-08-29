@@ -1,8 +1,8 @@
 import React from "react";
 import { IconCheck, IconTag } from "@tabler/icons-react";
-import { SectionHeadingProps } from "@/types";
+import { HeadingProps } from "@/types";
 import { Icons } from "../icons";
-import { Container, Content, Header, Heading } from "../section";
+import { Container, Content, Header, Heading } from "../ui/blocks";
 import Button from "../ui/button";
 import Card from "../ui/card";
 
@@ -37,7 +37,7 @@ const pricingPlans = [
 	},
 ];
 
-const headingProps: SectionHeadingProps = {
+const headingProps: HeadingProps = {
 	text: "Flexible Plans for",
 	italicText: "Everyone",
 	description: "Choose a plan that fits your goals and scale as you grow",

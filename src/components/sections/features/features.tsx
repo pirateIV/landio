@@ -1,11 +1,11 @@
 import React from "react";
 import { IconCube, icons } from "@tabler/icons-react";
-import { SectionHeadingProps } from "@/types";
+import { HeadingProps } from "@/types";
 import { Icons } from "../../icons";
-import { Container, Content, Header, Heading } from "../../section";
+import { Container, Content, Header, Heading } from "@/components/ui/blocks";
 import Card from "../../ui/card";
 
-const headingProps: SectionHeadingProps = {
+const headingProps: HeadingProps = {
 	text: "All features in",
 	italicText: "one place",
 	description: "Everything you need to automate operations, boost productivity",

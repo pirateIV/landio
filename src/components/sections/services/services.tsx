@@ -1,10 +1,10 @@
 import React from "react";
 import { IconServicemark } from "@tabler/icons-react";
-import { Container, Header, Heading } from "@/components/section";
-import { SectionHeadingProps } from "@/types";
+import { Container, Header, Heading } from "@/components/ui/blocks";
+import { HeadingProps } from "@/types";
 import { AiStrategy, CustomAi, Intelligience, Tasks, Workflows } from "./cards";
 
-const headingProps: SectionHeadingProps = {
+const headingProps: HeadingProps = {
 	text: "Smarter Services,",
 	italicText: "Built with AI",
 	badgeIcon: IconServicemark,

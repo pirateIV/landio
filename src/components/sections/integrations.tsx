@@ -12,11 +12,11 @@ import {
 	IconStack2,
 } from "@tabler/icons-react";
 import Marquee from "react-fast-marquee";
-import { SectionHeadingProps } from "@/types";
-import { Container, Content, Header, Heading } from "../section";
+import { HeadingProps } from "@/types";
+import { Container, Content, Header, Heading } from "../ui/blocks";
 import Card from "../ui/card";
 
-const headingProps: SectionHeadingProps = {
+const headingProps: HeadingProps = {
 	text: "Seamless",
 	italicText: "Integrations",
 	description: "Interact with all your favorite software without unnecessary fuss",

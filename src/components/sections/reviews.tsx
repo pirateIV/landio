@@ -2,8 +2,8 @@ import React from "react";
 import { IconHeartFilled } from "@tabler/icons-react";
 import { log } from "console";
 import Image from "next/image";
-import type { SectionHeadingProps } from "@/types";
-import { Container, Content, Header, Heading } from "../section";
+import type { HeadingProps } from "@/types";
+import { Container, Content, Header, Heading } from "../ui/blocks";
 import Card from "../ui/card";
 
 const testimonials = [
@@ -45,7 +45,7 @@ const testimonials = [
 	},
 ];
 
-const headingProps: SectionHeadingProps = {
+const headingProps: HeadingProps = {
 	text: "Trusted by",
 	italicText: "Visionaries",
 	description: "Hear from real users who achieved success with our automation",

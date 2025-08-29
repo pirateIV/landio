@@ -1,8 +1,8 @@
 import React from "react";
 import { IconChartPie, IconCheck, IconStack2, IconX } from "@tabler/icons-react";
 import Image from "next/image";
-import type { SectionHeadingProps } from "@/types";
-import { Container, Header, Heading } from "../section";
+import type { HeadingProps } from "@/types";
+import { Container, Header, Heading } from "../ui/blocks";
 import Card from "../ui/card";
 
 const tables = {
@@ -22,7 +22,7 @@ const tables = {
 	],
 };
 
-const headingProps: SectionHeadingProps = {
+const headingProps: HeadingProps = {
 	text: "Why Choose Us",
 	italicText: "Over Others?",
 	description: "See how we compare against others in performance, growth",

@@ -1,13 +1,13 @@
 import React from "react";
 import { Button, Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/react";
 import { IconChevronDown, IconHelp } from "@tabler/icons-react";
-import { Container, Header, Heading } from "@/components/section";
+import { Container, Header, Heading } from "@/components/ui/blocks";
 import Card from "@/components/ui/card";
 import IconBadge from "@/components/ui/icon-badge";
-import type { SectionHeadingProps } from "@/types";
+import type { HeadingProps } from "@/types";
 import { faqs } from "./faqs";
 
-const headingProps: SectionHeadingProps = {
+const headingProps: HeadingProps = {
 	text: "Frequently Asked",
 	italicText: "Questions",
 	description: "Find quick answers to the most common support questions",

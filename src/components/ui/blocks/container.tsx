@@ -3,7 +3,7 @@ import { cx } from "@/utils/cx";
 
 export function Container({ className, children, ...props }: ParentProps) {
 	return (
-		<section className={cx("relative z-2 overflow-hidden bg-black-base px-4.5 py-20 md:px-10 md:py-25", className)} {...props}>
+		<section className={cx("relative z-2 flex flex-col flex-1 h-full overflow-hidden bg-black-base px-4.5 py-20 md:px-10 md:py-25", className)} {...props}>
 			<div className="mx-auto flex max-w-300 flex-col gap-11">{children}</div>
 
 			<div className="absolute right-0 bottom-0 left-0 z-1 h-1 rounded-[10px] bg-[radial-gradient(50%_50%_at_50%_50%,var(--color-light-blue-transparent)_0%,var(--color-black-base)_100%)]" />

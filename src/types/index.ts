@@ -7,11 +7,12 @@ export type DivProps = React.HTMLAttributes<HTMLDivElement>;
 export type IconProps = React.SVGProps<SVGSVGElement> & { size?: string | number };
 
 /* ========== SHARED TYPES ============= */
+export type UniversalIcon = TablerIcon | React.ComponentType<IconProps> | React.ReactElement;
 
 export type SocialLinkProps = { website: string; icon: TablerIcon }[];
 
-export type SectionHeadingProps = {
-	badgeIcon?: TablerIcon | React.JSX.Element;
+export type HeadingProps = {
+	badgeIcon?: UniversalIcon;
 	badgeText?: string;
 	description: string;
 	italicText: string;

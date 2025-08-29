@@ -39,7 +39,7 @@ dd, b,
 em {
 }
 
-:where(h3, p, a, span:not(h1 > span), dl, dt, dd, b, em) {
+:where(h3, p, a, span:not(h1 span), dl, dt, dd, b, em) {
 	font-feature-settings: "cv02", "cv11";
 }
 

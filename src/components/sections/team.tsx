@@ -2,8 +2,8 @@ import React from "react";
 import { IconBrandInstagram, IconBrandLinkedin, IconBrandX, IconUsersGroup, type TablerIcon } from "@tabler/icons-react";
 import Image from "next/image";
 import Link from "next/link";
-import type { SectionHeadingProps, SocialLinkProps } from "@/types";
-import { Container, Content, Header, Heading } from "../section";
+import type { HeadingProps, SocialLinkProps } from "@/types";
+import { Container, Content, Header, Heading } from "../ui/blocks";
 import Card from "../ui/card";
 import IconBadge from "../ui/icon-badge";
 
@@ -52,7 +52,7 @@ const team = [
 	},
 ];
 
-const headingProps: SectionHeadingProps = {
+const headingProps: HeadingProps = {
 	text: "Get to Know",
 	italicText: "Us",
 	description: "Everything you need to collaborate, create, and scale, all in one place.",

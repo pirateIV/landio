@@ -9,9 +9,9 @@ import { Icons } from "@/components/icons";
 import { cx } from "@/utils/cx";
 
 const navLinks = [
-	{ name: "Services", href: "#services" },
-	{ name: "Process", href: "#process" },
-	{ name: "Pricing", href: "#pricing" },
+	{ name: "Services", href: "/#services" },
+	{ name: "Process", href: "/#process" },
+	{ name: "Pricing", href: "/#pricing" },
 	{ name: "Blog", href: "blog" },
 	{ name: "Contact", href: "contact" },
 ];
@@ -29,7 +29,7 @@ export default function Navigation() {
 			>
 				<div className="mx-auto flex h-16 w-full max-w-[1350px] flex-nowrap items-center justify-between">
 					<div className="inline-flex">
-						<Link href="/#hero" className="h-[39px] w-[103px]">
+						<Link href="/" className="h-[39px] w-[103px]">
 							<Image width="163" height="62" src="logo.svg" alt="logo" />
 						</Link>
 					</div>
@@ -53,7 +53,7 @@ export default function Navigation() {
 							</Link>
 						</div>
 						<motion.button
-							className="group inline-flex size-[1.875rem] items-center justify-center rounded-lg p-[3px] text-white focus:bg-dark-gray lg:hidden"
+							className="group inline-flex size-[1.875rem] items-center justify-center rounded-lg p-[3px] text-white hover:bg-dark-gray focus:bg-dark-gray lg:hidden"
 							aria-pressed={menuToggled}
 							onClick={() => setMenuToggled(!menuToggled)}
 							whileTap={{ scale: 0.9 }}

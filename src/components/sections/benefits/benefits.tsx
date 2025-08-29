@@ -1,8 +1,8 @@
 import React from "react";
 import { IconSparkles } from "@tabler/icons-react";
-import { Container, Header, Heading } from "@/components/section";
+import { Container, Header, Heading } from "@/components/ui/blocks";
 import { Card } from "./card";
-import { SectionHeadingProps } from "@/types";
+import { HeadingProps } from "@/types";
 
 // const cards = [
 // 	{
@@ -19,7 +19,7 @@ import { SectionHeadingProps } from "@/types";
 // 	},
 // ];
 
-const headingProps: SectionHeadingProps = {
+const headingProps: HeadingProps = {
 	text: "Why Choose",
 	italicText: "Us?",
 	description: "Everything you need to automate, optimize, and scale",

@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 			"Supercharge your startup’s growth with Landio—the ultimate Framer template for AI-powered SaaS businesses. Discover real-time trends, decode user insights with accuracy, and make smarter, data-driven decisions.",
 	},
 	icons: {
-		icon: [{ url: "/favicon/icon.svg" }, { url: "/favicon/icon-dark.svg", media: "(prefers-color-scheme: dark)" }],
+		icon: [{ url: "/favicon/icon.svg", media: "(prefers-color-scheme: dark)" }, { url: "/favicon/icon-dark.svg" }],
 	},
 };
 
@@ -48,14 +48,13 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en" suppressHydrationWarning>
-			<body className={cx(interVar.className, instrument.variable, "bg-primary text-light-blue antialiased")}>
-				<main className="relative min-h-screen">
+			<body className={cx(interVar.className, instrument.variable, "bg-primary relative text-light-blue antialiased")}>
+				<main className="relative flex min-h-screen flex-col">
 					<Navigation />
-					{children}
+					<div className="flex h-full flex-1 flex-col">{children}</div>
 					<Footer />
-					{/* Overlay */}
-					<Overlay />
 				</main>
+				<Overlay />
 			</body>
 		</html>
 	);

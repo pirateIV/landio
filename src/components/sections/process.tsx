@@ -4,9 +4,9 @@ import React, { useState } from "react";
 import { Tab, TabGroup, TabList, TabPanel, TabPanels } from "@headlessui/react";
 import { IconCube } from "@tabler/icons-react";
 import Image from "next/image";
-import { SectionHeadingProps } from "@/types";
+import { HeadingProps } from "@/types";
 import { cx } from "@/utils/cx";
-import { Container, Header, Heading } from "../section";
+import { Container, Header, Heading } from "../ui/blocks";
 import Card from "../ui/card";
 
 const tabs = [
@@ -30,7 +30,7 @@ const tabs = [
 	},
 ];
 
-const headingProps: SectionHeadingProps = {
+const headingProps: HeadingProps = {
 	text: "Our Simple &",
 	italicText: "Smart Process",
 	description: "Everything you need to collaborate, create, and scale, all in one place.",
