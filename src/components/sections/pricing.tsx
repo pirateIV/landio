@@ -73,7 +73,7 @@ export default function Pricing() {
 									</span>
 								)}
 							</h3>
-							<p className="space-y-1.5">
+							<p className="space-y-1.5 leading-[-0.02em]">
 								<span className="text-[calc(var(--text-5xl)-4px)] font-semibold">{plan.price}</span>{" "}
 								<span className="text-sm text-light-blue opacity-80">{idx < 2 && "/month"}</span>
 							</p>

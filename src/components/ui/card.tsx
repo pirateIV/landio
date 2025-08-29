@@ -20,11 +20,13 @@ const Card = React.forwardRef<HTMLDivElement, CardProps>(({ title, description, 
 		>
 			<React.Fragment>{children}</React.Fragment>
 			{!container && (
-				<div className="mt-auto flex flex-col gap-1.5" data-name="content">
+				<div className="mt-auto flex flex-col gap-1.5 overflow-hidden" data-name="content">
 					<h3 className="text-xl font-medium">{title}</h3>
 					<p className="text-light-blue opacity-60">{description}</p>
 				</div>
 			)}
+
+			<div className="absolute pointer-events-none z-1 h-[306px] opacity-10 top-0 right-0 w-[437px] bg-[radial-gradient(50%_50%_at_93.7%_8.1%,var(--color-medium-gray,rgba(184,199,217,0.5))_0%,rgba(4,7,13,0)_100%)]"/>
 		</div>
 	);
 });

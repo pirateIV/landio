@@ -5,7 +5,7 @@ import Image from "next/image";
 import SocialLinks from "../partials/social-links";
 import Button from "../ui/button";
 
-export default function HeroSection() {
+export default function Hero() {
 	return (
 		<section id="hero" className="relative overflow-hidden bg-black-base py-20">
 			<div className="relative z-10 flex flex-col items-center gap-11 px-4.5 pt-40 pb-5 md:px-10">

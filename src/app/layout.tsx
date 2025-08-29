@@ -1,8 +1,9 @@
 import type { Metadata, Viewport } from "next";
 import { Instrument_Serif } from "next/font/google";
-import SvgTemplate from "@/components/svg-template";
+import Overlay from "@/components/ui/overlay";
+import Footer from "@/layout/footer";
+import Navigation from "@/layout/navigation";
 import { interVar } from "@/lib/font";
-import { Theme } from "@/providers/theme";
 import "@/styles/globals.css";
 import { cx } from "@/utils/cx";
 
@@ -48,8 +49,13 @@ export default function RootLayout({
 	return (
 		<html lang="en" suppressHydrationWarning>
 			<body className={cx(interVar.className, instrument.variable, "bg-primary text-light-blue antialiased")}>
-				<main className="min-h-screen">{children}</main>
-				<SvgTemplate />
+				<main className="relative min-h-screen">
+					<Navigation />
+					{children}
+					<Footer />
+					{/* Overlay */}
+					<Overlay />
+				</main>
 			</body>
 		</html>
 	);

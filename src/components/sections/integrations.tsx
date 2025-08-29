@@ -46,9 +46,9 @@ export default function Integrations() {
 
 			<SectionContent>
 				<Card container>
-					<Marquee className="flex w-full justify-between [&.rfm-child]:flex-1">
+					<Marquee>
 						{logos.map((logo) => (
-							<div>
+							<div className="mx-7.5">
 								<logo.icon size="40" />
 							</div>
 						))}
