@@ -1,8 +1,14 @@
+import createMDX from "@next/mdx";
+
 /** @type {import('next').NextConfig} */
+
 const nextConfig = {
-    experimental: {
-        optimizePackageImports: ["@untitledui/icons"],
-    },
+	pageExtensions: ["js", "jsx", "ts", "tsx", "md", "mdx"],
 };
 
-export default nextConfig;
+const withMDX = createMDX({
+	extension: /\.(md|mdx)$/,
+});
+
+export default withMDX(nextConfig);
+

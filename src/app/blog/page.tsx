@@ -1,6 +1,7 @@
 import React from "react";
 import { IconScript } from "@tabler/icons-react";
 import Image from "next/image";
+import Link from "next/link";
 import { Container, Content, Header, Heading } from "@/components/ui/blocks";
 import Card from "@/components/ui/card";
 import { HeadingProps } from "@/types";
@@ -51,6 +52,7 @@ export default function BlogPage() {
 								</div>
 							</div>
 						</div>
+						<Link href={blog.href} className="absolute inset-0" />
 					</Card>
 				))}
 			</Content>

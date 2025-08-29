@@ -9,9 +9,13 @@
     },
     "dependencies": {
         "@headlessui/react": "^2.2.7",
+        "@mdx-js/loader": "^3.1.0",
+        "@mdx-js/react": "^3.1.0",
+        "@next/mdx": "^15.5.2",
         "@tabler/icons-react": "^3.34.1",
         "@tailwindcss/postcss": "^4.1.11",
         "@tailwindcss/typography": "^0.5.16",
+        "@types/mdx": "^2.0.13",
         "framer-motion": "^12.23.12",
         "motion": "^12.23.5",
         "next": "^15.3.5",

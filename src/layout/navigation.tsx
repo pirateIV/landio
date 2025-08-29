@@ -12,8 +12,8 @@ const navLinks = [
 	{ name: "Services", href: "/#services" },
 	{ name: "Process", href: "/#process" },
 	{ name: "Pricing", href: "/#pricing" },
-	{ name: "Blog", href: "blog" },
-	{ name: "Contact", href: "contact" },
+	{ name: "Blog", href: "/blog" },
+	{ name: "Contact", href: "/contact" },
 ];
 
 export default function Navigation() {
