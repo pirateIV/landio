@@ -6,7 +6,7 @@ import { IconCube } from "@tabler/icons-react";
 import Image from "next/image";
 import { SectionHeadingProps } from "@/types";
 import { cx } from "@/utils/cx";
-import { SectionContainer, SectionHeader, SectionHeading } from "../section";
+import { Container, Header, Heading } from "../section";
 import Card from "../ui/card";
 
 const tabs = [
@@ -45,10 +45,10 @@ const TabButton = React.forwardRef<HTMLButtonElement, React.ComponentPropsWithou
 export default function Process() {
 	const [selectedTab, setSelectedTab] = useState(0);
 	return (
-		<SectionContainer id="process">
-			<SectionHeader>
-				<SectionHeading {...headingProps} />
-			</SectionHeader>
+		<Container id="process">
+			<Header>
+				<Heading {...headingProps} />
+			</Header>
 
 			<Card className="flex-none p-5" container>
 				<TabGroup selectedIndex={selectedTab} onChange={setSelectedTab} className="space-y-5">
@@ -80,6 +80,6 @@ export default function Process() {
 					</TabPanels>
 				</TabGroup>
 			</Card>
-		</SectionContainer>
+		</Container>
 	);
 }

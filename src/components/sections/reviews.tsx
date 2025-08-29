@@ -3,7 +3,7 @@ import { IconHeartFilled } from "@tabler/icons-react";
 import { log } from "console";
 import Image from "next/image";
 import type { SectionHeadingProps } from "@/types";
-import { SectionContainer, SectionContent, SectionHeader, SectionHeading } from "../section";
+import { Container, Content, Header, Heading } from "../section";
 import Card from "../ui/card";
 
 const testimonials = [
@@ -57,12 +57,12 @@ const logos = ["asterisk.svg", "eooks.svg", "opal.svg", "dune.svg", "oasis.svg"]
 
 export default function Reviews() {
 	return (
-		<SectionContainer id="reviews">
-			<SectionHeader>
-				<SectionHeading {...headingProps} />
-			</SectionHeader>
+		<Container id="reviews">
+			<Header>
+				<Heading {...headingProps} />
+			</Header>
 
-			<SectionContent className="flex-col space-y-11">
+			<Content className="flex-col space-y-11">
 				<div className="flex flex-wrap items-center gap-[30px]">
 					{testimonials.map((reviewer) => (
 						<Card key={reviewer.name} className="min-w-[300px] flex-[1_0_0px] rounded-2xl p-0" container>
@@ -110,7 +110,7 @@ export default function Reviews() {
 						))}
 					</ul>
 				</section>
-			</SectionContent>
-		</SectionContainer>
+			</Content>
+		</Container>
 	);
 }

@@ -29,8 +29,18 @@
 	transition-timing-function: inherit;
 }
 
-a, p, span, b,dl,dt,dd {
-	font-feature-settings: "cv02",  "cv11";
+h3,
+p,
+a,
+span:not(h1 > span),
+dl,
+dt,
+dd, b,
+em {
+}
+
+:where(h3, p, a, span:not(h1 > span), dl, dt, dd, b, em) {
+	font-feature-settings: "cv02", "cv11";
 }
 
 html,
@@ -42,7 +52,6 @@ body {
 	-webkit-font-kerning: normal;
 	font-kerning: normal;
 	letter-spacing: -0.02em;
-	/* line-height: 1.6em; */
 }
 
 /* Hide the default expand arrow on Safari.  */
@@ -67,36 +76,24 @@ input[type="search"]::-webkit-search-cancel-button {
 	-webkit-appearance: none;
 }
 
-/* use {
-	fill: inherit;
-	stroke: inherit;
-} */
-
-.shadow-blue-1 {
-	box-shadow:
-		rgba(64, 120, 168, 0.37) 0px 0.706592px 0.706592px -0.666667px,
-		rgba(64, 120, 168, 0.36) 0px 1.80656px 1.80656px -1.33333px,
-		rgba(64, 120, 168, 0.34) 0px 3.62176px 3.62176px -2px,
-		rgba(64, 120, 168, 0.31) 0px 6.8656px 6.8656px -2.66667px,
-		rgba(64, 120, 168, 0.247) 0px 13.6468px 13.6468px -3.33333px,
-		rgba(64, 120, 168, 0.094) 0px 30px 30px -4px;
-}
-.shadow-blue-2 {
-	box-shadow:
-		rgba(87, 133, 179, 0.48) 0px 0.796192px 0.796192px -0.875px,
-		rgba(87, 133, 179, 0.455) 0px 2.41451px 2.41451px -1.75px,
-		rgba(87, 133, 179, 0.4) 0px 6.38265px 6.38265px -2.625px,
-		rgba(87, 133, 179, 0.21) 0px 20px 20px -3.5px;
-}
-
-.btn-gradient-1 {
-	background-image: radial-gradient(25% 50% at 50% 100%, white 0%, transparent 100%);
-}
-.btn-gradient-2 {
-	background-image: radial-gradient(20.7% 50% at 50% 100%, white 0%, #ffffff00 100%);
-}
-
 @layer base {
+	.shadow-blue-1 {
+		box-shadow:
+			rgba(64, 120, 168, 0.37) 0px 0.706592px 0.706592px -0.666667px,
+			rgba(64, 120, 168, 0.36) 0px 1.80656px 1.80656px -1.33333px,
+			rgba(64, 120, 168, 0.34) 0px 3.62176px 3.62176px -2px,
+			rgba(64, 120, 168, 0.31) 0px 6.8656px 6.8656px -2.66667px,
+			rgba(64, 120, 168, 0.247) 0px 13.6468px 13.6468px -3.33333px,
+			rgba(64, 120, 168, 0.094) 0px 30px 30px -4px;
+	}
+	.shadow-blue-2 {
+		box-shadow:
+			rgba(87, 133, 179, 0.48) 0px 0.796192px 0.796192px -0.875px,
+			rgba(87, 133, 179, 0.455) 0px 2.41451px 2.41451px -1.75px,
+			rgba(87, 133, 179, 0.4) 0px 6.38265px 6.38265px -2.625px,
+			rgba(87, 133, 179, 0.21) 0px 20px 20px -3.5px;
+	}
+
 	.inset-shadow-1 {
 		@apply inset-shadow-[0px_1px_1px_0px] inset-shadow-[#cfe7ff33];
 	}

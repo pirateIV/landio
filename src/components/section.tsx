@@ -4,7 +4,7 @@ import { ParentProps, SectionHeadingProps } from "@/types";
 import { cx } from "@/utils/cx";
 import Badge from "./ui/badge";
 
-export function SectionHeading({ badgeText, badgeIcon, description, italicText, text, useBadge = true, ...props }: SectionHeadingProps) {
+export function Heading({ badgeText, badgeIcon, description, italicText, text, useBadge = true, ...props }: SectionHeadingProps) {
 	return (
 		<React.Fragment>
 			{useBadge && <Badge text={badgeText || ""} icon={badgeIcon || Icon123} />}
@@ -19,7 +19,7 @@ export function SectionHeading({ badgeText, badgeIcon, description, italicText, 
 	);
 }
 
-export function SectionHeader({ children, className, ...props }: ParentProps) {
+export function Header({ children, className, ...props }: ParentProps) {
 	return (
 		<div className={cx("mx-auto flex max-w-160 flex-col items-center gap-2.5 text-center", className)} {...props}>
 			{children}
@@ -27,7 +27,7 @@ export function SectionHeader({ children, className, ...props }: ParentProps) {
 	);
 }
 
-export function SectionContent({ className, children, ...props }: ParentProps) {
+export function Content({ className, children, ...props }: ParentProps) {
 	return (
 		<div className={cx("mx-auto flex w-full *:w-full", className)} {...props}>
 			{children}
@@ -35,7 +35,7 @@ export function SectionContent({ className, children, ...props }: ParentProps) {
 	);
 }
 
-export function SectionContainer({ className, children, ...props }: ParentProps) {
+export function Container({ className, children, ...props }: ParentProps) {
 	return (
 		<section className={cx("relative z-2 overflow-hidden bg-black-base px-4.5 py-20 md:px-10 md:py-25", className)} {...props}>
 			<div className="mx-auto flex max-w-300 flex-col gap-11">{children}</div>

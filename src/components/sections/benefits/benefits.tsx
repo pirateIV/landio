@@ -1,6 +1,6 @@
 import React from "react";
 import { IconSparkles } from "@tabler/icons-react";
-import { SectionContainer, SectionHeader, SectionHeading } from "@/components/section";
+import { Container, Header, Heading } from "@/components/section";
 import { Card } from "./card";
 import { SectionHeadingProps } from "@/types";
 
@@ -29,10 +29,10 @@ const headingProps: SectionHeadingProps = {
 
 export default function Benefits() {
 	return (
-		<SectionContainer id="benefits">
-			<SectionHeader>
-				<SectionHeading {...headingProps} />
-			</SectionHeader>
+		<Container id="benefits">
+			<Header>
+				<Heading {...headingProps} />
+			</Header>
 
 			<div className="flex w-full flex-wrap items-center gap-[30px]">
 				<Card title="Real-Time Intelligience" description="Access accurate, real-time data to drive smarter decisions">
@@ -45,6 +45,6 @@ export default function Benefits() {
 					<div></div>
 				</Card>
 			</div>
-		</SectionContainer>
+		</Container>
 	);
 }

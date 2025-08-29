@@ -2,7 +2,7 @@ import React from "react";
 import { IconCube, icons } from "@tabler/icons-react";
 import { SectionHeadingProps } from "@/types";
 import { Icons } from "../../icons";
-import { SectionContainer, SectionContent, SectionHeader, SectionHeading } from "../../section";
+import { Container, Content, Header, Heading } from "../../section";
 import Card from "../../ui/card";
 
 const headingProps: SectionHeadingProps = {
@@ -48,12 +48,12 @@ const features = [
 
 export default function Features() {
 	return (
-		<SectionContainer>
-			<SectionHeader>
-				<SectionHeading {...headingProps} />
-			</SectionHeader>
+		<Container>
+			<Header>
+				<Heading {...headingProps} />
+			</Header>
 
-			<SectionContent>
+			<Content>
 				<div className="flex flex-wrap gap-7.5">
 					{features.map((feature) => (
 						<Card
@@ -73,7 +73,7 @@ export default function Features() {
 						</Card>
 					))}
 				</div>
-			</SectionContent>
-		</SectionContainer>
+			</Content>
+		</Container>
 	);
 }

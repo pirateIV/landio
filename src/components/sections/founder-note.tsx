@@ -1,12 +1,12 @@
 import React from "react";
 import { IconStarFilled } from "@tabler/icons-react";
 import Image from "next/image";
-import { SectionContainer } from "../section";
+import { Container } from "../section";
 import Badge from "../ui/badge";
 
 export default function FounderNote() {
 	return (
-		<SectionContainer className="*:items-center *:justify-center" id="founder-note">
+		<Container className="*:items-center *:justify-center" id="founder-note">
 			<div className="z-2 mx-auto flex w-full max-w-[744px] flex-col items-center justify-center gap-6">
 				<Badge text="We analyze your data" icon={IconStarFilled} />
 
@@ -24,6 +24,6 @@ export default function FounderNote() {
 					<p>Co-founder & AI Strategy Lead</p>
 				</div>
 			</div>
-		</SectionContainer>
+		</Container>
 	);
 }

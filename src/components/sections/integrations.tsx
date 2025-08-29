@@ -13,7 +13,7 @@ import {
 } from "@tabler/icons-react";
 import Marquee from "react-fast-marquee";
 import { SectionHeadingProps } from "@/types";
-import { SectionContainer, SectionContent, SectionHeader, SectionHeading } from "../section";
+import { Container, Content, Header, Heading } from "../section";
 import Card from "../ui/card";
 
 const headingProps: SectionHeadingProps = {
@@ -39,12 +39,12 @@ const logos = [
 
 export default function Integrations() {
 	return (
-		<SectionContainer>
-			<SectionHeader>
-				<SectionHeading {...headingProps} />
-			</SectionHeader>
+		<Container>
+			<Header>
+				<Heading {...headingProps} />
+			</Header>
 
-			<SectionContent>
+			<Content>
 				<Card container>
 					<Marquee>
 						{logos.map((logo) => (
@@ -54,7 +54,7 @@ export default function Integrations() {
 						))}
 					</Marquee>
 				</Card>
-			</SectionContent>
-		</SectionContainer>
+			</Content>
+		</Container>
 	);
 }

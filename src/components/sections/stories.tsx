@@ -2,7 +2,7 @@ import React from "react";
 import { IconUserCheck } from "@tabler/icons-react";
 import type { SectionHeadingProps } from "@/types";
 import { Icons } from "../icons";
-import { SectionContainer, SectionContent, SectionHeader, SectionHeading } from "../section";
+import { Container, Content, Header, Heading } from "../section";
 
 const stories = [
 	{
@@ -47,12 +47,12 @@ const headingProps: SectionHeadingProps = {
 
 export default function Stories() {
 	return (
-		<SectionContainer id="stories">
-			<SectionHeader>
-				<SectionHeading {...headingProps} />
-			</SectionHeader>
+		<Container id="stories">
+			<Header>
+				<Heading {...headingProps} />
+			</Header>
 
-			<SectionContent>
+			<Content>
 				<div className="mx-auto max-w-186 text-center">
 					<h2 className="text-[calc(var(--text-3xl)+2px)] text-balance text-medium-gray">
 						They took the time to understand our <span className="font-instr text-light-blue italic">challenges</span>, identified our{" "}
@@ -60,7 +60,7 @@ export default function Stories() {
 						effective!
 					</h2>
 				</div>
-			</SectionContent>
-		</SectionContainer>
+			</Content>
+		</Container>
 	);
 }

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ParentProps } from "@/types";
 import { cx } from "@/utils/cx";
 
-type ButtonProps = ParentProps & {shadow?: boolean};
+type ButtonProps = ParentProps & { shadow?: boolean };
 
 export default function Button({ className, children, shadow = true, ...props }: ButtonProps) {
 	return (

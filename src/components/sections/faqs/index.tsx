@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/react";
 import { IconChevronDown, IconHelp } from "@tabler/icons-react";
-import { SectionContainer, SectionHeader, SectionHeading } from "@/components/section";
+import { Container, Header, Heading } from "@/components/section";
 import Card from "@/components/ui/card";
 import IconBadge from "@/components/ui/icon-badge";
 import type { SectionHeadingProps } from "@/types";
@@ -17,10 +17,10 @@ const headingProps: SectionHeadingProps = {
 
 export default function Faqs() {
 	return (
-		<SectionContainer id="faqs">
-			<SectionHeader>
-				<SectionHeading {...headingProps} />
-			</SectionHeader>
+		<Container id="faqs">
+			<Header>
+				<Heading {...headingProps} />
+			</Header>
 
 			<div className="mx-auto flex w-full max-w-250 flex-row-reverse items-center gap-8 *:w-full *:max-w-150 max-md:flex-col-reverse md:items-start">
 				{/* FAQ Items */}
@@ -58,6 +58,6 @@ export default function Faqs() {
 					</div>
 				</Card>
 			</div>
-		</SectionContainer>
+		</Container>
 	);
 }

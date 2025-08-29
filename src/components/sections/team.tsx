@@ -3,7 +3,7 @@ import { IconBrandInstagram, IconBrandLinkedin, IconBrandX, IconUsersGroup, type
 import Image from "next/image";
 import Link from "next/link";
 import type { SectionHeadingProps, SocialLinkProps } from "@/types";
-import { SectionContainer, SectionContent, SectionHeader, SectionHeading } from "../section";
+import { Container, Content, Header, Heading } from "../section";
 import Card from "../ui/card";
 import IconBadge from "../ui/icon-badge";
 
@@ -68,12 +68,12 @@ const socials: SocialLinkProps = [
 
 export default function Team() {
 	return (
-		<SectionContainer className="md:*:max-w-202.5 md:*:lg:max-w-300" id="team">
-			<SectionHeader>
-				<SectionHeading {...headingProps} />
-			</SectionHeader>
+		<Container className="md:*:max-w-202.5 md:*:lg:max-w-300" id="team">
+			<Header>
+				<Heading {...headingProps} />
+			</Header>
 
-			<SectionContent>
+			<Content>
 				<div className="flex flex-wrap justify-center gap-6 min-[39.75rem]:gap-2 md:gap-6">
 					{team.map((member) => (
 						<Card key={member.name} className="w-full max-w-150 min-w-75 p-8" container>
@@ -107,7 +107,7 @@ export default function Team() {
 						</Card>
 					))}
 				</div>
-			</SectionContent>
-		</SectionContainer>
+			</Content>
+		</Container>
 	);
 }

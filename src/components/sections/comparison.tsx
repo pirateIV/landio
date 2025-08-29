@@ -2,7 +2,7 @@ import React from "react";
 import { IconChartPie, IconCheck, IconStack2, IconX } from "@tabler/icons-react";
 import Image from "next/image";
 import type { SectionHeadingProps } from "@/types";
-import { SectionContainer, SectionHeader, SectionHeading } from "../section";
+import { Container, Header, Heading } from "../section";
 import Card from "../ui/card";
 
 const tables = {
@@ -32,10 +32,10 @@ const headingProps: SectionHeadingProps = {
 
 export default function Comparison() {
 	return (
-		<SectionContainer id="section-content">
-			<SectionHeader>
-				<SectionHeading {...headingProps} />
-			</SectionHeader>
+		<Container id="section-content">
+			<Header>
+				<Heading {...headingProps} />
+			</Header>
 
 			{/* Comparison Tables */}
 			<div className="flex items-start gap-4 max-md:flex-col">
@@ -84,6 +84,6 @@ export default function Comparison() {
 					</Card>
 				</div>
 			</div>
-		</SectionContainer>
+		</Container>
 	);
 }

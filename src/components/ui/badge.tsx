@@ -3,7 +3,7 @@ import type { Icon, IconProps } from "@tabler/icons-react";
 
 interface BadgeProps {
 	text: string;
-	icon: React.ForwardRefExoticComponent<IconProps & React.RefAttributes<Icon>>;
+	icon: any;
 }
 
 export default function Badge({ text, icon: Icon }: BadgeProps) {
