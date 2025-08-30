@@ -39,7 +39,7 @@ const logos = [
 
 export default function Integrations() {
 	return (
-		<Container>
+		<Container id="integrations">
 			<Header>
 				<Heading {...headingProps} />
 			</Header>

@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 			"Supercharge your startup’s growth with Landio—the ultimate Framer template for AI-powered SaaS businesses. Discover real-time trends, decode user insights with accuracy, and make smarter, data-driven decisions.",
 	},
 	icons: {
-		icon: [{ url: "/favicon/icon.svg" }, { url: "/favicon/icon-dark.svg", media: "(prefers-color-scheme: dark)" }],
+		icon: [{ url: "/favicon/icon.svg", media: "(prefers-color-scheme: dark)" }, { url: "/favicon/icon-dark.svg" }],
 	},
 };
 
