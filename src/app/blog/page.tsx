@@ -15,7 +15,7 @@ const headingProps: HeadingProps = {
 	badgeIcon: IconScript,
 };
 
-export default function BlogPage() {
+export default function BlogsPage() {
 	return (
 		<Container className="!px-4.5 !pt-30 !pb-20 md:!px-10 md:!pt-40 md:!pb-30">
 			<Header>
