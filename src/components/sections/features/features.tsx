@@ -48,7 +48,7 @@ const features = [
 
 export default function Features() {
 	return (
-		<Container>
+		<Container id="features">
 			<Header>
 				<Heading {...headingProps} />
 			</Header>
