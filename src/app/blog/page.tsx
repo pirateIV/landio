@@ -2,7 +2,7 @@ import React from "react";
 import { IconScript } from "@tabler/icons-react";
 import Image from "next/image";
 import Link from "next/link";
-import { Container, Content, Header, Heading } from "@/components/ui/blocks";
+import { SectionContainer, SectionContent, SectionHeader, SectionHeading } from "@/components/ui/blocks";
 import Card from "@/components/ui/card";
 import { HeadingProps } from "@/types";
 import { blogs } from "../../data/blogs";
@@ -17,12 +17,12 @@ const headingProps: HeadingProps = {
 
 export default function BlogsPage() {
 	return (
-		<Container className="!px-4.5 !pt-30 !pb-20 md:!px-10 md:!pt-40 md:!pb-30">
-			<Header>
-				<Heading {...headingProps} />
-			</Header>
+		<SectionContainer variant="container">
+			<SectionHeader>
+				<SectionHeading {...headingProps} />
+			</SectionHeader>
 
-			<Content className="grid gap-13.5 md:grid-cols-[repeat(2,minmax(50px,1fr))]">
+			<SectionContent className="grid gap-13.5 md:grid-cols-[repeat(2,minmax(50px,1fr))]">
 				{blogs.map((blog, idx) => (
 					<Card key={idx} className="border px-6 py-8 md:px-11 md:py-12" container>
 						<div className="flex flex-col gap-7.5">
@@ -55,7 +55,7 @@ export default function BlogsPage() {
 						<Link href={blog.href} className="absolute inset-0" />
 					</Card>
 				))}
-			</Content>
-		</Container>
+			</SectionContent>
+		</SectionContainer>
 	);
 }

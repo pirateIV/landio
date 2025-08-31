@@ -1,9 +1,9 @@
 import React from "react";
-import { IconBrandInstagram, IconBrandLinkedin, IconBrandX, IconUsersGroup, type TablerIcon } from "@tabler/icons-react";
+import { IconBrandInstagram, IconBrandLinkedin, IconBrandX, IconUsersGroup } from "@tabler/icons-react";
 import Image from "next/image";
 import Link from "next/link";
 import type { HeadingProps, SocialLinkProps } from "@/types";
-import { Container, Content, Header, Heading } from "../ui/blocks";
+import { SectionContainer, SectionContent, SectionHeader, SectionHeading } from "../ui/blocks";
 import Card from "../ui/card";
 import IconBadge from "../ui/icon-badge";
 
@@ -68,12 +68,12 @@ const socials: SocialLinkProps = [
 
 export default function Team() {
 	return (
-		<Container className="md:*:max-w-202.5 md:*:lg:max-w-300" id="team">
-			<Header>
-				<Heading {...headingProps} />
-			</Header>
+		<SectionContainer className="md:*:max-w-202.5 md:*:lg:max-w-300" id="team">
+			<SectionHeader>
+				<SectionHeading {...headingProps} />
+			</SectionHeader>
 
-			<Content>
+			<SectionContent>
 				<div className="flex flex-wrap justify-center gap-6 min-[39.75rem]:gap-2 md:gap-6">
 					{team.map((member) => (
 						<Card key={member.name} className="w-full max-w-150 min-w-75 p-8" container>
@@ -107,7 +107,7 @@ export default function Team() {
 						</Card>
 					))}
 				</div>
-			</Content>
-		</Container>
+			</SectionContent>
+		</SectionContainer>
 	);
 }

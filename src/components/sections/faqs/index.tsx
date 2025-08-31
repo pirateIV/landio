@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/react";
 import { IconChevronDown, IconHelp } from "@tabler/icons-react";
-import { Container, Header, Heading } from "@/components/ui/blocks";
+import { SectionContainer, SectionHeader, SectionHeading } from "@/components/ui/blocks";
 import Card from "@/components/ui/card";
 import IconBadge from "@/components/ui/icon-badge";
 import type { HeadingProps } from "@/types";
@@ -17,15 +17,15 @@ const headingProps: HeadingProps = {
 
 export default function Faqs() {
 	return (
-		<Container id="faqs">
-			<Header>
-				<Heading {...headingProps} />
-			</Header>
+		<SectionContainer id="faqs">
+			<SectionHeader>
+				<SectionHeading {...headingProps} />
+			</SectionHeader>
 
 			<div className="mx-auto max-w-250 w-full">
 				<div className="flex w-full flex-row-reverse items-center gap-8 *:max-w-150 max-md:flex-col-reverse md:items-start">
 					{/* FAQ Items */}
-					<div className="space-y-4 md:flex-[2_0_0px]">
+					<div className="space-y-4 md:flex-[2_0_0px] w-full">
 						{faqs.map((faq) => (
 							<Disclosure
 								key={faq.id}
@@ -60,6 +60,6 @@ export default function Faqs() {
 					</Card>
 				</div>
 			</div>
-		</Container>
+		</SectionContainer>
 	);
 }

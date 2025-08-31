@@ -1,10 +1,11 @@
 import React from "react";
 import type { IconProps, TablerIcon } from "@tabler/icons-react";
+import { UniversalIcon } from "@/types";
 import { cx } from "@/utils/cx";
 import Icon from "./icon";
 
 type IconBadgeProps = {
-	icon: TablerIcon;
+	icon: UniversalIcon | any;
 } & IconProps;
 
 export default function IconBadge({ icon, className, ...props }: IconBadgeProps) {

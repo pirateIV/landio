@@ -36,7 +36,7 @@ export default function Navigation() {
 					<nav className="relative hidden size-min flex-none items-center gap-3 rounded-[100px] border border-light-blue-transparent px-3 py-1.5 lg:flex">
 						{navLinks.map((link) => (
 							<div key={link.name} className="inline-flex opacity-75 transition-opacity duration-300 hover:opacity-100">
-								<Link href={link.href} className="px-3 py-1.5 text-sm text-slate-300">
+								<Link href={link.href} className="px-3 py-1.5 font-medium text-sm text-slate-300">
 									{link.name}
 								</Link>
 							</div>

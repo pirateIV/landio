@@ -1,4 +1,4 @@
-import Benefits from "@/components/sections/benefits/benefits";
+import Benefits from "@/components/sections/benefits";
 import Comparison from "@/components/sections/comparison";
 import Cta from "@/components/sections/cta";
 import Faqs from "@/components/sections/faqs";

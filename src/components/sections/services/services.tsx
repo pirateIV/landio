@@ -1,6 +1,6 @@
 import React from "react";
 import { IconServicemark } from "@tabler/icons-react";
-import { Container, Header, Heading } from "@/components/ui/blocks";
+import { SectionContainer, SectionHeader, SectionHeading } from "@/components/ui/blocks";
 import { HeadingProps } from "@/types";
 import { AiStrategy, CustomAi, Intelligience, Tasks, Workflows } from "./cards";
 
@@ -14,10 +14,10 @@ const headingProps: HeadingProps = {
 
 export default function Services() {
 	return (
-		<Container id="services">
-			<Header>
-				<Heading {...headingProps} />
-			</Header>
+		<SectionContainer id="services">
+			<SectionHeader>
+				<SectionHeading {...headingProps} />
+			</SectionHeader>
 			<div className="grid grid-cols-3 grid-rows-2 gap-x-6 gap-y-[30px] *:col-span-1 *:[&:nth-of-type(2)]:col-span-2">
 				<Tasks />
 				<Workflows />
@@ -25,6 +25,6 @@ export default function Services() {
 				<CustomAi />
 				<AiStrategy />
 			</div>
-		</Container>
+		</SectionContainer>
 	);
 }

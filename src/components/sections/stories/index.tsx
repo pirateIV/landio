@@ -1,6 +1,6 @@
 import React from "react";
 import { Icons } from "@/components/icons";
-import { Container, Content, Header, Heading } from "@/components/ui/blocks";
+import { SectionContainer, SectionContent, SectionHeader, SectionHeading } from "@/components/ui/blocks";
 import type { HeadingProps } from "@/types";
 
 const stories = [
@@ -46,12 +46,12 @@ const headingProps: HeadingProps = {
 
 export default function Stories() {
 	return (
-		<Container id="stories">
-			<Header>
-				<Heading {...headingProps} />
-			</Header>
+		<SectionContainer id="stories">
+			<SectionHeader>
+				<SectionHeading {...headingProps} />
+			</SectionHeader>
 
-			<Content>
+			<SectionContent>
 				<div className="mx-auto max-w-186 text-center">
 					<h2 className="text-[calc(var(--text-3xl)+2px)] text-balance text-medium-gray">
 						They took the time to understand our <span className="font-instr text-light-blue italic">challenges</span>, identified our{" "}
@@ -59,7 +59,7 @@ export default function Stories() {
 						effective!
 					</h2>
 				</div>
-			</Content>
-		</Container>
+			</SectionContent>
+		</SectionContainer>
 	);
 }
