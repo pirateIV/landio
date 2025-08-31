@@ -13,7 +13,7 @@ const Card = React.forwardRef<HTMLDivElement, CardProps>(({ title, description, 
 		<div
 			ref={ref}
 			className={cx(
-				"relative flex flex-[1_0_0px] flex-col overflow-hidden rounded-[20px] border border-b-0 border-light-blue-transparent bg-black-base p-[30px] inset-shadow-2",
+				"relative group flex flex-[1_0_0px] flex-col overflow-hidden rounded-[20px] border border-b-0 border-light-blue-transparent bg-black-base p-7.5 inset-shadow-2",
 				className,
 			)}
 			{...props}

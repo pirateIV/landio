@@ -2,7 +2,7 @@ import React from "react";
 import { IconCheck, IconTag } from "@tabler/icons-react";
 import { HeadingProps } from "@/types";
 import { Icons } from "../icons";
-import { Container, Content, Header, Heading } from "../ui/blocks";
+import { SectionContainer, SectionContent, SectionHeader, SectionHeading } from "../ui/blocks";
 import Button from "../ui/button";
 import Card from "../ui/card";
 
@@ -47,12 +47,12 @@ const headingProps: HeadingProps = {
 
 export default function Pricing() {
 	return (
-		<Container>
-			<Header>
-				<Heading {...headingProps} />
-			</Header>
+		<SectionContainer>
+			<SectionHeader>
+				<SectionHeading {...headingProps} />
+			</SectionHeader>
 
-			<Content className="flex-col gap-8">
+			<SectionContent className="flex-col gap-8">
 				<div>
 					<div className="inset-shadow-1 mx-auto flex w-full max-w-85 items-center rounded-lg bg-dark-gray p-1 text-sm *:text-sm/5.5">
 						<button className="h-9.5 flex-1 rounded-md bg-black-base px-2 py-1.5 font-medium">Monthly</button>
@@ -101,7 +101,7 @@ export default function Pricing() {
 						<p className="pe-1.5">We donate 2% of your membership to pediatric wellbeing</p>
 					</div>
 				</div>
-			</Content>
-		</Container>
+			</SectionContent>
+		</SectionContainer>
 	);
 }
