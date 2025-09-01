@@ -2,14 +2,15 @@ import React from "react";
 import { IconBrandDribbble, IconBrandFacebook, IconBrandInstagram, IconBrandX } from "@tabler/icons-react";
 import Image from "next/image";
 import Link from "next/link";
+import { Routes } from "@/config";
 import { SocialLinkProps } from "@/types";
 
 const footerLinks = [
-	{ name: "Services", href: "#services" },
-	{ name: "Process", href: "#process" },
-	{ name: "Pricing", href: "#pricing" },
-	{ name: "Blog", href: "blog" },
-	{ name: "Contact", href: "contact" },
+	{ name: "Services", href: Routes.services },
+	{ name: "Process", href: Routes.process },
+	{ name: "Pricing", href: Routes.pricing },
+	{ name: "Blog", href: Routes.blog },
+	{ name: "Contact", href: Routes.contact },
 ];
 
 const socialLinks: SocialLinkProps = [
