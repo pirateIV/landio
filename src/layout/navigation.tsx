@@ -6,14 +6,15 @@ import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { Icons } from "@/components/icons";
+import { Routes } from "@/config";
 import { cx } from "@/utils/cx";
 
 const navLinks = [
-	{ name: "Services", href: "/#services" },
-	{ name: "Process", href: "/#process" },
-	{ name: "Pricing", href: "/#pricing" },
-	{ name: "Blog", href: "/blog" },
-	{ name: "Contact", href: "/contact" },
+	{ name: "Services", href: Routes.services },
+	{ name: "Process", href: Routes.process },
+	{ name: "Pricing", href: Routes.pricing },
+	{ name: "Blog", href: Routes.blog },
+	{ name: "Contact", href: Routes.contact },
 ];
 
 export default function Navigation() {
@@ -29,14 +30,14 @@ export default function Navigation() {
 			>
 				<div className="mx-auto flex h-16 w-full max-w-[1350px] flex-nowrap items-center justify-between">
 					<div className="inline-flex">
-						<Link href="/" className="h-[39px] w-[103px]">
+						<Link href={Routes.home} className="h-[39px] w-[103px]">
 							<Image width="163" height="62" src="/logo.svg" alt="logo" />
 						</Link>
 					</div>
 					<nav className="relative hidden size-min flex-none items-center gap-3 rounded-[100px] border border-light-blue-transparent px-3 py-1.5 lg:flex">
 						{navLinks.map((link) => (
 							<div key={link.name} className="inline-flex opacity-75 transition-opacity duration-300 hover:opacity-100">
-								<Link href={link.href} className="px-3 py-1.5 font-medium text-sm text-slate-300">
+								<Link href={link.href} className="px-3 py-1.5 text-sm font-medium text-slate-300">
 									{link.name}
 								</Link>
 							</div>
@@ -45,7 +46,7 @@ export default function Navigation() {
 					<div>
 						<div className="hidden lg:inline-flex">
 							<Link
-								href="/"
+								href={Routes.home}
 								className="inline-flex gap-1.5 rounded-lg border border-light-blue-transparent bg-gradient-to-b from-dark-gray to-light-blue-transparent px-5 py-2 text-sm text-white backdrop-blur-[5px]"
 							>
 								<IconSparkles size="20" />
@@ -115,7 +116,7 @@ export default function Navigation() {
 								transition={{ delay: 0.1, duration: 0.2 }}
 							>
 								<Link
-									href="/"
+									href={Routes.home}
 									className="inline-flex gap-1.5 rounded-lg border border-light-blue-transparent bg-gradient-to-b from-dark-gray to-light-blue-transparent px-5 py-2 text-sm text-white backdrop-blur-[5px]"
 								>
 									<IconSparkles size="20" />

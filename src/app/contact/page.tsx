@@ -1,5 +1,5 @@
 import React from "react";
-import { IconPhone } from "@tabler/icons-react";
+import { IconHeadset, IconPhone } from "@tabler/icons-react";
 import Link from "next/link";
 import { Icons } from "@/components/icons";
 import Faqs from "@/components/sections/faqs";
@@ -26,9 +26,9 @@ export default function ContactPage() {
 				</SectionHeader>
 
 				<SectionContent className="max-w-250">
-					<div className="flex gap-8 *:flex-1">
+					<div className="flex gap-8 *:flex-1 max-md:flex-col">
 						<div className="space-y-8">
-							<Card container className="p-8">
+							<Card container className="p-8 md:max-w-[437px]">
 								<div className="flex flex-col gap-4">
 									<div className="flex items-center gap-2.5">
 										<IconBadge icon={Icons.Envelope} size="32" />
@@ -41,7 +41,7 @@ export default function ContactPage() {
 								</div>
 							</Card>
 
-							<Card container className="p-8">
+							<Card container className="p-8 md:max-w-[437px]">
 								<div className="flex flex-col gap-4">
 									<div className="flex items-center gap-2.5">
 										<IconBadge icon={Icons.UserContact} size="32" />
@@ -56,8 +56,8 @@ export default function ContactPage() {
 						</div>
 
 						<Card container className="flex flex-col gap-8">
-							<div className="">
-								<IconBadge icon={Icons.MicHeadphone} size="32" className="mx-auto w-fit" />
+							<div className="self-center">
+								<IconBadge icon={IconHeadset} size="32" className="mx-auto w-fit" />
 								<p className="text-center text-xl font-semibold">We’d love to help! Let us know how</p>
 							</div>
 
@@ -84,6 +84,13 @@ export default function ContactPage() {
 										type="text"
 										placeholder="Regarding Product"
 										className="block w-full rounded-lg border border-light-blue-transparent p-3"
+									/>
+								</label>
+								<label className="flex flex-col gap-1">
+									<span className="text-sm font-medium opacity-80">How may we assist you?</span>
+									<textarea
+										placeholder="Give us more info..."
+										className="block min-h-25 w-full rounded-lg border border-light-blue-transparent p-3 text-sm"
 									/>
 								</label>
 								<Button className="[&_[data-icon]]:hidden">Send A Message</Button>

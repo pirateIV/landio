@@ -10,7 +10,7 @@ type IconBadgeProps = {
 
 export default function IconBadge({ icon, className, ...props }: IconBadgeProps) {
 	return (
-		<div className={cx("inset-shadow-1 flex items-center justify-center rounded-lg bg-black-base p-3", className)}>
+		<div className={cx("flex items-center justify-center rounded-lg bg-dark-gray p-3 inset-shadow-[0px_1px_1px_0px] inset-shadow-[#cfe7ff33]", className)}>
 			<Icon icon={icon} {...props} />
 		</div>
 	);
