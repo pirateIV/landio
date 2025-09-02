@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 	openGraph: {
 		type: "website",
 		title: "Landio - AI Agency & Landing Page Template",
-		url: "https://landio.vercel.app",
+		url: "https://landio-nextjs-template.vercel.app",
 		description:
 			"Supercharge your startup’s growth with Landio—the ultimate Framer template for AI-powered SaaS businesses. Discover real-time trends, decode user insights with accuracy, and make smarter, data-driven decisions.",
 	},
@@ -37,7 +37,6 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-	themeColor: "#7f56d9",
 	colorScheme: "light dark",
 };
 
