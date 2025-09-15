@@ -1,40 +1,10 @@
 import React from "react";
+import Image from "next/image";
 import { Icons } from "@/components/icons";
 import { SectionContainer, SectionContent, SectionHeader, SectionHeading } from "@/components/ui/blocks";
+import Card from "@/components/ui/card";
+import { stories } from "@/data/stories";
 import type { HeadingProps } from "@/types";
-
-const stories = [
-	{
-		title: "Max's SaaS Revolution",
-		story: "Max, the founder of CloudFlow, implemented AI automation in their processes. This move slashed operational costs by 50% and boosted team productivity by 75%, empowering the company to accelerate growth and expand faster.",
-		image: "/images/max-saas.jpg",
-		achievements: [
-			{ name: " increase in ROI", rate: "60%" },
-			{ name: "bost in revenue", rate: "45%" },
-		],
-		quote: "They took the time to understand our challenges, identified our target audience, and made our brand shine. Their solutions were very effective!",
-	},
-	{
-		title: "Emily's E-commerce Success",
-		story: "Emily, the CEO of BloomTech, transformed their marketing efforts using AI-powered tools. This shift resulted in a 60% increase in ROI and a 45% improvement in customer personalization, leading to a surge in brand loyalty",
-		image: "/images/max-saas.jpg",
-		achievements: [
-			{ name: "growth in sales", rate: "70%" },
-			{ name: "rise in engagement", rate: "50%" },
-		],
-		quote: "They grasped our pain points, knew exactly who we needed to reach, and helped us stand out. Their solutions delivered real, impactful results!",
-	},
-	{
-		title: "Sophia's Retail Breakthrough",
-		story: "Sophia, the marketing lead at Trendify, used AI-driven analytics to dive deep into customer behavior. The insights led to a 40% increase in engagement and a 30% rise in repeat purchases, creating long-term customer relationships.",
-		image: "/images/max-saas.jpg",
-		achievements: [
-			{ name: "gain in retention", rate: "40%" },
-			{ name: "surge in profit", rate: "50%" },
-		],
-		quote: "They listened to our needs, focused on our audience, and gave our brand a competitive edge. Their approach was strategic and highly effective!",
-	},
-];
 
 const headingProps: HeadingProps = {
 	text: "Success Stories to",
@@ -51,7 +21,36 @@ export default function Stories() {
 				<SectionHeading {...headingProps} />
 			</SectionHeader>
 
-			<SectionContent>
+			<SectionContent className="flex-col gap-11">
+				<div className="mx-auto max-w-247.5">
+					<div className="pt-25">
+						{stories.map((story, idx) => (
+							<Card key={idx} className="border-b-1 p-0 pb-10" container>
+								<div className="rounded-xl border border-t-0 border-light-blue-muted/20 px-7.5 py-4.5"></div>
+								<div className="flex gap-15 px-7.5 pt-7.5">
+									<div className="flex-1 space-y-7.5">
+										<div className="space-y-3">
+											<h3 className="text-[28px]">{story.title}</h3>
+											<p className="opacity-60">{story.story}</p>
+										</div>
+										<div className="flex gap-4 *:flex-1">
+											{story.achievements.map((a) => (
+												<div key={a.name} className="space-y-3 border border-light-blue-transparent p-5 text-center">
+													<p className="text-[32px]">{a.rate}</p>
+													<p>{a.name} </p>
+												</div>
+											))}				
+										</div>
+									</div>
+									<div className="flex-1">
+										<Image src={story.image} className="size-full object-cover" width="500" height="500" alt={story.title} />
+									</div>
+								</div>
+							</Card>
+						))}
+					</div>
+				</div>
+
 				<div className="mx-auto max-w-186 text-center">
 					<h2 className="text-[calc(var(--text-3xl)+2px)] text-balance text-medium-gray">
 						They took the time to understand our <span className="font-instr text-light-blue italic">challenges</span>, identified our{" "}
